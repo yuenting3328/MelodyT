@@ -1,0 +1,263 @@
+@font-face {
+    font-family: "PlusJakartaSans-Bold";
+    src: url(../../fonts/PlusJakartaSans-Bold.ttf);
+}
+/* .hover-title {
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+} */
+
+#cache {
+    height:(100vh - 4rem);
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    z-index: -3;
+
+}
+
+.cacheBg {
+    position: absolute;
+    z-index: -30;
+    top: -2rem;
+    right: -2.5rem;
+    object-fit: cover;
+    height: 100vh;
+    /* animation: blur 1.5s ease 0s ;
+    animation-delay: 1s; 
+    -webkit-animation: blur 1.5s ease 0s ;
+    -moz-animation: blur 1.5s ease 0s ; */
+    animation-delay: 4s; 
+    -webkit-animation: fadeInFromNone 4s ease-out;
+      -moz-animation: fadeInFromNone 4s ease-out;
+      -o-animation: fadeInFromNone 4s ease-out;
+      animation: fadeInFromNone 4s ease-out;
+}
+
+
+@-webkit-keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+@-o-keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+/* @keyframes blur {
+    0%,
+    90% {
+      -webkit-filter: blur(0px);
+      -moz-filter: blur(0px);
+      -o-filter: blur(0px);
+      -ms-filter: blur(0px);
+    }
+    50% {
+      -webkit-filter: blur(50px);
+      -moz-filter: blur(50px);
+      -o-filter: blur(50px);
+      -ms-filter: blur(50px);
+    }
+  } */
+  
+.cacheContent {
+    height: 100vh;
+    width: 82rem;
+    /* padding-right: 4rem; */
+    padding-left: 8rem;
+    padding-top:15rem;
+    font-size: 3rem;
+    font-weight: 700;
+    margin:0;
+    /* display: flex;
+    flex-direction: column; */
+    color: #061736;
+    opacity: 0;
+    animation: slideRight 2s ease forwards;
+    animation-delay: 1s; 
+}
+
+@keyframes slideRight {
+    0%{
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+  }
+
+
+.hoverLink{
+    -webkit-text-stroke: 1px #000000;
+    color: transparent;
+    font-family: "PlusJakartaSans-Bold", Helvetica;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -1px;
+    margin-top: -2px;
+    position: relative;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.hoverLink:hover{
+    -webkit-text-stroke: 0;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgb(20, 37, 81) 0%, rgb(8, 123, 198) 100%);
+    background-clip: text;
+    text-fill-color: transparent;
+    text-decoration: none;
+    
+}
+
+.symbol{
+    font-size: 2.75rem;
+    font-family: "PlusJakartaSans-Bold";
+    color:#061736;
+    padding-right: 1rem;
+}
+
+@media screen and  (max-width:768px) {
+  #cache {
+    height:742px;
+    width: 700px;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 10rem;
+
+}
+
+  .cacheBg {
+      position: absolute;
+      top: -8rem;
+      right: -4.5rem;
+      object-fit: cover;
+  } 
+
+  .cacheContent {
+    height: 100vh;
+    width: 600px;
+    padding-left: 8rem;
+    padding-top:18rem;
+    padding-bottom: 20rem;
+    font-size: 3rem;
+}
+
+}
+
+@media screen and  (max-width:375px) {
+  #cache {
+    height:400px;
+    width: 340px;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 6rem;
+
+}
+
+  .cacheBg {
+      position: absolute;
+      width: 224px;
+      height: 225px;
+      top: -2rem;
+      right: -1.5rem;
+      object-fit: cover;
+  } 
+
+  .cacheContent {
+    height: 100vh;
+    width: 340px;
+    padding-left: 3rem;
+    padding-top:8rem;
+    padding-bottom: 20rem;
+    font-size: 24px;
+}
+
+
+.hoverLink{
+  -webkit-text-stroke: 0.6px #000000;
+  color: transparent;
+  font-family: "PlusJakartaSans-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+.symbol{
+  font-size: 24px;
+  font-family: "PlusJakartaSans-Bold";
+  color:#061736;
+  padding-right: 1rem;
+}
+
+}

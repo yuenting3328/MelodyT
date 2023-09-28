@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "PlusJakartaSans-Bold" ;
+    src: url(../../fonts/PlusJakartaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-SemiBold" ;
+    src: url(../../fonts/PlusJakartaSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Medium" ;
+    src: url(../../fonts/PlusJakartaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Regular" ;
+    src: url(../../fonts/PlusJakartaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Light" ;
+    src: url(../../fonts/PlusJakartaSans-Light.ttf);
+}
+
+#nextGen{
+    height:(100vh - 4rem);
+    width: 90rem;
+    margin: 0;
+    /* padding-bottom: 4rem; */
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.projectGoalContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+  
+  }
+  
+  .textContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 182.5px 60px;
+    width:1075px;
+    justify-content: center;
+    gap:14px;
+  }
+  
+  .subtitle{
+    font-family: "PlusJakartaSans-SemiBold";
+    font-size: 1.25rem ;
+    color: #979797;
+    line-height: 150%;
+}
+
+  .title{
+      font-family: "PlusJakartaSans-Bold";
+      font-size: 1.75rem ;
+      color: #061736;
+      line-height: 150%;
+  }
+  
+  .description{
+      font-size: 1.25rem;
+      font-family: "PlusJakartaSans-Regular";
+      color:#474A58;
+      line-height: 150%;
+      width:1075px;
+      margin:0;
+  }
+  
+  .imgContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      
+  }
+  
+  img.nextGenGoalImg{
+    width:1076px;
+    padding:0 182px;
+  }
+
+  .nextGenDesignContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+  }
+
+  .nextGenDesignTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 182.5px 120px;
+    width:1075px;
+    justify-content: center;
+    gap:14px;
+  }
+
+  img.nextGenDesignImg{
+    width:1076px;
+    padding:0 182px;
+  }
+
+  .nextGenWireframeContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+  }
+
+  img.nextGenWireframeImg{
+    width:1076px;
+    padding:0 182px;
+  }
+
+  .nextGenVideoContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+  }
+
+  .nextGenBtnContainer{
+    padding-top: 18px;
+    margin:0;
+    display: flex;
+  }
+
+  img.nextGenVideoImg{
+    width:1076px;
+    padding:0 182px;
+  }
+

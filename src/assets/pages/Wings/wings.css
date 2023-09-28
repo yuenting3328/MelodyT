@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "PlusJakartaSans-Bold" ;
+    src: url(../../fonts/PlusJakartaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-SemiBold" ;
+    src: url(../../fonts/PlusJakartaSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Medium" ;
+    src: url(../../fonts/PlusJakartaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Regular" ;
+    src: url(../../fonts/PlusJakartaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Light" ;
+    src: url(../../fonts/PlusJakartaSans-Light.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+ }
+
+#wings {
+    height:(100vh - 4rem);
+    width: 90rem;
+    margin: 0;
+    /* padding-bottom: 4rem; */
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+
+}
+
+#wings .overlap-group-wrapper {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    }
+
+    #wings .overlap-group {
+    background-image: url(../../images/wings\ banner.png);
+    background-size: 100% 100%;
+    height: 876px;
+    width:1440px;
+    z-index: -1;
+    }
+    
+.wingsIntro {
+  padding: 3.25rem 11.406rem 3.25rem 11.406rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #F4FBFF;
+  gap:136px;
+ 
+}
+
+.projectIntro{
+    width: 630px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.introTitle{
+    font-size: 2.5rem;
+    font-family: "PlusJakartaSans-Bold";
+    color: #163279;
+    line-height: 150%;
+}
+
+.introDescription{
+    font-size: 1.25rem;
+    font-family: "PlusJakartaSans-Regular";
+    color:#061736;
+    line-height: 150%;
+    width: 680px;
+}
+
+.projectInfo{
+    width: 365px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.infoRow{
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.infoTitle{
+    font-size: 1.375rem;
+    font-family: "PlusJakartaSans-Medium";
+    color:#061736;
+    line-height: 150%;
+    margin:0;
+}
+
+.infoDescription{
+    font-size: 1rem;
+    font-family: "PlusJakartaSans-Light";
+    color:#636871;
+    line-height: 28px;
+    margin:0;
+}
+
+.actionProject{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-bottom: 6rem;
+    justify-content: space-between;
+}

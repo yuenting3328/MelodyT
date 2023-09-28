@@ -1,0 +1,167 @@
+.skill {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.skill .group-wrapper {
+    background-color: #ffffff;
+    height: 1070px;
+    width: 1440px;
+}
+
+.skill .group {
+    height: 961px;
+    position: relative;
+    top: 79px;
+}
+
+.skill .div {
+    height: 428px;
+    left: 72px;
+    position: absolute;
+    top: 0;
+    width: 1132px;
+}
+
+.skill .frame {
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 534px;
+}
+
+.skill .text-wrapper {
+    color: var(--text);
+    font-family: "Plus Jakarta Sans-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+}
+
+.skill .frame-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 250px;
+    left: 164px;
+    position: absolute;
+    top: 140px;
+}
+
+.skill .frame-3 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+}
+
+.skill .text-wrapper-2 {
+    color: var(--text);
+    font-family: "Plus Jakarta Sans-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.skill .text-wrapper-3 {
+    color: var(--text);
+    font-family: "Plus Jakarta Sans-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 48px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.skill .group-2 {
+    background-color: #f4faff;
+    height: 470px;
+    left: 0;
+    position: absolute;
+    top: 491px;
+    width: 1440px;
+}
+
+.skill .frame-4 {
+    height: 80px;
+    left: 76px;
+    position: absolute;
+    top: 58px;
+    width: 1178px;
+}
+
+.skill .text-wrapper-4 {
+    color: var(--text);
+    font-family: "Plus Jakarta Sans-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+}
+
+.skill .these-are-the-tools {
+    color: var(--text);
+    font-family: "Plus Jakarta Sans-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    top: 51px;
+    width: 1177px;
+}
+
+.skill .frame-5 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 43px;
+    left: 188px;
+    position: absolute;
+    top: 200px;
+}
+
+.skill .frame-6 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 100px;
+    position: relative;
+}
+
+.skill .adobe-illustrator-CC {
+    height: 68.85px;
+    object-fit: cover;
+    position: relative;
+    width: 70.59px;
+}
+
+.skill .img {
+    height: 68.85px;
+    position: relative;
+    width: 70.59px;
+}

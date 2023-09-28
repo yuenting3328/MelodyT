@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "PlusJakartaSans-Bold" ;
+    src: url("../../fonts/PlusJakartaSans-Bold.ttf");
+}
+
+#nextBtn {
+    background-color: white;
+    border-radius: 10px;
+    color: #163279;
+    border: 1px solid #163279;
+    padding: 10px 40px;
+    /* display: flex; */
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "PlusJakartaSans-Bold";
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+  }
+
+#nextBtn svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  /* svg:hover {
+    fill: #0066CC;
+  } */
+  
+#nextBtn:hover {
+    border: 1px solid;
+    border-color:  #0066CC ;
+    background-color: #ffffff;
+    color: #0066CC;
+  }

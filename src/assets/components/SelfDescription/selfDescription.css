@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "PlusJakartaSans-Regular" ;
+    src: url("../../fonts/PlusJakartaSans-Regular.ttf");
+}
+body{
+    background-color: transparent;
+}
+.about {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.about .frame-wrapper {
+    background-color: #ffffff;
+    height: 1040px;
+    overflow: hidden;
+    width: 1440px;
+}
+
+.about .frame-2 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 43px;
+    left: -80px;
+    position: relative;
+    top: 126px;
+}
+
+.about .intro {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 88px;
+    position: relative;
+}
+
+.about .icon {
+    height: 692.3px;
+    margin-bottom: -18.98px;
+    margin-top: -59.12px;
+    position: relative;
+    width: 627.09px;
+    right: -4.375rem;
+}
+
+.about .resume {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 57px;
+    position: relative;
+}
+
+.i-m-melody-tse-a-UX {
+    color: var(--text);
+    font-family: "Plus Jakarta Sans-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 405.58px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+    width: 746.2px;
+}
+
+.about .secondary-btn-instance {
+    flex: 0 0 auto !important;
+}
+
+.about .icon-list {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 22px;
+    position: relative;
+}
+
+.about .experience {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 19px;
+    position: relative;
+}
+
+.about .vector {
+    height: 1px;
+    margin-top: -0.5px;
+    object-fit: cover;
+    position: relative;
+    width: 1296px;
+}
+
+.about .text-wrapper {
+    color: #8793b0;
+    font-family: "Plus Jakarta Sans-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.about .icons {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 51px;
+    position: relative;
+}
+
+.about .logo-en {
+    height: 38.61px;
+    object-fit: cover;
+    position: relative;
+    width: 278.26px;
+}
+
+.about .securities-and {
+    height: 61.29px;
+    object-fit: cover;
+    position: relative;
+    width: 186.2px;
+}
+
+.about .logo-mpfa {
+    height: 61.29px;
+    object-fit: cover;
+    position: relative;
+    width: 192.53px;
+}
+
+.about .asl-logo-combo {
+    height: 34.75px;
+    object-fit: cover;
+    position: relative;
+    width: 257.83px;
+}
+
+.about .motic {
+    height: 40.82px;
+    object-fit: cover;
+    position: relative;
+    width: 139.81px;
+}
+
+@media screen and  (max-width:768px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 768px;
+    }
+    
+}

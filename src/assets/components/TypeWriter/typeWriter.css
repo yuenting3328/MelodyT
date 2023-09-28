@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "PlusJakartaSans-Bold";
+    src: url(../../fonts/PlusJakartaSans-Bold.ttf);
+}
+
+.span{
+    font-size: 44px;
+    font-family:"PlusJakartaSans-Bold" ;
+}

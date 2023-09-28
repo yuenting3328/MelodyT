@@ -1,0 +1,234 @@
+@font-face {
+    font-family: "PlusJakartaSans-Bold" ;
+    src: url(../../fonts/PlusJakartaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-SemiBold" ;
+    src: url(../../fonts/PlusJakartaSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Medium" ;
+    src: url(../../fonts/PlusJakartaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Regular" ;
+    src: url(../../fonts/PlusJakartaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Light" ;
+    src: url(../../fonts/PlusJakartaSans-Light.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+ }
+
+#ha {
+    height:(100vh - 4rem);
+    width: 90rem;
+    margin: 0;
+    /* padding-bottom: 4rem; */
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+
+}
+
+#ha .overlap-group-wrapper {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    }
+
+    #ha .overlap-group {
+    background-image: url(../../images/HA\ banner.png);
+    background-size: 100% 100%;
+    height: 876px;
+    z-index: -1;
+    }
+    
+.haIntro {
+  padding: 3.25rem 11.406rem 3.25rem 11.406rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #F4FBFF;
+  gap:136px;
+ 
+}
+
+.projectIntro{
+    width: 630px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.introTitle{
+    font-size: 2.5rem;
+    font-family: "PlusJakartaSans-Bold";
+    color: #163279;
+    line-height: 150%;
+}
+
+.introDescription{
+    font-size: 1.25rem;
+    font-family: "PlusJakartaSans-Regular";
+    color:#061736;
+    line-height: 150%;
+    width: 680px;
+}
+
+.projectInfo{
+    width: 365px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.infoRow{
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.infoTitle{
+    font-size: 1.375rem;
+    font-family: "PlusJakartaSans-Medium";
+    color:#061736;
+    line-height: 150%;
+    margin:0;
+}
+
+.infoDescription{
+    font-size: 1rem;
+    font-family: "PlusJakartaSans-Light";
+    color:#636871;
+    line-height: 150%;
+    margin:0;
+}
+
+
+.projectGoalContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 110px;
+    padding-bottom: 220px;
+    justify-content: center;
+  
+  }
+  
+  .textContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 182.5px 60px;
+    width:1075px;
+    justify-content: center;
+    gap:14px;
+  }
+  
+  .title{
+      font-family: "PlusJakartaSans-Bold";
+      font-size: 1.75rem ;
+      color: #061736;
+      line-height: 150%;
+  }
+  
+  .description{
+      font-size: 1.25rem;
+      font-family: "PlusJakartaSans-Regular";
+      color:#474A58;
+      line-height: 150%;
+      width:1075px;
+      margin:0;
+  }
+  
+  .imgContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      
+  }
+  
+  img.haGoalImg{
+    width:1076px;
+    padding:0 182px;
+  }
+
+  .problemContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+  
+  }
+
+  img.haProblemImg{
+    width:1076px;
+    padding:0 182px;
+  }
+
+  .researchContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+  
+  }
+
+  img.haResearchImg{
+    width:1076px;
+    padding:0 182px;
+  }
+
+  .solutionContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+  
+  }
+
+  .subtitle{
+    font-size: 1.25rem;
+    font-family: "PlusJakartaSans-SemiBold";
+    color:#474A58;
+    line-height: 150%;
+    width:1075px;
+    margin:0;
+}
+
+
+  img.haSolutionImg{
+    width:1296px;
+    padding:0 72px;
+  }
+
+  .actionProject{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-bottom: 6rem;
+    justify-content: space-between;
+}

@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "PlusJakartaSans-Bold" ;
+    src: url(../../fonts/PlusJakartaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-SemiBold" ;
+    src: url(../../fonts/PlusJakartaSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Medium" ;
+    src: url(../../fonts/PlusJakartaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Regular" ;
+    src: url(../../fonts/PlusJakartaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Light" ;
+    src: url(../../fonts/PlusJakartaSans-Light.ttf);
+}
+
+#eIP{
+    height:(100vh - 4rem);
+    width: 90rem;
+    margin: 0;
+    /* padding-bottom: 4rem; */
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.joinedEIPContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .textContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 182.5px 60px;
+    width:1075px;
+    justify-content: center;
+    gap:14px;
+  }
+  
+  .joinedEIPSubtitle{
+    font-family: "PlusJakartaSans-SemiBold";
+    font-size: 1.25rem ;
+    color: #0066CC;
+    line-height: 150%;
+}
+
+  .title{
+      font-family: "PlusJakartaSans-Bold";
+      font-size: 1.75rem ;
+      color: #061736;
+      line-height: 150%;
+  }
+  
+  .description{
+      font-size: 1.25rem;
+      font-family: "PlusJakartaSans-Regular";
+      color:#474A58;
+      line-height: 150%;
+      width:1075px;
+      margin:0;
+  }
+  
+  .imgContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      
+  }
+  
+  img.joinedEIPImg{
+    width:1076px;
+    padding:0 182.5px;
+  }
+
+  .eIPGoalContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subtitle{
+    font-family: "PlusJakartaSans-SemiBold";
+    font-size: 1.25rem ;
+    color: #979797;
+    line-height: 150%;
+}
+
+.eIPResearchContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+}
+
+.eIPResearchImgContainer{
+    display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      gap: 60px;
+}
+
+img.eIPResearchImg{
+    width:1076px;
+    padding:0 182.5px;
+  }
+
+  .eIPPlanningContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .eIPPlanningImgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap: 60px;
+  }
+
+  img.eIPPlanningImg{
+    width:1076px;
+    padding:0 182.5px;
+  }
+
+  .eIPDesignContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img.eIPDesignImg{
+    width:1076px;
+    padding:0 182.5px;
+  }
+
+  .eIPPrototypeContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .eIPBtnContainer{
+    padding-top: 18px;
+    margin:0;
+    display: flex;
+  }
+
+  .eIPPrototypeimgContainer{
+    display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      padding: 94px 252px;
+      color: #f5f5f5;
+}
+
+img.eIPPrototypeImg{
+    width: 790px;
+}

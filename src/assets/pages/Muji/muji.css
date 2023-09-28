@@ -1,0 +1,354 @@
+@font-face {
+    font-family: "PlusJakartaSans-Bold" ;
+    src: url(../../fonts/PlusJakartaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-SemiBold" ;
+    src: url(../../fonts/PlusJakartaSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Medium" ;
+    src: url(../../fonts/PlusJakartaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Regular" ;
+    src: url(../../fonts/PlusJakartaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Light" ;
+    src: url(../../fonts/PlusJakartaSans-Light.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+ }
+
+#muji {
+    height:(100vh - 4rem);
+    width: 90rem;
+    margin: 0;
+    /* padding-bottom: 4rem; */
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+
+}
+
+#muji .overlap-group-wrapper {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    }
+
+    #muji .overlap-group {
+    background-image: url(../../images/muji\ banner.png);
+    background-size: 100% 100%;
+    height: 876px;
+    width:1440px;
+    z-index: -1;
+    }
+    
+.mujiIntro {
+  padding: 3.25rem 11.406rem 3.25rem 11.406rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #F4FBFF;
+  gap:136px;
+ 
+}
+
+.projectIntro{
+    width: 630px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.introTitle{
+    font-size: 2.5rem;
+    font-family: "PlusJakartaSans-Bold";
+    color: #163279;
+    line-height: 150%;
+}
+
+.introDescription{
+    font-size: 1.25rem;
+    font-family: "PlusJakartaSans-Regular";
+    color:#061736;
+    line-height: 150%;
+    width: 680px;
+}
+
+.projectInfo{
+    width: 365px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.infoRow{
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.infoTitle{
+    font-size: 1.375rem;
+    font-family: "PlusJakartaSans-Medium";
+    color:#061736;
+    line-height: 150%;
+    margin:0;
+}
+
+.infoDescription{
+    font-size: 1rem;
+    font-family: "PlusJakartaSans-Light";
+    color:#636871;
+    line-height: 28px;
+    margin:0;
+}
+
+.mujiBackgroundContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 110px;
+    padding-bottom: 220px;
+    justify-content: center;
+  
+  }
+  
+  .mujiBackgroundTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 182.5px 0;
+    width:1075px;
+    justify-content: center;
+
+    gap:14px;
+  }
+  
+  .title{
+      font-family: "PlusJakartaSans-Bold";
+      font-size: 1.75rem ;
+      color: #061736;
+      line-height: 150%;
+  }
+  
+  .description{
+      font-size: 1.25rem;
+      font-family: "PlusJakartaSans-Regular";
+      color:#474A58;
+      line-height: 150%;
+      width:1075px;
+      margin:0;
+  }
+  
+  .imgContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      padding-bottom: 60px;
+      
+  }
+  
+  img.mujiBackgroundImg{
+    width:1076px;
+    padding:0 182px;
+  }
+
+.mujiIdeaContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+
+}
+
+  .textContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 182.5px 60px;
+    width:1075px;
+    justify-content: center;
+    gap:14px;
+  }
+
+  .mujiOutcomeContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    row-gap: 46px;
+    justify-content: center;
+  }
+
+  .mujiOutcomeImgContainer{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+    row-gap: 46px;
+    padding: 0 72px 0 72px;
+  }
+
+  img.mujiOutcomeImg{
+    width:1296px;
+  }
+
+  .mujiOutcomelImgRow{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding: 0;
+    gap: 46px;
+    padding: 0 72px 0 72px;
+  }
+
+.mujiOutcomeItem{
+    width:624px;
+  }
+
+  .mujiOutcomeSideContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    gap:50px;
+    padding: 0 72px 0 72px;
+    margin: 0;
+  }
+
+  .mujiOutcomeSideImgContainer{
+    display: flex;
+    margin:0;
+    padding: 0;
+    align-items: left;
+    padding-right: 136px;
+  }
+
+  img.mujiOutcomeImg4{
+    width:624px;
+  }
+
+.mujiOutcomeSideTextContainer{
+    display: flex;
+    flex-direction: column;
+    width:422px;
+    justify-content: center;
+    gap:14px;
+    padding-right: 60px;
+}
+
+.mujiOutcomeDescription{
+    font-size: 1.25rem;
+    font-family: "PlusJakartaSans-Regular";
+    color:#474A58;
+    line-height: 28px;
+    width:414px;
+    margin:0;
+}
+
+.mujiProductDesignContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    
+}
+ 
+img.mujiProductDesignImg{
+    width:1076px;
+    padding:0 182px;
+  }
+
+  .mujiUIContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+  }
+
+  .mujiUIImglist{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+    gap: 60px;
+    padding: 0 72px 0 72px;
+  }
+
+  .mujiUIImg{
+    width: 1296px;
+  }
+
+  .mujiPrototypeContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+  }
+
+  .mujiPrototypeImglist{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+    gap: 60px;
+    padding: 0 72px 0 72px;
+  }
+
+  .mujiPrototypeGifContainer{
+    display: flex;
+    justify-content: center;
+    padding: 82px 502px ;
+    margin: 0;
+    color: #f5f5f5;
+  }
+
+  img.mujiPrototypeGif{
+    height:520px;
+  }
+
+img.mujiPrototypeImg{
+    width: 1296px;
+}
+
+.actionProject{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-bottom: 6rem;
+    justify-content: space-between;
+}

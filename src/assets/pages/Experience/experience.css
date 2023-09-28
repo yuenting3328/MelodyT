@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "PlusJakartaSans-Bold" ;
+    src: url(../../fonts/PlusJakartaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Regular" ;
+    src: url(../../fonts/PlusJakartaSans-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+ }
+
+#experience {
+    height:(100vh - 4rem);
+    width: 90rem;
+    margin: 0;
+    /* padding-bottom: 4rem; */
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    width: 100vw;
+
+}
+
+#experience .overlap-group-wrapper {
+    background-color: #ffffff;
+    height: 875px;
+    width: 100vw;
+    }
+
+    #experience .overlap-group {
+    background-image: url(../../images/experience\ banner.png);
+    background-size: 100% 100%;
+    height: 876px;
+    z-index: -1;
+    }
+    
+.experienceIntro {
+  padding: 3.25rem 8.75rem 3.25rem 8.75rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #F4FBFF;
+}
+
+.introTitle{
+    font-size: 2.5rem;
+    font-family: "PlusJakartaSans-Bold";
+    color: #163279;
+    line-height: 36px;
+}
+
+.introDescription{
+    font-size: 1.25rem;
+    font-family: "PlusJakartaSans-Regular";
+    color:#061736;
+    line-height: 36px;
+    width: 1100px;
+}
+
+
+.experienceConcept{
+    margin: 0;
+    padding: 0;
+    /* width: 1440px; */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 110px 140px 220px 140px ;
+    gap: 81px;
+    
+}
+
+img .experienceConceptImg{
+ width: 570px;
+ padding: 0;
+ margin: 0;
+ background-color: #F4FBFF;
+ color: #F4FBFF;
+}
+
+.conceptContainer{
+ padding: 0;
+ margin: 0;
+ width: 414px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.conceptTitle{
+    font-size: 1.75rem;
+    font-family: "PlusJakartaSans-Bold";
+    color: #061736;
+    line-height: 36px;
+}
+
+.conceptDescription{
+    font-size: 1.25rem;
+    font-family: "PlusJakartaSans-Regular";
+    color:#474A58;
+    line-height: 28px;
+}
+
+.experienceDesign{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap:60px;
+    padding: 0 140px 60px;
+  }
+
+  .experienceDesignContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+  }
+  
+  .experienceDesignTitle{
+      font-family: "PlusJakartaSans-Bold";
+      font-size: 1.75rem ;
+      color: #061736;
+      line-height: 36px;
+  }
+  
+  .experienceDesignDescription{
+      font-size: 1.25rem;
+      font-family: "PlusJakartaSans-Regular";
+      color:#474A58;
+      line-height: 28px;
+      width:1075px;
+  }
+
+  img.experienceDesignImg{
+    width: 1076px;
+  }
+
+  
+.experienceOutcome{
+    margin: 0;
+    padding: 0;
+    /* width: 1440px; */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 110px 140px 220px 140px ;
+    gap: 81px;
+    
+}
+
+.videoContainer{
+    padding: 60px 110px 60px 110px;
+    margin:0;
+    background-color: #f6f9ff;
+    display: flex;
+    justify-content: center;
+}
+
+video .experienceVideo{
+ width: 360px;
+ padding: 0;
+ margin: 0;
+ 
+}
+
+.outcomeContainer{
+ padding: 0;
+ margin: 0;
+ width: 414px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.outcomeTitle{
+    font-size: 1.75rem;
+    font-family: "PlusJakartaSans-Bold";
+    color: #061736;
+    line-height: 36px;
+}
+
+.outcomeDescription{
+    font-size: 1.25rem;
+    font-family: "PlusJakartaSans-Regular";
+    color:#474A58;
+    line-height: 28px;
+}
+
+  .actionProject{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-bottom: 6rem;
+    justify-content: space-between;
+}

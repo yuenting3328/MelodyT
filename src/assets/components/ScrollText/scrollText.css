@@ -1,0 +1,262 @@
+html, body { margin: 0; }
+
+#intro2 {
+  height:(100vh - 4rem);
+  width: 90rem;
+  margin: 0;
+  padding-bottom: 4rem;
+  overflow: hidden;
+  position: relative;
+
+}
+
+
+.bg {
+  position: absolute;
+  z-index: -10;
+  top: -2rem;
+  right: 2rem;
+  object-fit: cover;
+  height: 100vh;
+  animation-delay: 4s; 
+  -webkit-animation: fadeInFromNone 12s ease-out;
+    -moz-animation: fadeInFromNone 12s ease-out;
+    -o-animation: fadeInFromNone 12s ease-out;
+    animation: fadeInFromNone 12s ease-out;
+}
+
+
+
+@-webkit-keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+@-o-keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+
+.introContent {
+  height: 100vh;
+  width: 82rem;
+  padding: 4rem;
+  font-size: 3rem;
+  font-weight: 700;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #061736;
+  line-height: 1rem;
+
+  
+}
+
+
+#scrollText{
+    /*  leverage cascade for cross-browser gradients  */
+    background: radial-gradient(
+      hsl(100 100% 60%), 
+      hsl(200 100% 60%) 
+    ) fixed;
+    background: conic-gradient(
+      hsl(100 100% 60%), 
+      hsl(200 100% 60%), 
+      hsl(100 100% 60%) 
+    ) fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+  } 
+
+body {
+    background: white;
+  /*   background: conic-gradient(
+      hsl(100 100% 60%), 
+      hsl(200 100% 60%),
+      hsl(100 100% 60%)
+    ) fixed; */
+    /* color: white; */
+    /* min-block-size: 200vh;
+    min-inline-size: 100%; */
+    /* padding: 5vmin; */
+    /* box-sizing: border-box;
+    display: grid;
+    place-content: center; */
+    /* font-family: system-ui;
+    font-size: min(200%, 5vmin); */
+  }
+  
+h1, body {
+    margin: 0;
+  }
+  
+h1 {
+    font-size: 5rem;
+    line-height: 1.1;
+    max-inline-size: 15ch;
+    margin: 4rem;
+    font-family: "PlusJakartaSans-Bold";
+    animation: blur 2s ease 0s ;
+    animation-delay: 2s; 
+    -webkit-animation: blur 2s ease 0s ;
+    -moz-animation: blur 2s ease 0s ;
+  }
+  
+  @keyframes blur {
+    0%,
+    90% {
+      -webkit-filter: blur(0px);
+      -moz-filter: blur(0px);
+      -o-filter: blur(0px);
+      -ms-filter: blur(0px);
+    }
+    50% {
+      -webkit-filter: blur(50px);
+      -moz-filter: blur(50px);
+      -o-filter: blur(50px);
+      -ms-filter: blur(50px);
+    }
+  }
+/* p {
+    font-family: "Dank Mono", ui-monospace, monospace;
+    margin-top: 1ch;
+    line-height: 1.35;
+    max-inline-size: 40ch;
+    margin: auto;
+  } */
+  
+html {
+    block-size: 100%;
+    inline-size: 100%;
+    /* text-align: center; */
+  }
+
+  @media screen and  (max-width:768px) {
+
+    #intro2 {
+      height:750px;
+      width: 768px;
+    
+    }
+    
+    .bg {
+      position: absolute;
+      top: -4rem;
+      right: 8rem;
+      object-fit: cover;
+      justify-content: center;
+      align-self: center;
+      height: 600px;
+
+    }
+
+    .introContent {
+      height: 100vh;
+      width: 82rem;
+      padding-top: 18rem;
+      padding-left: 0;
+      position: absolute;
+      left: -6rem;
+
+    }
+
+  }
+
+  @media screen and  (max-width:375px) {
+
+    #intro2 {
+      height:400px;
+      width: 375px;
+    
+    }
+    
+    .bg {
+      position: absolute;
+      top: -3rem;
+      right: 2rem;
+      object-fit: cover;
+      justify-content: center;
+      align-self: center;
+      height: 350px;
+
+    }
+
+    .introContent {
+      height: 400px;
+      width: 82rem;
+      padding-top: 8rem;
+      padding-left: 0;
+      position: absolute;
+      left: -14rem;
+      font-size: 2.5rem;
+
+    }
+
+    h1{
+      font-size: 3rem;
+      margin-left: 10rem;
+    }
+
+  }
