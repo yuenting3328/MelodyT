@@ -33,3 +33,20 @@
     background-color: #ffffff;
     color: #0066CC;
   }
+
+  @media screen and  (max-width:375px) {
+    .resumeBtn {
+      background-color: #ffffff;
+      border-radius: 5px;
+      color: #163279;
+      border: 1px solid;
+      border-color: #163279;
+      padding: 5px 20px;
+      /* display: flex; */
+      font-size: 9px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      font-family: "PlusJakartaSans-Bold";
+    }
+  }

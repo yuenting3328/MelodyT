@@ -30,7 +30,9 @@ Currently, I am focused on designing system design and implementation services f
 electronic applications on WINGS, a common platform for world-renowned SFC electronic forms and
 submission services.
 </p>
+<div className="aboutBtn">
 <ResumeBtn />
+</div>
 </div>
 </div>
 <div className="icon-list">

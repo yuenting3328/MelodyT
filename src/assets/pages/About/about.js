@@ -30,18 +30,18 @@ const About = () => {
            <img src={bg} alt="profile" className="bg" /> */}
          </section>
          
-         <section id="aboutMe">
-         <div className="about">
+         <section id="aboutMeContent">
+         <div className="aboutIntro">
          <SelfDescription />
 </div>   
          </section>
          
-         <section id="aboutMe">
-         <div className="about">
+         <section id="aboutSkill">
+         <div className="aboutTool">
          <Skill />
 </div>   
          </section>
-         <section id="aboutMe">
+         <section id="aboutReco">
          <div className="about">
          <Endorsements />
 </div>   

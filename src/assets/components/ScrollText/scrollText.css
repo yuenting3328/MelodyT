@@ -213,12 +213,16 @@ html {
     }
 
     .introContent {
-      height: 100vh;
+      height: 700px;
       width: 82rem;
-      padding-top: 18rem;
+      padding-top: 16rem;
       padding-left: 0;
       position: absolute;
       left: -6rem;
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 0;
 
     }
 
@@ -245,18 +249,18 @@ html {
 
     .introContent {
       height: 400px;
-      width: 82rem;
+      width: 375px;
       padding-top: 8rem;
       padding-left: 0;
       position: absolute;
-      left: -14rem;
+      left: 0;
       font-size: 2.5rem;
 
     }
 
     h1{
       font-size: 3rem;
-      margin-left: 10rem;
+      margin: 0;
     }
 
   }

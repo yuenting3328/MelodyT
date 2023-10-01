@@ -2,7 +2,7 @@ import React from "react";
 import "./motic.css";
 import moticChallenge from"../../images/motic challenge1.png";
 import moticChallengeImg2 from"../../images/motic challenge2.png";
-import moticVideo from "../../video/motic video.mp4";
+// import moticVideo from "../../video/motic video.mp4";
 import moticSolution1 from "../../images/motic solution1.png";
 import moticSolution2 from "../../images/motic solution2.png";
 import moticDesign from "../../images/motic  design.png"
@@ -103,7 +103,14 @@ const Motic = () => {
             </div>
             <div className="videoOutsideContainer">
             <div className="videoContainer">
-            <video src={moticVideo} className="moticVideo" controls autoplay />
+            <iframe src='https://www.youtube.com/watch?v=JcM0LgD1Ugk&t=5s'
+            frameborder='0'
+            allow='autoplay; encrypted-media'
+            allowfullscreen
+            title='moticVideo'
+            className="moticVideo"
+            />
+            {/* <video src={moticVideo} className="moticVideo" controls autoplay /> */}
             </div>
             <div className="moticImgRow">
             <img src={moticSolution1} alt="moticSolution1" className="moticSolutionItem" />

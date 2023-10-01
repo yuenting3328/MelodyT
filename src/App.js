@@ -22,9 +22,9 @@ function App() {
   return (
     
     <Router>
+      <AnimCursor />
       <Fragment>
     <div className="App">
-    <AnimCursor />
     <ScrollButton/>
     <ScrollToTop/>
    

@@ -37,3 +37,29 @@
     background-color: #ffffff;
     color: #0066CC;
   }
+
+  @media screen and (max-width:375px) {
+    #lastBtn {
+      background-color: white;
+      border-radius: 6px;
+      color: #163279;
+      border: 1px solid #163279;
+      padding: 8px 12px;
+      /* display: flex; */
+      font-size: 12px;
+      margin: 0;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      font-family: "PlusJakartaSans-Bold";
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      gap:10px;
+    }
+  
+  #lastBtn svg {
+      width: 14px;
+      height: 14px;
+    }
+  }

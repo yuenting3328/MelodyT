@@ -4,7 +4,7 @@ import LastBtn from "../../components/LastBtn/lastBtn";
 import NextBtn from "../../components/NextBtn/nextBtn.js";
 import experienceConceptImg from "../../images/experience concept.png";
 import experienceDesignImg from "../../images/experience design.png";
-import experienceVideo from "../../video/Music Bracelets.mp4";
+// import experienceVideo from "../../video/Music Bracelets.mp4";
 
 const Experience = () => {
     return(
@@ -42,7 +42,15 @@ const Experience = () => {
     </div>
     <div className="experienceOutcome">
     <div className="videoContainer">
-    <video src={experienceVideo} className="experienceVideo" controls autoplay />
+    {/* <iframe src='https://youtube.com/shorts/n65q5xR_rP8?feature=share'
+            frameborder='0'
+            allow='autoplay; encrypted-media'
+            allowfullscreen
+            title="experienceVideo"
+            className="experienceVideo"
+            /> */}
+            <iframe  src="https://youtube.com/embed/_JdyTg0F724?si=GNq-TihJqKTbSzkO" frameborder="0" title="experienceVideo" allowfullscreen></iframe>
+    {/* <video src={experienceVideo} className="experienceVideo" controls autoplay /> */}
     </div>
 <div className="outcomeContainer">
 <span className="outcomeTitle">Outcome</span>

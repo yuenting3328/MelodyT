@@ -58,7 +58,7 @@ body{
 
 .i-m-melody-tse-a-UX {
     color: var(--text);
-    font-family: "Plus Jakarta Sans-Regular", Helvetica;
+    font-family: "PlusJakartaSans-Regular", Helvetica;
     font-size: 18px;
     font-weight: 400;
     height: 405.58px;
@@ -67,6 +67,7 @@ body{
     margin-top: -1px;
     position: relative;
     width: 746.2px;
+    color: #474A58;
 }
 
 .about .secondary-btn-instance {
@@ -101,7 +102,7 @@ body{
 
 .about .text-wrapper {
     color: #8793b0;
-    font-family: "Plus Jakarta Sans-Regular", Helvetica;
+    font-family: "PlusJakartaSans-Regular", Helvetica;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0;
@@ -160,6 +161,318 @@ body{
         flex-direction: column;
         justify-content: center;
         width: 768px;
+        height: 1700px;
+
     }
+    
+    .about .frame-wrapper {
+        background-color: #ffffff;
+        height: 1700px;
+        overflow: hidden;
+        width: 768px;
+    }
+    
+    .about .frame-2 {
+        width: 768px;
+        height: 1700px;
+    }
+    
+    .about .intro {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 auto;
+        gap: 88px;
+        justify-content: center;
+        align-items: center; 
+        padding-left: 90px;
+        padding-right:90px;
+        width: 588px;
+
+    }
+    
+    .about .icon {
+        flex-grow: 3;
+        height: 614px;
+        margin-bottom: -18.98px;
+        margin-top: -59.12px;
+        position: relative;
+        width: 614px;
+        right: -6rem;
+
+    }
+    
+    .about .resume {
+        flex-grow: 1;
+        padding-left: 90px;
+        padding-right:90px;
+        width: 588px;
+        gap: 57px;
+        position: relative;
+
+    }
+    
+    .i-m-melody-tse-a-UX {
+        color: var(--text);
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 18px;
+        font-weight: 400;
+        height: 510px;
+        letter-spacing: 0;
+        line-height: 32px;
+        margin-top: -1px;
+        position: relative;
+        width: 588px;
+        color: #474A58;
+        left: 5rem;
+
+    }
+.aboutBtn{
+    position: relative;
+    left: 5rem;
+}
+
+.about .icon-list {
+    align-items: center;
+    display: inline-flex;
+    /* flex: 0 0 auto; */
+    flex-direction: column;
+    gap: 22px;
+    position: relative;
+    left: 5rem;
+
+}
+
+.about .experience {
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.about .vector {
+    height: 1px;
+    margin-top: -0.5px;
+    object-fit: cover;
+    position: relative;
+    width: 708px;
+}
+
+.about .text-wrapper {
+    color: #8793b0;
+    font-family: "PlusJakartaSans-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.about .icons {
+    align-items: center;
+    display: grid;
+    /* flex: 0; */
+    grid-template-columns: auto auto auto;
+    grid-gap: 26px;
+    left: 0rem;
+    position: relative;
+    padding:  0 18px;
+}
+
+.about .logo-en {
+    height: 38.61px;
+    object-fit: cover;
+    position: relative;
+    width: 278.26px;
+}
+
+.about .securities-and {
+    height: 61.29px;
+    object-fit: cover;
+    position: relative;
+    width: 186.2px;
+}
+
+.about .logo-mpfa {
+    height: 61.29px;
+    object-fit: cover;
+    position: relative;
+    width: 192.53px;
+}
+
+.about .asl-logo-combo {
+    height: 34.75px;
+    object-fit: cover;
+    position: relative;
+    width: 257.83px;
+}
+
+.about .motic {
+    height: 40.82px;
+    object-fit: cover;
+    position: relative;
+    width: 139.81px;
+}
+    
+}
+
+@media screen and  (max-width:375px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 375px;
+        height: 1000px;
+
+    }
+    
+    .about .frame-wrapper {
+        background-color: #ffffff;
+        height: 1000px;
+        overflow: hidden;
+        width: 375px;
+    }
+    
+    .about .frame-2 {
+        width: 375px;
+        height: 800px;
+    }
+    
+    .about .intro {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 auto;
+        gap: 42px;
+        justify-content: center;
+        align-items: center; 
+        padding-left: 16px;
+        padding-right:16px;
+        width: 342px;
+
+    }
+    
+    .about .icon {
+        flex-grow: 3;
+        height: 300px;
+        margin-bottom: -18.98px;
+        margin-top: -30px;
+        position: relative;
+        width: 300px;
+        right: -7rem;
+
+    }
+    
+    .about .resume {
+        flex-grow: 1;
+        padding-left: 16px;
+        padding-right:16px;
+        width: 342px;
+        gap: 27px;
+        position: relative;
+
+    }
+    
+    .i-m-melody-tse-a-UX {
+        color: var(--text);
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 10px;
+        font-weight: 400;
+        height: 250px;
+        letter-spacing: 0;
+        line-height: 15.7px;
+        margin-top: 20px;
+        position: relative;
+        width: 288px;
+        color: #474A58;
+        left: 6rem;
+
+    }
+.aboutBtn{
+    position: relative;
+    left: 6rem;
+}
+
+.about .icon-list {
+    align-items: center;
+    display: inline-flex;
+    /* flex: 0 0 auto; */
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    left: 5rem;
+
+}
+
+.about .experience {
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.about .vector {
+    height: 1px;
+    margin-top: -0.5px;
+    object-fit: cover;
+    position: relative;
+    width: 343px;
+}
+
+.about .text-wrapper {
+    color: #8793b0;
+    font-family: "PlusJakartaSans-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.about .icons {
+    align-items: center;
+    display: grid;
+    /* flex: 0; */
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    left: 0rem;
+    position: relative;
+    padding:  0 12px;
+}
+
+.about .logo-en {
+    height: 18.22px;
+    object-fit: cover;
+    position: relative;
+    width: 131.32px;
+}
+
+.about .securities-and {
+    height: 28.93px;
+    object-fit: cover;
+    position: relative;
+    width: 87.88px;
+}
+
+.about .logo-mpfa {
+    height: 28.93px;
+    object-fit: cover;
+    position: relative;
+    width: 90.86px;
+}
+
+.about .asl-logo-combo {
+    height: 16.71px;
+    object-fit: cover;
+    position: relative;
+    width: 124.01px;
+}
+
+.about .motic {
+    height: 19.63px;
+    object-fit: cover;
+    position: relative;
+    width: 67.25px;
+}
     
 }

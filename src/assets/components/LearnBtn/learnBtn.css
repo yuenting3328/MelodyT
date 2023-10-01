@@ -22,3 +22,20 @@
     background-color: #ffffff;
     color: #0066CC;
   }
+
+  @media screen and  (max-width:375px) {
+    .learnBtn {
+      background-color: white;
+      border-radius: 6px;
+      color: #163279;
+      border: 1px solid #163279;
+      padding: 6px 27px;
+      /* display: flex; */
+      font-size: 12px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      font-family: "PlusJakartaSans-Bold";
+    }
+  
+  }

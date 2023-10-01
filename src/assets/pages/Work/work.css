@@ -26,8 +26,8 @@ html, body {
 .selfBg {
     position: absolute;
     z-index: -30;
-    top: 5rem;
-    right: -2.5rem;
+    top: -2rem;
+    right: -3.5rem;
     object-fit: cover;
     height: 100vh;
     animation-delay: 4s; 
@@ -257,6 +257,15 @@ html, body {
 
 @media screen and  (max-width:768px) {
     
+    #intro {
+        height:(100vh - 4rem);
+        width: 100vw;
+        margin: 0;
+        overflow: hidden;
+        position: relative;
+    
+    }
+
     #selfIntro{
     display: flex;
     flex-direction: column;
@@ -269,11 +278,13 @@ html, body {
 
     .selfBg{
         width: 618px;
+        height: 574px;
+        left: 7rem;
         display: flex;
     }
 
     .selfIntroContent {
-    padding-top: 350px;
+    padding-top: 330px;
     padding-right: 66px;
     padding-left: 66px;
     display: flex;

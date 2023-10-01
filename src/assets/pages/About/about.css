@@ -68,6 +68,60 @@ html, body { margin: 0;
     font-size: 5rem;
 }
 
+#aboutMeContent{
+padding-bottom:0 ;
+margin: 0;
+}
+
+#aboutReco{
+    padding-bottom:0 ;
+    margin: 0;
+}
+
+@media screen and  (max-width:768px) {
+    div.aboutIntro{
+        height: 1550px;
+        margin: 0;
+    }
+
+    #aboutMeContent{
+        padding-bottom:0 ;
+        margin: 0;
+        }
+
+    #aboutSkill{
+        padding-bottom:0 ;
+        margin: 0;
+    }
+
+    #aboutReco{
+        margin: 0;
+    }
+}
+
+@media screen and  (max-width:375px) {
+    #aboutMeContent{
+        padding: bottom 60px ;
+        margin: 0;
+        }  
+    
+        div.aboutIntro{
+            height: 1000px;
+            margin: 0;
+        }
+
+        
+     #aboutSkill{
+        padding-bottom:0 ;
+        margin: 0;
+
+    }
+
+    div.about{
+        margin: 0;
+        height: 750px;
+    }
+}
 /* 
 .subtitleList{
     align-items: center;

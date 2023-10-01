@@ -24,7 +24,7 @@ const Installation = () => {
 </div>
 <div className="installationResearch">
 <img src={ReseachPhotos} alt="researchPhotos" className="researchPhotos" />
-    <div className="installationResearchCotainer">
+    <div className="installationResearchContainer">
         <span className="installationResarchTitle">
         Research
         </span>

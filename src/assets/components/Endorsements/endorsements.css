@@ -187,3 +187,357 @@
     top: 52px;
     white-space: nowrap;
 }
+
+@media screen and  (max-width:768px) {
+    .endorsements {
+        width: 768px;
+    }
+    
+    .endorsements .group-wrapper {
+        background-color: #ffffff;
+        height: 1000px;
+        overflow: hidden;
+        width: 1659px;
+    }
+    
+    .endorsements .group {
+        height: 1000px;
+        left: 32px;
+        position: relative;
+        top: 112px;
+        width: 768px;
+    }
+    
+    .endorsements .frame-2 {
+        align-items: flex-start;
+        flex-direction: row;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 0;
+        display: flex;
+        gap: 60px;
+        left: 0;
+        right:1;
+        overflow-x: scroll;
+        position: absolute;
+        top: 130px;
+        width: 704px;
+    }
+    
+    .endorsements .frame-3 {
+        align-items: flex-start;
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0px 4px 20px #00000040;
+        display: inline-flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 32px;
+        padding: 40px 30px;
+        position: relative;
+    }
+    
+    .endorsements .frame-4 {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        gap: 24px;
+        position: relative;
+    }
+    
+    .endorsements .mask-group {
+        height: 86px;
+        position: relative;
+        width: 86px;
+    }
+    
+    .endorsements .frame-5 {
+        align-items: flex-start;
+        display: inline-flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 6px;
+        position: relative;
+    }
+    
+    .endorsements .text-wrapper {
+        color: #000000;
+        font-family: "PlusJakartaSans-Bold", Helvetica;
+        font-size: 24px;
+        font-weight: 700;
+        height: 24.9px;
+        letter-spacing: 0;
+        line-height: 26px;
+        margin-top: -1px;
+        position: relative;
+        white-space: nowrap;
+        width: 171.14px;
+    }
+    
+    .endorsements .text-wrapper-2 {
+        color: #000000;
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        height: 40.93px;
+        letter-spacing: 0;
+        line-height: 22px;
+        position: relative;
+        width: 180.21px;
+    }
+    
+    .endorsements .p {
+        color: #000000;
+        font-family: "PlusJakartaSans-Light", Helvetica;
+        font-size: 16px;
+        font-weight: 300;
+        height: 373.77px;
+        letter-spacing: 0;
+        line-height: 26px;
+        position: relative;
+        width: 309.81px;
+    }
+    
+    /* .endorsements .secondary-btn-instance {
+        flex: 0 0 auto !important;
+    } */
+    
+    .endorsements .text-wrapper-3 {
+        color: #000000;
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        height: 40.93px;
+        letter-spacing: 0;
+        line-height: 22px;
+        position: relative;
+        width: 199.24px;
+    }
+    
+    .endorsements .text-wrapper-4 {
+        color: #000000;
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        height: 40.93px;
+        letter-spacing: 0;
+        line-height: 22px;
+        position: relative;
+        width: 199.39px;
+    }
+    
+    .endorsements .group-2 {
+        height: 80px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 347px;
+    }
+    
+    .endorsements .text-wrapper-5 {
+        color: var(--text);
+        font-family: "PlusJakartaSans-Bold", Helvetica;
+        font-size: 36px;
+        font-weight: 700;
+        left: 0;
+        letter-spacing: 0;
+        line-height: 28px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+    }
+    
+    .endorsements .text-wrapper-6 {
+        color: var(--text);
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 18px;
+        font-weight: 400;
+        left: 0;
+        letter-spacing: 0;
+        line-height: 28px;
+        position: absolute;
+        top: 52px;
+        white-space: nowrap;
+    }
+    
+}
+
+@media screen and  (max-width:375px) {
+    .endorsements {
+        width: 375px;
+    }
+    
+    .endorsements .group-wrapper {
+        background-color: #ffffff;
+        height: 600px;
+        overflow: hidden;
+        width: 375px;
+    }
+    
+    .endorsements .group {
+        height: 800px;
+        left: 16px;
+        position: relative;
+        top: 10px;
+        width: 768px;
+    }
+    
+    .endorsements .frame-2 {
+        align-items: flex-start;
+        flex-direction: row;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 0;
+        display: flex;
+        gap: 40px;
+        height: 466px ;
+        left: 0;
+        right:1;
+        overflow-x: scroll;
+        position: absolute;
+        top: 130px;
+        width: 343px;
+    }
+    
+    .endorsements .frame-3 {
+        align-items: flex-start;
+        background-color: #ffffff;
+        border-radius: 13px;
+        box-shadow: 0px 4px 20px #00000040;
+        display: inline-flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 20px;
+        padding: 27px 20px;
+        position: relative;
+        width: 250px;
+        height: 344px;
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    
+    .endorsements .frame-4 {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        gap: 16px;
+        position: relative;
+    }
+    
+    .endorsements .mask-group {
+        height: 58px;
+        position: relative;
+        width: 58px;
+    }
+    
+    .endorsements .frame-5 {
+        align-items: flex-start;
+        display: inline-flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 4px;
+        position: relative;
+    }
+    
+    .endorsements .text-wrapper {
+        color: #000000;
+        font-family: "PlusJakartaSans-Bold", Helvetica;
+        font-size: 16px;
+        font-weight: 700;
+        height: 24.9px;
+        letter-spacing: 0;
+        line-height: 26px;
+        margin-top: -1px;
+        position: relative;
+        white-space: nowrap;
+        width: 171.14px;
+    }
+    
+    .endorsements .text-wrapper-2 {
+        color: #000000;
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 10px;
+        font-weight: 400;
+        height: 40.93px;
+        letter-spacing: 0;
+        line-height: 14.9px;
+        position: relative;
+        width: 122px;
+    }
+    
+    .endorsements .p {
+        color: #000000;
+        font-family: "PlusJakartaSans-Light", Helvetica;
+        font-size: 10px;
+        font-weight: 300;
+        height: 176px;
+        letter-spacing: 0;
+        line-height: 13.5px;
+        position: relative;
+        width: 240px;
+    }
+    
+    /* .endorsements .secondary-btn-instance {
+        flex: 0 0 auto !important;
+    } */
+    
+    .endorsements .text-wrapper-3 {
+        color: #000000;
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 10px;
+        font-weight: 400;
+        height: 40.93px;
+        letter-spacing: 0;
+        line-height: 14.9px;
+        position: relative;
+        width: 122px;
+    }
+    
+    .endorsements .text-wrapper-4 {
+        color: #000000;
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 10px;
+        font-weight: 400;
+        height: 40.93px;
+        letter-spacing: 0;
+        line-height: 14.9px;
+        position: relative;
+        width: 122px;
+    }
+    
+    .endorsements .group-2 {
+        height: 80px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 347px;
+    }
+    
+    .endorsements .text-wrapper-5 {
+        color: var(--text);
+        font-family: "PlusJakartaSans-Bold", Helvetica;
+        font-size: 30px;
+        font-weight: 700;
+        left: 0;
+        letter-spacing: 0;
+        line-height: 28px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+    }
+    
+    .endorsements .text-wrapper-6 {
+        color: #474A58;
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 10px;
+        font-weight: 400;
+        left: 0;
+        letter-spacing: 0;
+        line-height: 28px;
+        position: absolute;
+        top: 52px;
+        white-space: nowrap;
+    }
+    
+}

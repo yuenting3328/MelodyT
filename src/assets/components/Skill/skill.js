@@ -73,7 +73,7 @@ Design Library
 <div className="frame-4">
 <div className="text-wrapper-4">Toolbox</div>
 <p className="these-are-the-tools">
-These are&nbsp;&nbsp;the tools that I’ve been working on to streamline my creative process. I’m always
+These are the tools that I’ve been working on to streamline my creative process. I’m always
 open to learn new methodologies.
 </p>
 </div>

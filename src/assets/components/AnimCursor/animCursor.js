@@ -7,6 +7,8 @@ const AnimCursor = () => {
         innerSize={10}
         outerSize={10}
         color='117, 250, 200'
+        display={true}
+        z-index={10000}
         outerAlpha={0.4}
         innerScale={0.5}
         outerScale={5}

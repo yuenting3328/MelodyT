@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "PlusJakartaSans-Bold";
+    src: url(../../fonts/PlusJakartaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Regular";
+    src: url(../../fonts//PlusJakartaSans-Regular.ttf);
+}
 .skill {
     background-color: #ffffff;
     display: flex;
@@ -36,7 +45,7 @@
 
 .skill .text-wrapper {
     color: var(--text);
-    font-family: "Plus Jakarta Sans-Bold", Helvetica;
+    font-family: "PlusJakartaSans-Bold", Helvetica;
     font-size: 36px;
     font-weight: 700;
     left: 0;
@@ -69,7 +78,7 @@
 
 .skill .text-wrapper-2 {
     color: var(--text);
-    font-family: "Plus Jakarta Sans-Bold", Helvetica;
+    font-family: "PlusJakartaSans-Bold", Helvetica;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 0;
@@ -81,8 +90,8 @@
 }
 
 .skill .text-wrapper-3 {
-    color: var(--text);
-    font-family: "Plus Jakarta Sans-Regular", Helvetica;
+    color: #474A58;
+    font-family: "PlusJakartaSans-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0;
@@ -111,7 +120,7 @@
 
 .skill .text-wrapper-4 {
     color: var(--text);
-    font-family: "Plus Jakarta Sans-Bold", Helvetica;
+    font-family: "PlusJakartaSans-Bold", Helvetica;
     font-size: 36px;
     font-weight: 700;
     left: 1px;
@@ -123,8 +132,8 @@
 }
 
 .skill .these-are-the-tools {
-    color: var(--text);
-    font-family: "Plus Jakarta Sans-Regular", Helvetica;
+    color: #474A58;
+    font-family: "PlusJakartaSans-Regular", Helvetica;
     font-size: 18px;
     font-weight: 400;
     left: 1px;
@@ -164,4 +173,270 @@
     height: 68.85px;
     position: relative;
     width: 70.59px;
+}
+
+@media screen and  (max-width:768px) {
+    .skill {
+        width: 768px;
+    }
+    
+    .skill .group-wrapper {
+        background-color: #ffffff;
+        height: 1000px;
+        width: 768px;
+    }
+    
+    .skill .group {
+        height: 961px;
+        position: relative;
+        top: 300px;
+    }
+    
+    .skill .div {
+        height: 428px;
+        left: 60px;
+        position: absolute;
+        top: 0;
+        width: 1132px;
+    }
+    
+    .skill .frame {
+        height: 80px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 534px;
+    }
+    
+    .skill .text-wrapper {
+        color: var(--text);
+        font-family: "PlusJakartaSans-Bold", Helvetica;
+        font-size: 36px;
+        font-weight: 700;
+        left: 0;
+        letter-spacing: 0;
+        line-height: 28px;
+        position: absolute;
+        top: -1px;
+        white-space: nowrap;
+    }
+    
+    .skill .frame-2 {
+        align-items: flex-start;
+        display: inline-flex;
+        flex-direction: row;
+        height: fit-content;
+        gap: 90px;
+        left: 0px;
+
+        position: absolute;
+        top: 112px;
+    }
+    
+    .skill .frame-3 {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .skill .text-wrapper-2 {
+        color: var(--text);
+        font-family: "PlusJakartaSans-Bold", Helvetica;
+        font-size: 20px;
+
+    }
+    
+    .skill .text-wrapper-3 {
+        color: #474A58;
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 20px;
+    }
+    
+    .skill .group-2 {
+        background-color: #f4faff;
+        height: 478px;
+        left: 0;
+        position: absolute;
+        top: 491px;
+        width: 768px;
+    }
+    
+    .skill .frame-4 {
+        height: 80px;
+        left: 32px;
+        position: absolute;
+        top: 64px;
+        width: 768px;
+    }
+    
+    .skill .text-wrapper-4 {
+        color: var(--text);
+        font-family: "PlusJakartaSans-Bold", Helvetica;
+        font-size: 36px;
+    }
+    
+    .skill .these-are-the-tools {
+        color: #474A58;
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 18px;
+        font-weight: 400;
+        left: 1px;
+        width: 702px;
+    }
+    
+    .skill .frame-5 {
+        gap: 40px;
+        left: 75px;
+        top: 240px;
+    }
+    
+    .skill .frame-6 {
+        gap: 30px;
+        position: relative;
+    }
+    
+    .skill .adobe-illustrator-CC {
+        height: 60.47px;
+        object-fit: cover;
+        position: relative;
+        width: 62px;
+    }
+    
+    .skill .img {
+        height: 60.47px;
+        position: relative;
+        width: 62px;
+    }
+}
+
+@media screen and  (max-width:375px) {
+    .skill {
+        width: 375px;
+    }
+    
+    .skill .group-wrapper {
+        background-color: #ffffff;
+        height: 832px;
+        width: 375px;
+    }
+    
+    .skill .group {
+        height: 832px;
+        position: relative;
+        top: 0px;
+    }
+    
+    .skill .div {
+        height: 428px;
+        left: 16px;
+        position: absolute;
+        top: 0;
+        width: 375px;
+    }
+    
+    .skill .frame {
+        width: 375px;
+    }
+    
+    .skill .text-wrapper {
+        color: var(--text);
+        font-family: "PlusJakartaSans-Bold", Helvetica;
+        font-size: 30px;
+
+    }
+    
+    .skill .frame-2 {
+        align-items: flex-start;
+        display: inline-flex;
+        flex-direction: row;
+        gap: 10px;
+        left: 0px;
+        position: absolute;
+        top: 80px;
+    }
+    
+    .skill .frame-3 {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 12px;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .skill .text-wrapper-2 {
+        color: var(--text);
+        font-family: "PlusJakartaSans-Bold", Helvetica;
+        font-size: 14px;
+
+    }
+    
+    .skill .text-wrapper-3 {
+        color: #474A58;
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 14px;
+    }
+    
+    .skill .group-2 {
+        background-color: #f4faff;
+        height: 404px;
+        left: 0;
+        position: absolute;
+        top: 446px;
+        width: 375px;
+    }
+    
+    .skill .frame-4 {
+        height: 80px;
+        left: 16px;
+        position: absolute;
+        top: 64px;
+        width: 375px;
+    }
+    
+    .skill .text-wrapper-4 {
+        color: var(--text);
+        font-family: "PlusJakartaSans-Bold", Helvetica;
+        font-size: 30px;
+    }
+    
+    .skill .these-are-the-tools {
+        color: #474A58;
+        font-family: "PlusJakartaSans-Regular", Helvetica;
+        font-size: 10px;
+        font-weight: 400;
+        left: 1px;
+        width: 343px;
+        line-height: 16px;
+    }
+    
+    .skill .frame-5 {
+        gap: 40px;
+        left: 32px;
+        top: 208px;
+    }
+    
+    .skill .frame-6 {
+        gap: 10px;
+        position: relative;
+    }
+    
+    .skill .adobe-illustrator-CC {
+        height: 35.11px;
+        object-fit: cover;
+        position: relative;
+        width: 36px;
+    }
+    
+    .skill .img {
+        height: 35.11px;
+        position: relative;
+        width: 36px;
+        padding: 0;
+    }
 }

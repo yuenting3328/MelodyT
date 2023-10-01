@@ -22,7 +22,7 @@ html, body { margin: 0; padding: 0;}
   }
   
   body{
-    font-family: "PlusJakartaSans-SemiBold";
+    font-family: "PlusJakartaSans-Medium";
   }
   
   a{
@@ -94,7 +94,7 @@ html, body { margin: 0; padding: 0;}
     padding: 10px;
     color: #163279;
     font-size: 20px ;
-    font-family: "PlusJakartaSans-SemiBold";
+    font-family: "PlusJakartaSans-Medium";
     text-decoration: none;
   }
   
@@ -149,7 +149,7 @@ html, body { margin: 0; padding: 0;}
     .nav{
       position: fixed;
       top: 0;
-      right: -120%;
+      right: -100%;
       background-color: #163279;
       color: #fff;
       width: 100%;
@@ -158,6 +158,8 @@ html, body { margin: 0; padding: 0;}
       z-index: 100;
       transition: 0.5s;
       border-radius: 0 0 0 0;
+      cursor: pointer;
+
   
     }
   
@@ -167,10 +169,14 @@ html, body { margin: 0; padding: 0;}
       justify-content: center;
       align-items: center;
       padding: 150px 0;
+      cursor: pointer;
     }
 
     a.nav-link{
         color: #fff;
+        font-size: 30px;
+        font-family: "PlusJakartaSans-SemiBold" ;
+        cursor: pointer;
     } 
 
     .nav-link:hover{
@@ -179,6 +185,7 @@ html, body { margin: 0; padding: 0;}
 
     .nav_item{
       margin: 1rem 0;
+      cursor: pointer;
     }
   
     .show{
@@ -219,7 +226,7 @@ html, body { margin: 0; padding: 0;}
       position: absolute;
       color: #B0A4A4;
       top: 35px;
-      right:50px;
+      right:10px;
       display: block;
       font-size: 30px;
       border-radius: 20%;
@@ -234,7 +241,7 @@ html, body { margin: 0; padding: 0;}
     .nav{
       position:absolute;
       top: 0;
-      right: -150%;
+      right: -100%;
       background-color: #163279;
       justify-content: center;
       align-items: center;
@@ -245,6 +252,7 @@ html, body { margin: 0; padding: 0;}
       z-index: 10000000;
       transition: 0.5s;
       border-radius: 0 0 0 0;
+      cursor: pointer;
   
     }
   
@@ -258,6 +266,9 @@ html, body { margin: 0; padding: 0;}
 
     a.nav-link{
         color: #fff;
+        font-size: 24px;
+        font-family: "PlusJakartaSans-SemiBold" ;
+        cursor: pointer;
     } 
 
     a.nav-link:hover{
@@ -266,7 +277,8 @@ html, body { margin: 0; padding: 0;}
 
     .nav_item{
       margin-top: 0.4rem;
-      margin-right: 2.5rem;
+      margin-right: 1.5rem;
+      cursor: pointer;
  
     }
   
