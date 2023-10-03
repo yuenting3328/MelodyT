@@ -6,7 +6,7 @@ import Work from './assets/pages/Work/work.js';
 import AnimCursor from './assets/components/AnimCursor/animCursor.js';
 import Footer from './assets/components/Footer/footer.js';
 import About from './assets/pages/About/about.js';
-import Cache from './assets/pages/Cache/cache.js';
+import Fun from './assets/pages/Fun/fun.js';
 import HA from './assets/pages/HA/ha.js';
 import Muji from "./assets/pages/Muji/muji.js";
 import WINGS from "./assets/pages/Wings/wings.js";
@@ -37,8 +37,8 @@ function App() {
         <Route path="/about"> 
          <About />
         </Route>
-        <Route path="/cache"> 
-         <Cache />
+        <Route path="/fun"> 
+         <Fun />
         </Route>
         <Route path="/wings"> 
          <WINGS />

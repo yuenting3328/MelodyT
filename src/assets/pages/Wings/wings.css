@@ -30,7 +30,6 @@ body {
 
 #wings {
     height:(100vh - 4rem);
-    width: 90rem;
     margin: 0;
     /* padding-bottom: 4rem; */
     overflow: hidden;
@@ -79,8 +78,8 @@ body {
     line-height: 150%;
 }
 
-.introDescription{
-    font-size: 1.25rem;
+.wingsIntroDescription{
+    font-size: 18px;
     font-family: "PlusJakartaSans-Regular";
     color:#061736;
     line-height: 150%;
@@ -127,4 +126,168 @@ body {
     padding-right: 4.5rem;
     padding-bottom: 6rem;
     justify-content: space-between;
+}
+
+@media screen and (max-width:768px) {
+    #wings {
+        width: 768px;
+    
+    }
+    
+    #wings .overlap-group-wrapper {
+        background-color: #ffffff;
+        height: fit-content;
+        width: 768px;
+        }
+    
+        #wings .overlap-group {
+        background-image: url(../../images/wings\ banner\ ipad.png);
+        background-size: 100% 100%;
+        height: 876px;
+        width:768px;
+        z-index: -1;
+        }
+        
+    .wingsIntro {
+      padding: 52px 80px;
+      gap:67px;
+      height:733px;
+     
+    }
+    
+    .projectIntro{
+        width: 331px;
+        gap: 30px;
+    }
+    
+    .introTitle{
+        font-size: 2.5rem;
+        font-family: "PlusJakartaSans-Bold";
+        color: #163279;
+        line-height: 150%;
+    }
+    
+    .wingsIntroDescription{
+        font-size: 18px;
+        font-family: "PlusJakartaSans-Regular";
+        color:#061736;
+        line-height: 150%;
+        width: 331px;
+    }
+    
+    .projectInfo{
+        width: 201px;
+        gap: 30px;
+    }
+    
+    .infoRow{
+        gap: 6px;
+    }
+    
+    .infoTitle{
+        font-size: 1.375rem;
+        font-family: "PlusJakartaSans-Medium";
+        color:#061736;
+        line-height: 150%;
+        margin:0;
+    }
+    
+    .infoDescription{
+        font-size: 1rem;
+        font-family: "PlusJakartaSans-Light";
+        color:#636871;
+        line-height: 150%;
+        margin:0;
+    }
+    
+    .actionProject{
+        display: flex;
+        flex-direction: row;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 110px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #wings {
+        width: 375px;
+    
+    }
+    
+    #wings .overlap-group-wrapper {
+        background-color: #ffffff;
+        height: fit-content;
+        width: 375px;
+        }
+    
+        #wings .overlap-group {
+        background-image: url(../../images/wings\ banner\ ipad.png);
+        background-size: 100% 100%;
+        height: 427px;
+        width:375px;
+        z-index: -1;
+        }
+        
+    .wingsIntro {
+      padding: 25px 40px;
+      gap:32px;
+      height:403px;
+     
+    }
+    
+    .projectIntro{
+        width: 161px;
+        gap: 20px;
+    }
+    
+    .introTitle{
+        font-size: 20px;
+        font-family: "PlusJakartaSans-Bold";
+        color: #163279;
+        line-height: 150%;
+    }
+    
+    .wingsIntroDescription{
+        font-size: 10px;
+        font-family: "PlusJakartaSans-Regular";
+        color:#061736;
+        line-height: 150%;
+        width: 161px;
+    }
+    
+    .projectInfo{
+        width: 102px;
+        gap: 14px;
+    }
+    
+    .infoRow{
+        gap: 3px;
+    }
+    
+    .infoTitle{
+        font-size: 10px;
+        font-family: "PlusJakartaSans-Medium";
+        color:#061736;
+        line-height: 150%;
+        margin:0;
+    }
+    
+    .infoDescription{
+        font-size: 10px;
+        font-family: "PlusJakartaSans-Light";
+        color:#636871;
+        line-height: 150%;
+        margin:0;
+    }
+    
+    .actionProject{
+        display: flex;
+        flex-direction: row;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 55px;
+        justify-content: space-between;
+    }
 }

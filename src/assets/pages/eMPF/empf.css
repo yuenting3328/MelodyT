@@ -43,7 +43,7 @@ body {
 
 #empf .overlap-group-wrapper {
     background-color: #ffffff;
-    height: 100vh;
+    height: fit-content;
     width: 100vw;
     }
 
@@ -64,7 +64,7 @@ body {
  
 }
 
-.projectIntro{
+.empfProjectIntro{
     width: 630px;
     gap: 40px;
     display: flex;
@@ -73,14 +73,14 @@ body {
     padding:0;
 }
 
-.introTitle{
+.empfIntroTitle{
     font-size: 2.5rem;
     font-family: "PlusJakartaSans-Bold";
     color: #163279;
     line-height: 150%;
 }
 
-.introDescription{
+.empfIntroDescription{
     font-size: 1.25rem;
     font-family: "PlusJakartaSans-Regular";
     color:#061736;
@@ -122,7 +122,7 @@ body {
 }
 
 
-.projectGoalContainer{
+.empfProjectGoalContainer{
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -134,7 +134,7 @@ body {
   
   }
   
-  .textContainer{
+  .empfTextContainer{
     display: flex;
     flex-direction: column;
     padding: 0 182.5px 60px;
@@ -151,14 +151,14 @@ body {
     padding: 0;
   }
   
-  .title{
+  .empfTitle{
       font-family: "PlusJakartaSans-Bold";
       font-size: 1.75rem ;
       color: #061736;
       line-height: 150%;
   }
 
-  .dot{
+  .empfDot{
     font-size: 1.25rem;
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
@@ -167,7 +167,7 @@ body {
 }
   
   .empfGoalDescription{
-      font-size: 1.25rem;
+      font-size: 18px;
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 150%;
@@ -186,10 +186,12 @@ body {
 img.empfGoalImg{
   width:1075px;
   padding:0 182.5px;
+
+
 }
 
 .empfDesignContainer{
-    width: 1440px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -198,7 +200,7 @@ img.empfGoalImg{
     align-items: center;
 }
 
-.description{
+.empfDescription{
     font-size: 1.25rem;
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
@@ -224,7 +226,7 @@ img.empfDesignImg{
 }
 
 .empfUI{
-    width: 1440px;
+  width: 100vw;
     display: flex;
     flex-direction: row;
     margin: 0;
@@ -242,6 +244,7 @@ img.empfDesignImg{
 
 img.empfUIImg{
   width: 508px;
+  
 }
 
 .empfUIContainer{
@@ -274,7 +277,7 @@ img.empfUIImg{
 }
 
 .empfDesignSystemContainer{
-    width: 1440px;
+  width: 100vw;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -335,13 +338,14 @@ img.empfDesignSystemImg{
     width: 1296px;
     display: flex;
     padding: 0 72px;
-    color: #f5f5f5;
+    color: #F5F5F5;
     margin: 0;
   }
 
   img.empfPrototypeImg{
     width: 786px;
     padding: 96px 255px;
+    background-color: #F5F5F5;
   }
 
   .actionProject{
@@ -352,3 +356,592 @@ img.empfDesignSystemImg{
     padding-bottom: 6rem;
     justify-content: space-between;
 }
+
+@media screen and  (max-width:768px) {
+  #empf {
+    width: 768px;
+
+}
+
+#empf .overlap-group-wrapper {
+    background-color: #ffffff;
+    height:fit-content;
+    width: 768px;
+    }
+
+    #empf .overlap-group {
+    background-image: url(../../images/empf\ banner\ ipad.png);
+    background-size: 100% 100%;
+    height: 876px;
+    width:768px;
+    z-index: -1;
+    }
+    
+.empfIntro {
+  height: 730px;
+  padding: 52px 80px;
+  gap:67px;
+ 
+}
+
+.empfProjectIntro{
+    width: 331px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.empfIntroTitle{
+    font-size: 2.5rem;
+    font-family: "PlusJakartaSans-Bold";
+    color: #163279;
+    line-height: 150%;
+}
+
+.empfIntroDescription{
+    font-size: 1.25rem;
+    font-family: "PlusJakartaSans-Regular";
+    color:#061736;
+    line-height: 150%;
+    width: 331px;
+    height: 504px;
+}
+
+.projectInfo{
+    width: 365px;
+    gap: 30px;
+
+}
+
+.infoRow{
+    gap: 6px;
+
+}
+
+.infoTitle{
+    font-size: 1.375rem;
+    font-family: "PlusJakartaSans-Medium";
+    color:#061736;
+    line-height: 150%;
+    margin:0;
+}
+
+.infoDescription{
+    font-size: 1rem;
+    font-family: "PlusJakartaSans-Light";
+    color:#636871;
+    line-height: 150%;
+    margin:0;
+}
+
+
+.empfProjectGoalContainer{
+    width: 768px;
+    padding-top: 110px;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .empfTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 60px;
+    width:708px;
+    justify-content: center;
+    gap:14px;
+  }
+
+  .empfDescriptionContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .empfTitle{
+      font-family: "PlusJakartaSans-Bold";
+      font-size: 1.75rem ;
+      color: #061736;
+      line-height: 150%;
+  }
+
+  .empfDot{
+    font-size: 1.25rem;
+    font-family: "PlusJakartaSans-Regular";
+    color:#474A58;
+    line-height: 150%;
+    margin:0;
+}
+  
+  .empfGoalDescription{
+      font-size: 1.25rem;
+      font-family: "PlusJakartaSans-Regular";
+      color:#474A58;
+      line-height: 150%;
+      width:708px;
+      margin:0;
+  }
+
+  .imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    
+}
+
+img.empfGoalImg{
+  width:708px;
+  padding:0 30px;
+}
+
+.empfDesignContainer{
+    width: 768px;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+}
+
+.empfDescription{
+    font-size: 1.25rem;
+    font-family: "PlusJakartaSans-Regular";
+    color:#474A58;
+    line-height: 150%;
+    width:708px;
+    margin:0;
+}
+
+.empfDesignImgContainer{
+    padding-top: 60px;
+
+    
+}
+
+
+img.empfDesignImg{
+    width:708px;
+    padding: 0 30px;
+}
+
+.empfUI{
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.empfUIImgContainer{
+   display: flex;
+   margin: 0;
+   padding-left: 20px;
+}
+
+img.empfUIImg{
+  width: 508px;
+}
+
+.empfUIContainer{
+    padding: 0;
+    margin: 0;
+    width: 708px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+}
+
+
+.empfSubtitle{
+    font-family: "PlusJakartaSans-SemiBold";
+    font-size: 1.25rem ;
+    color: #979797;
+    line-height: 150%;
+}
+
+.empfUIDescription{
+    font-size: 1.25rem;
+    font-family: "PlusJakartaSans-Regular";
+    color:#474A58;
+    line-height: 150%;
+    width:708px;
+    margin:0;
+
+}
+
+.empfDesignSystemContainer{
+    width: 768px;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+}
+
+img.empfDesignSystemImg{
+    width: 708px;
+    padding: 0 30px;
+}
+
+.empfDesignSystemBtnContainer{
+    padding-top: 18px;
+    margin:0;
+    display: flex;
+  }
+
+  .empfDevelopmentContainer{
+    width: 768px;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .empfDevelopmentImgContainer{
+    display: flex;
+    margin: 0;
+  }
+
+  .empfDevelopmentImg{
+    width: 708px;
+    padding: 0 30px;
+  }
+
+  .empfPrototypeContainer{
+    width: 768px;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .empfPrototypeBtnContainer{
+    padding-top: 18px;
+    margin:0;
+    display: flex;
+  }
+
+  .empfPrototypeImgContainer{
+    width: 768px;
+    display: flex;
+    padding: 0 30px;
+    color: #f5f5f5;
+    margin: 0;
+  }
+
+  img.empfPrototypeImg{
+    width: 588px;
+    padding: 76px 60px;
+    margin: 0 30px;
+  }
+
+  .actionProject{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 6rem;
+    justify-content: space-between;
+}
+
+}
+
+@media screen and  (max-width:375px) {
+  #empf {
+    width: 375px;
+
+}
+
+#empf .overlap-group-wrapper {
+    background-color: #ffffff;
+    height:fit-content;
+    width: 375px;
+    }
+
+    #empf .overlap-group {
+    background-image: url(../../images/empf\ banner\ ipad.png);
+    background-size: 100% 100%;
+    height: 427px;
+    width:375px;
+    z-index: -1;
+    }
+    
+.empfIntro {
+  height: 376px;
+  padding: 25px 40px;
+  gap:32px;
+ 
+}
+
+.empfProjectIntro{
+    width: 161px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.empfIntroTitle{
+    font-size: 20px;
+    font-family: "PlusJakartaSans-Bold";
+    color: #163279;
+    line-height: 150%;
+}
+
+.empfIntroDescription{
+    font-size: 10px;
+    font-family: "PlusJakartaSans-Regular";
+    color:#061736;
+    line-height: 150%;
+    width: 161px;
+    height: 288px;
+}
+
+.projectInfo{
+    width: 268px;
+    gap: 14px;
+
+}
+
+.infoRow{
+    gap: 3px;
+
+}
+
+.infoTitle{
+    font-size: 10px;
+    font-family: "PlusJakartaSans-Medium";
+    color:#061736;
+    line-height: 150%;
+    margin:0;
+}
+
+.infoDescription{
+    font-size: 10px;
+    font-family: "PlusJakartaSans-Light";
+    color:#636871;
+    line-height: 150%;
+    margin:0;
+}
+
+
+.empfProjectGoalContainer{
+    width: 375px;
+    padding-top: 55px;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .empfTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px 30px;
+    width:343px;
+    justify-content: center;
+    gap:10px;
+  }
+
+  .empfDescriptionContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .empfTitle{
+      font-family: "PlusJakartaSans-Bold";
+      font-size: 14px ;
+      color: #061736;
+      line-height: 150%;
+  }
+
+  .empfDot{
+    font-size: 10px;
+    font-family: "PlusJakartaSans-Regular";
+    color:#474A58;
+    line-height: 150%;
+    margin:0;
+}
+  
+  .empfGoalDescription{
+      font-size: 10px;
+      font-family: "PlusJakartaSans-Regular";
+      color:#474A58;
+      line-height: 150%;
+      width:343px;
+      margin:0;
+  }
+
+  .imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    
+}
+
+img.empfGoalImg{
+  width:343px;
+  padding:0 16px;
+}
+
+.empfDesignContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+}
+
+.empfDescription{
+    font-size: 10px;
+    font-family: "PlusJakartaSans-Regular";
+    color:#474A58;
+    line-height: 150%;
+    width:343px;
+    margin:0;
+}
+
+.empfDesignImgContainer{
+    padding-top: 30px;
+
+    
+}
+
+
+img.empfDesignImg{
+    width:343px;
+    padding: 0 16px;
+}
+
+.empfUI{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.empfUIImgContainer{
+   display: flex;
+   margin: 0;
+   padding-left: 10px;
+}
+
+img.empfUIImg{
+  width: 290px;
+}
+
+.empfUIContainer{
+    padding: 0;
+    margin: 0;
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.empfSubtitle{
+    font-family: "PlusJakartaSans-SemiBold";
+    font-size: 14px ;
+    color: #979797;
+    line-height: 150%;
+}
+
+.empfUIDescription{
+    font-size: 10px;
+    font-family: "PlusJakartaSans-Regular";
+    color:#474A58;
+    line-height: 150%;
+    width:343px;
+    margin:0;
+
+}
+
+.empfDesignSystemContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+}
+
+img.empfDesignSystemImg{
+    width: 343px;
+    padding: 0 16px;
+}
+
+.empfDesignSystemBtnContainer{
+    padding-top: 10px;
+    margin:0;
+    display: flex;
+  }
+
+  .empfDevelopmentContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .empfDevelopmentImgContainer{
+    display: flex;
+    margin: 0;
+  }
+
+  .empfDevelopmentImg{
+    width: 343px;
+    padding: 0 16px;
+  }
+
+  .empfPrototypeContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .empfPrototypeBtnContainer{
+    padding-top: 10px;
+    margin:0;
+    display: flex;
+  }
+
+  .empfPrototypeImgContainer{
+    width: 375px;
+    display: flex;
+    padding: 0 16px;
+    color: #f5f5f5;
+    margin: 0;
+  }
+
+  img.empfPrototypeImg{
+    width: 284px;
+    padding: 36px 30px;
+    margin: 0 16px;
+  }
+
+  .actionProject{
+    display: flex;
+    flex-direction: row;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 55px;
+    justify-content: space-between;
+}
+
+}
+

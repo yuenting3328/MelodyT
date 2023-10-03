@@ -25,7 +25,6 @@
 
 #eIP{
     height:(100vh - 4rem);
-    width: 90rem;
     margin: 0;
     /* padding-bottom: 4rem; */
     overflow: hidden;
@@ -56,7 +55,7 @@
   
   .joinedEIPSubtitle{
     font-family: "PlusJakartaSans-SemiBold";
-    font-size: 1.25rem ;
+    font-size: 18px ;
     color: #0066CC;
     line-height: 150%;
 }
@@ -69,7 +68,7 @@
   }
   
   .description{
-      font-size: 1.25rem;
+      font-size: 18px;
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 150%;
@@ -102,7 +101,7 @@
 
   .subtitle{
     font-family: "PlusJakartaSans-SemiBold";
-    font-size: 1.25rem ;
+    font-size: 20px ;
     color: #979797;
     line-height: 150%;
 }
@@ -190,9 +189,315 @@ img.eIPResearchImg{
       justify-content:center ;
       align-items: center;
       padding: 94px 252px;
-      color: #f5f5f5;
+      background-color: #f5f5f5;
 }
 
 img.eIPPrototypeImg{
     width: 790px;
+    filter: drop-shadow(0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.3));
+}
+
+@media screen and (max-width:768px) {
+  #eIP{
+    width: 768px;
+}
+
+.joinedEIPContainer{
+    width: 768px;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .textContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 60px;
+    width:708px;
+    justify-content: center;
+    gap:14px;
+  }
+  
+  .joinedEIPSubtitle{
+    font-family: "PlusJakartaSans-SemiBold";
+    font-size: 20px ;
+    color: #0066CC;
+    line-height: 150%;
+}
+
+  .title{
+      font-family: "PlusJakartaSans-Bold";
+      font-size: 1.75rem ;
+      color: #061736;
+      line-height: 150%;
+  }
+  
+  .description{
+      font-size: 18px;
+      font-family: "PlusJakartaSans-Regular";
+      color:#474A58;
+      line-height: 150%;
+      width:708px;
+      margin:0;
+  }
+  
+  .imgContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      
+  }
+  
+  img.joinedEIPImg{
+    width:708px;
+    padding:0 30px;
+  }
+
+  .eIPGoalContainer{
+    width: 768px;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subtitle{
+    font-family: "PlusJakartaSans-SemiBold";
+    font-size: 20px ;
+    color: #979797;
+    line-height: 150%;
+}
+
+.eIPResearchContainer{
+    width: 768px;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+}
+
+.eIPResearchImgContainer{
+    display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      gap: 60px;
+}
+
+img.eIPResearchImg{
+    width:708px;
+    padding:0 30px;
+  }
+
+  .eIPPlanningContainer{
+    width: 768px;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .eIPPlanningImgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap: 60px;
+  }
+
+  img.eIPPlanningImg{
+    width:708px;
+    padding:0 30px;
+  }
+
+  .eIPDesignContainer{
+    width: 768px;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img.eIPDesignImg{
+    width:708px;
+    padding:0 30px;
+  }
+
+  .eIPPrototypeContainer{
+    width: 768px;
+    padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .eIPBtnContainer{
+    padding-top: 18px;
+    margin:0;
+    display: flex;
+  }
+
+  .eIPPrototypeimgContainer{
+    display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      padding: 51px 138px;
+      color: #f5f5f5;
+}
+
+img.eIPPrototypeImg{
+    width: 431px;
+}
+}
+
+@media screen and (max-width:375px) {
+  #eIP{
+    width: 375px;
+}
+
+.joinedEIPContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  div.textContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px 30px;
+    width:343px;
+    justify-content: center;
+    gap:0;
+    grid-gap: 0;
+  }
+  
+  .joinedEIPSubtitle{
+    font-family: "PlusJakartaSans-SemiBold";
+    font-size: 10px;
+    color: #0066CC;
+    line-height: 150%;
+    padding-bottom: 4px;
+}
+
+  .title{
+      font-family: "PlusJakartaSans-Bold";
+      font-size: 14px ;
+      color: #061736;
+      line-height: 150%;
+      padding-bottom: 10px;
+  }
+  
+  .description{
+      font-size: 10px;
+      font-family: "PlusJakartaSans-Regular";
+      color:#474A58;
+      line-height: 150%;
+      width:343px;
+      margin:0;
+  }
+  
+  .imgContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      
+  }
+  
+  img.joinedEIPImg{
+    width:343px;
+    padding:0 16px;
+  }
+
+  .eIPGoalContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subtitle{
+    font-family: "PlusJakartaSans-SemiBold";
+    font-size: 10px ;
+    color: #979797;
+    line-height: 150%;
+}
+
+.eIPResearchContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+}
+
+.eIPResearchImgContainer{
+    display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      gap: 30px;
+}
+
+img.eIPResearchImg{
+    width:343px;
+    padding:0 16px;
+  }
+
+  .eIPPlanningContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .eIPPlanningImgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap: 30px;
+  }
+
+  img.eIPPlanningImg{
+    width:343px;
+    padding:0 16px;
+  }
+
+  .eIPDesignContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img.eIPDesignImg{
+    width:343px;
+    padding:0 16px;
+  }
+
+  .eIPPrototypeContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .eIPBtnContainer{
+    padding-top: 15px;
+    margin:0;
+    display: flex;
+  }
+
+  .eIPPrototypeimgContainer{
+    display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      padding: 25px 67px;
+      color: #f5f5f5;
+}
+
+img.eIPPrototypeImg{
+    width: 210px;
+}
 }

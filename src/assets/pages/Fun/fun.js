@@ -1,9 +1,9 @@
 import React from "react";
-import '../Cache/cache.css';
+import './fun.css';
 import cacheBg from '../../images/Bg.png'
 import { Link } from 'react-router-dom';
 
-const Cache = () =>{
+const Fun = () =>{
     return (
         <section id="cache">
             <img src={cacheBg} alt="cacheBg" className="cacheBg" />
@@ -17,5 +17,5 @@ const Cache = () =>{
     )
 }
 
-export default Cache
+export default Fun
 

@@ -9,6 +9,7 @@ import empfDevelopment from "../../images/empf development.gif";
 import empfPrototype from "../../images/empf prototype.gif";
 import LastBtn from "../../components/LastBtn/lastBtn";
 import NextBtn from "../../components/NextBtn/nextBtn.js";
+import { Link } from "react-router-dom";
 const EMPF = () => {
     return(
         <section id="empf">
@@ -17,11 +18,11 @@ const EMPF = () => {
                 </div>
             </div>
             <div className="empfIntro">
-                <div className="porjectIntro">
-                <span className="introTitle">
+                <div className="empfProjectIntro">
+                <span className="empfIntroTitle">
                 eMPF Platform
                 </span>
-                <p className="introDescription">
+                <p className="empfIntroDescription">
                 The eMPF Platform represents a significant milestone in the evolution of MPF schemes. Its mission is to revolutionize administrative models by standardizing, streamlining, and automating existing processes. This will be the most significant reform of the MPF System since its inception. 
                 <br/>
                 <br/>
@@ -72,25 +73,25 @@ const EMPF = () => {
         </div>
             </div>
 
-            <div className="projectGoalContainer">
-            <div className="textContainer" id="empfGoalTextContaier">
-            <span className="title" id="empfGoalTitle">
+            <div className="empfProjectGoalContainer">
+            <div className="empfTextContainer" id="empfGoalTextContaier">
+            <span className="empfTitle" id="empfGoalTitle">
             Project Goals
             </span>
             <div className="empfDescriptionContainer">
-            <p className="dot">•</p>
+            <p className="empfDot">•</p>
             <p className="empfGoalDescription" id="empfGoalDescription">
             Enhance the efficiency, public users can use one platform to manage their MPF accounts across different MPF schemes anytime and anywhere through online and mobile applications.
             </p>
             </div>
             <div className="empfDescriptionContainer">
-            <p className="dot">•</p>
+            <p className="empfDot">•</p>
             <p className="empfGoalDescription" id="empfGoalDescription">
             In order to lower the overall administration expenses, public users are currently required to cover the administration fees for several administration platforms. This entails payments to 14 Trustees as well as 12 distinct scheme administration platforms.
             </p>
             </div>
             <div className="empfDescriptionContainer">
-            <p className="dot">•</p>
+            <p className="empfDot">•</p>
             <p className="empfGoalDescription" id="empfGoalDescription">
             Improve the user experience by providing a standardised, streamlined, and automated one-stop platform for creating a user interface that caters to three parties: the trustee, employer, and employee. This platform will incorporate tailored features for each of them, ensuring an optimised experience across the board.
             </p>
@@ -102,11 +103,11 @@ const EMPF = () => {
             </div>
 
             <div className="empfDesignContainer">
-            <div className="textContainer" id="empfDesignTextContaier">
-            <span className="title" id="empfDesignTitle">
+            <div className="empfTextContainer" id="empfDesignTextContaier">
+            <span className="empfTitle" id="empfDesignTitle">
             Design Process & Deliverables
             </span>
-            <p className="description" id="empfDesignDescription">
+            <p className="empfDescription" id="empfDesignDescription">
             Since our project is still an early-stage start-up,  our design & development are shared under the Adobe XD and Microsoft Team.
             </p>
             </div>  
@@ -120,7 +121,7 @@ const EMPF = () => {
             <img src={empfUIImg} alt="empfUIImg" className="empfUIImg" />
             </div>
             <div className="empfUIContainer">
-            <span className="title">User Interface</span>
+            <span className="empfTitle">User Interface</span>
             <p className="empfUIDescription">My design team and I work in collaboration with both users and business analysts to define user flows. We then create wireframes which serve as the initial blueprint for the design. 
             <br />
             <br />
@@ -129,11 +130,11 @@ const EMPF = () => {
             </div>
 
             <div className="empfDesignSystemContainer">
-            <div className="textContainer" id="empfDesignSystemTextContaier">
-            <span className="title" id="empfDesignSystemTitle">
+            <div className="empfTextContainer" id="empfDesignSystemTextContaier">
+            <span className="empfTitle" id="empfDesignSystemTitle">
             Designed with system
             </span>
-            <p className="description" id="empfDesignSystemDescription">
+            <p className="empfDescription" id="empfDesignSystemDescription">
             Defining all the basic elements in advance helped to design fast and consistent throughout the project. Style changes later on were easy to orchestrate.
             </p>
             <div className="empfDesignSystemBtnContainer">
@@ -152,11 +153,11 @@ const EMPF = () => {
             </div>
 
             <div className="empfDevelopmentContainer">
-            <div className="textContainer" id="empfDevelopmentTextContaier">
-            <span className="title" id="empfDevelopmentTitle">
+            <div className="empfTextContainer" id="empfDevelopmentTextContaier">
+            <span className="empfTitle" id="empfDevelopmentTitle">
             Front-end Development
             </span>
-            <p className="description" id="empfDevelopmentDescription">
+            <p className="empfDescription" id="empfDevelopmentDescription">
             Our team excels at transforming designs into seamless websites. We adhere to the best code practices in React to create a strong foundation for the project. With a focus on modularity, we leverage both the MUI library and Tailwind CSS to enhance our already consistent coding process. To ensure design and development consistency, we build customized theme systems for the library.
             </p>
             </div>
@@ -166,11 +167,11 @@ const EMPF = () => {
             </div>
 
             <div className="empfPrototypeContainer">
-            <div className="textContainer" id="empfPrototypeTextContaier">
-            <span className="title" id="empfPrototypeTitle">
+            <div className="empfTextContainer" id="empfPrototypeTextContaier">
+            <span className="empfTitle" id="empfPrototypeTitle">
             Current State
             </span>
-            <p className="description" id="empfPrototypeDescription">
+            <p className="empfDescription" id="empfPrototypeDescription">
             The platform is currently undergoing development, with users reviewing prototypes and offering constructive feedback to help fine-tune its functionality and elevate the user experience.
             </p>
             <div className="empfPrototypeBtnContainer">
@@ -189,8 +190,12 @@ const EMPF = () => {
             </div>
 
             <div className="actionProject">
+            <Link to="/muji" className="nav-link" >
             <LastBtn />
+            </Link>
+            <Link to="/motic" className="nav-link" >
             <NextBtn />
+            </Link>
             </div>
             
         </section>

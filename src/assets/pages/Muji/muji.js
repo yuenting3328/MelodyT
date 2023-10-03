@@ -12,9 +12,10 @@ import mujiUI3 from "../../images/muji ui3.png";
 import mujiUI4 from "../../images/muji ui4.png";
 import mujiUI5 from "../../images/muji ui5.png";
 import mujiPrototype1 from "../../images/muji prototype.gif";
-import mujiPrototype2 from "../../images/muji prototype img.png";
+// import mujiPrototype2 from "../../images/muji prototype img.png";
 import LastBtn from "../../components/LastBtn/lastBtn";
 import NextBtn from "../../components/NextBtn/nextBtn.js";
+import { Link } from "react-router-dom";
 const Muji = () =>{
     return (
         <section id="muji">
@@ -23,11 +24,11 @@ const Muji = () =>{
             </div>
         </div>
         <div className="mujiIntro">
-            <div className="porjectIntro">
+            <div className="mujiProjectIntro">
             <span className="introTitle">
             Muji Warmtle
             </span>
-            <p className="introDescription">
+            <p className="mujiIntroDescription">
             This project is focused on utilizing innovative design concepts to enhance a particular brand. Through research and comprehending the brand's history and message, I aim to suggest a Warmtle that aligns with the Muji's values. 
             <br/>
             <br/>
@@ -83,21 +84,21 @@ const Muji = () =>{
         <img src={mujiBackground} alt="mujiBackgroundImg" className="mujiBackgroundImg" />
     </div>
             <div className="mujiBackgroundTextContainer" id="mujiBackgroundTextContaier">
-            <span className="title" id="mujiBackgroundTitle">
+            <span className="mujiTitle" id="mujiBackgroundTitle">
             Research
             </span>
-            <p className="description" id="mujiBackgroundDescription">
+            <p className="mujiDescription" id="mujiBackgroundDescription">
             I have studied Gmail's design and find their user icon to be quite impressive, as it offers quick access to several key actions, including changing, managing, and adding another account. Additionally, Gmail has incorporated intuitive micro-interactions that guide users through the product in an effortless and intuitive way, making for a more seamless user experience.
             </p>
             </div>
     </div>
 
     <div className="mujiIdeaContainer">
-            <div className="textContainer" id="mujiideaTextContaier">
-            <span className="title" id="mujiideaTitle">
+            <div className="mujiTextContainer" id="mujiideaTextContaier">
+            <span className="mujiTitle" id="mujiideaTitle">
             The Idea
             </span>
-            <p className="description" id="mujiideaDescription">
+            <p className="mujiDescription" id="mujiideaDescription">
             Through the study of Muji's design and concept, it becomes evident that the brand not only advocates for simplicity and integration of design in daily life, but also remains grounded in its origins while looking towards the future. While Muji has successfully launched a wide array of daily use products, it has yet to break into the electronic product market. 
             <br/>
             <br/>
@@ -128,13 +129,27 @@ const Muji = () =>{
     </div>
     </div>
     </div>
-
+{/* 
     <div className="mujiProductDesignContainer">
-            <div className="textContainer" id="mujiProductDesignTextContaier">
-            <span className="title" id="mujiProductDesignTitle">
+            <div className="mujiTextContainer" id="mujiProductDesignTextContaier">
+            <span className="mujiTitle" id="mujiProductDesignTitle">
             Product Design
             </span>
-            <p className="description" id="mujiProductDesignDescription">
+            <p className="mujiDescription" id="mujiProductDesignDescription">
+            The innovative electronic keep warm bottle that can be controlled effortlessly using the Muji Warmtle App or simply by adjusting the temperature through its intuitive sensor template on the LED screen. The product boasts a sleek and functional design, derived from extensive research and interviews with public to ensure optimal performance and aesthetic appeal. By combining electronic components with MUJI's well-regarded water bottle design, created a versatile and efficient keep warm bottle that meets the needs of modern consumers.
+            </p>
+            </div>
+        <div className="imgContainer" id="mujiProductDesignImgContainer">
+        <img src={mujiProductDesign} alt="mujiProductDesignImg" className="mujiProductDesignImg" />
+    </div>
+    </div> */}
+
+    <div className="mujiProductDesignContainer">
+            <div className="mujiTextContainer" id="mujiProductDesignTextContaier">
+            <span className="mujiTitle" id="mujiProductDesignTitle">
+            Product Design
+            </span>
+            <p className="mujiDescription" id="mujiProductDesignDescription">
             The innovative electronic keep warm bottle that can be controlled effortlessly using the Muji Warmtle App or simply by adjusting the temperature through its intuitive sensor template on the LED screen. The product boasts a sleek and functional design, derived from extensive research and interviews with public to ensure optimal performance and aesthetic appeal. By combining electronic components with MUJI's well-regarded water bottle design, created a versatile and efficient keep warm bottle that meets the needs of modern consumers.
             </p>
             </div>
@@ -144,11 +159,11 @@ const Muji = () =>{
     </div>
 
     <div className="mujiUIContainer">
-            <div className="textContainer" id="mujiUITextContaier">
-            <span className="title" id="mujiUITitle">
+            <div className="mujiTextContainer" id="mujiUITextContaier">
+            <span className="mujiTitle" id="mujiUITitle">
             User Interface Design
             </span>
-            <p className="description" id="mujiUIDescription">
+            <p className="mujiDescription" id="mujiUIDescription">
             Connect the Warmtle device to the app via Bluetooth to effortlessly track your water and caffeine intake. Simply use the device to drink your water or coffee, and the data will be automatically recorded in the app. With five exciting features, users can easily stay on top of their hydration goals and enjoy the full benefits of this innovative app.
             </p>
             </div>
@@ -161,40 +176,35 @@ const Muji = () =>{
     </div>
     </div>
 
-    <div className="mujiProductDesignContainer">
-            <div className="textContainer" id="mujiProductDesignTextContaier">
-            <span className="title" id="mujiProductDesignTitle">
-            Product Design
-            </span>
-            <p className="description" id="mujiProductDesignDescription">
-            The innovative electronic keep warm bottle that can be controlled effortlessly using the Muji Warmtle App or simply by adjusting the temperature through its intuitive sensor template on the LED screen. The product boasts a sleek and functional design, derived from extensive research and interviews with public to ensure optimal performance and aesthetic appeal. By combining electronic components with MUJI's well-regarded water bottle design, created a versatile and efficient keep warm bottle that meets the needs of modern consumers.
-            </p>
-            </div>
-        <div className="imgContainer" id="mujiProductDesignImgContainer">
-        <img src={mujiProductDesign} alt="mujiProductDesignImg" className="mujiProductDesignImg" />
-    </div>
-    </div>
+
 
     <div className="mujiPrototypeContainer">
-            <div className="textContainer" id="mujiPrototypeTextContaier">
-            <span className="title" id="mujiPrototypeTitle">
-            User Interface Design
+            <div className="mujiTextContainer" id="mujiPrototypeTextContaier">
+            <span className="mujiTitle" id="mujiPrototypeTitle">
+            Prototype
             </span>
-            <p className="description" id="mujiPrototypeDescription">
-            Connect the Warmtle device to the app via Bluetooth to effortlessly track your water and caffeine intake. Simply use the device to drink your water or coffee, and the data will be automatically recorded in the app. With five exciting features, users can easily stay on top of their hydration goals and enjoy the full benefits of this innovative app.
+            <p className="mujiDescription" id="mujiPrototypeDescription">
+            The below prototypes is a crucial step in ensuring that my product operates as intended and effectively resolves your users' challenges. Furthermore, it provides me with valuable insights to refine my idea while it is still malleable and straightforward to implement modifications.
             </p>
             </div>
         <div className="mujiPrototypeImglist" id="mujiPrototypeImglist">
             <div className="mujiPrototypeGifContainer">
         <img src={mujiPrototype1} alt="mujiPrototypeImg1" className="mujiPrototypeGif" />
         </div>
-        <img src={mujiPrototype2} alt="mujiPrototypeImg2" className="mujiPrototypeImg" />
+        <div className="mujiPrototypeVideoContainer">
+        <iframe src="https://www.youtube.com/embed/q-BQCu92v50?si=Rl8EBMHtvnhdwGZu" title="mujiVideo" className="mujiVideo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        {/* <img src={mujiPrototype2} alt="mujiPrototypeImg2" className="mujiPrototypeImg" /> */}
     </div>
     </div>
 
     <div className="actionProject">
+    <Link to="/wings" className="nav-link" >
           <LastBtn />
+          </Link>
+          <Link to="/empf" className="nav-link" >
           <NextBtn />
+          </Link>
           </div>
         </section>
 

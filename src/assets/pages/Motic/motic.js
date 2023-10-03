@@ -12,6 +12,7 @@ import moticOutcome1 from "../../images/motic outcome1.png";
 import moticOutcome2 from "../../images/motic outcome2.png";
 import LastBtn from "../../components/LastBtn/lastBtn";
 import NextBtn from "../../components/NextBtn/nextBtn.js";
+import { Link } from "react-router-dom";
 const Motic = () => {
     return(
     <section id="motic">
@@ -20,11 +21,11 @@ const Motic = () => {
             </div>
         </div>
         <div className="moticIntro">
-            <div className="porjectIntro">
+            <div className="moticProjectIntro">
             <span className="introTitle">
             Motic America
             </span>
-            <p className="introDescription">
+            <p className="moticIntroDescription">
             Motic Microscopes is a leading expert in the field of microscopy, offering a comprehensive range of both conventional and digital solutions. With an eye towards the future, Motic recognizes the increasing importance of e-commerce and has therefore adopted digitalization as a core component of their sales strategy. 
             <br/>
             <br/>
@@ -74,7 +75,7 @@ const Motic = () => {
     </div>    
     </div>
         </div>
-    <div className="challengeContainer">
+    <div className="moticChallengeContainer">
     <div className="imgContainer" id="moticChallengeImgContainer">
         <img src={moticChallenge} alt="moticChallengeImg" className="moticChallengeImg" />
     </div>
@@ -82,11 +83,11 @@ const Motic = () => {
     <div className="sideContainer" id="moticChallengeContainer">
     <img src={moticChallengeImg2} alt="moticChallengeImg2" className="moticChallengeImg2" />
     <div className="moticTextContainer">
-    <span className="title" id="moticChallengeTitle">
+    <span className="moticTitle" id="moticChallengeTitle">
             The Problem
             </span>
-            <p className="description" id="moticChallengeDescription">
-            To help all users make full use of the account function shortcut, it's worth noting that some may not be familiar with switching accounts through the add heart icon on the home page. Additionally, some users may find it beneficial to spend time carefully reviewing and comprehending the information in the "My Cares" page.
+            <p className="moticSideDescription" id="moticChallengeDescription">
+            Motic, a reputable manufacturer of traditional microscopes, boasts an impressive range of products designed to appeal to various segments of the market. Nonetheless, the challenge for me is to create product documentation that is both visually appealing and easy to comprehend. How can I optimize their materials to reflect a captivating and stimulating brand image, captivating the interest of their intended audience?
             </p>
     </div>
     </div>
@@ -94,22 +95,23 @@ const Motic = () => {
 
     <div className="moticSolutionContainer">
     <div className="textContainer" id="moticSolutionTextContaier">
-            <span className="title" id="moticSolutionTitle">
+            <span className="moticTitle" id="moticSolutionTitle">
             The Solution
             </span>
-            <p className="description" id="moticSolutionDescription">
+            <p className="moticDescription" id="moticSolutionDescription">
             To effectively communicate Motic's value proposition - "Professional and cool" - through design, a video underwent several iterations. Ultimately, it was refined to maximize impact and convey the desired message. Further, this video was proposed for use in the website's design to capture the attention of the target customer base.
             </p>
             </div>
             <div className="videoOutsideContainer">
-            <div className="videoContainer">
-            <iframe src='https://www.youtube.com/watch?v=JcM0LgD1Ugk&t=5s'
+            <div className="moticVideoContainer">
+            {/* <iframe src='https://www.youtube.com/watch?v=JcM0LgD1Ugk&t=5s'
             frameborder='0'
             allow='autoplay; encrypted-media'
             allowfullscreen
             title='moticVideo'
             className="moticVideo"
-            />
+            /> */}
+            <iframe src="https://www.youtube.com/embed/JcM0LgD1Ugk?si=rGmepxlwGp231IP4" title="moticVideo" className="moticVideo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             {/* <video src={moticVideo} className="moticVideo" controls autoplay /> */}
             </div>
             <div className="moticImgRow">
@@ -121,10 +123,10 @@ const Motic = () => {
 
          <div className="moticDesignContainer">
     <div className="textContainer" id="moticDesignTextContaier">
-            <span className="title" id="moticDesignTitle">
+            <span className="moticTitle" id="moticDesignTitle">
             Design Process & Deliverables
             </span>
-            <p className="description" id="moticDesignDescription">
+            <p className="moticDescription" id="moticDesignDescription">
             After editing the appealing video, the project of creating the company website was initiated step by step. Discussions were held with colleagues from various regions to gather ideas from everyone involved.
             </p>
             </div>  
@@ -134,10 +136,10 @@ const Motic = () => {
         </div>
         <div className="moticWireframeContainer">
     <div className="textContainer" id="moticWireframeTextContaier">
-            <span className="title" id="moticWireframeTitle">
+            <span className="moticTitle" id="moticWireframeTitle">
             Wireframe
             </span>
-            <p className="description" id="moticWireframeDescription">
+            <p className="moticDescription" id="moticWireframeDescription">
             The design process started with a flowchart and a wireframe to have a complete overview of all features.In order to capture the interest of our target customers, we implemented four attention-grabbing action buttons beneath the video banner. Once viewers have reviewed our content, they are presented with several options to choose from, including the ability to request a demo, a quote, locate a dealer, or access technical support.
             </p>
             </div>  
@@ -149,10 +151,10 @@ const Motic = () => {
 
             <div className="moticOutcomeContainer">
     <div className="textContainer" id="moticOutcomeTextContaier">
-            <span className="title" id="moticOutcomeTitle">
+            <span className="moticTitle" id="moticOutcomeTitle">
             The Visual Merchandise Website
             </span>
-            <p className="description" id="moticOutcomeDescription">
+            <p className="moticDescription" id="moticOutcomeDescription">
             The visual design and development of the project was a collaborative effort between an internal team and myself. We worked together to review and refine the project, with the final editing completed using Shopify.
             </p>
             </div>  
@@ -162,8 +164,12 @@ const Motic = () => {
         </div>
             </div>   
             <div className="actionProject">
+            <Link to="/empf" className="nav-link" >
      <LastBtn />
+     </Link>
+     <Link to="/ha" className="nav-link" >
      <NextBtn />
+     </Link>
      </div>
     </section>
     )

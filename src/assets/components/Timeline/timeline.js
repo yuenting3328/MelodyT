@@ -28,7 +28,9 @@ const Timeline = () => {
                             </p>
                     </div>
                     <div className="btnContainer">
+                    <a href="#eIP">
                     <LearnBtn />
+                    </a>
                     </div>
                 </div>
                 </div>
@@ -63,7 +65,9 @@ const Timeline = () => {
                             </p>
                     </div>
                     <div className="btnContainer">
+                    <a href="#nextGen">
                     <LearnBtn />
+                    </a>
                     </div>
                 </div>
            </div>

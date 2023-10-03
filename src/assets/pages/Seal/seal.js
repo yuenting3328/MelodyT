@@ -9,6 +9,7 @@ import sealWork2 from "../../images/seal work2.png";
 import sealWork3 from "../../images/seal work3.png";
 import sealWork4 from "../../images/seal work4.png";
 import sealWork5 from "../../images/seal work5.png";
+import { Link } from "react-router-dom";
 const Seal = () => {
     return(
         <section id="seal">
@@ -62,8 +63,12 @@ The design is first sketched on paper, and then engraved on stone, in reverse, w
     </div>
 </div>
         <div className="actionProject">
+        <Link to="/installation" className="nav-link" >
      <LastBtn />
+     </Link>
+     <Link to="/experience" className="nav-link" >
      <NextBtn />
+     </Link>
      </div>
      </section>
     )

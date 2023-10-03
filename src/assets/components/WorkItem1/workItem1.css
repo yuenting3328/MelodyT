@@ -244,18 +244,18 @@ html, body {
     #frame {
         width: 375px;
         display: flex;
-        height: 880px;
+        height: 900px;
         margin-bottom: 70px;
+        margin-top: 0;
     }
 
     .workIntro1{
-        display: flex;
+        display: relative;
         flex-direction: column;
         justify-items: center;
         width: 340px;
-        margin-top: 200px;
-        margin-left:50px;
-        
+        margin-top: 300px;
+        margin-left:45px;
         padding: 0;
   
         
@@ -293,7 +293,7 @@ html, body {
     }
     
     .workDescrption{
-        width: 250px;
+        width: 290px;
         font-size: 0.8rem;
         line-height: 1.6rem;
        

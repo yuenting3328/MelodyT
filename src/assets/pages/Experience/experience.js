@@ -5,7 +5,7 @@ import NextBtn from "../../components/NextBtn/nextBtn.js";
 import experienceConceptImg from "../../images/experience concept.png";
 import experienceDesignImg from "../../images/experience design.png";
 // import experienceVideo from "../../video/Music Bracelets.mp4";
-
+import { Link } from "react-router-dom";
 const Experience = () => {
     return(
         <section id="experience">
@@ -58,8 +58,12 @@ const Experience = () => {
 </div>
 </div>
 <div className="actionProject">
+<Link to="/seal" className="nav-link" >
      <LastBtn />
+     </Link>
+     <Link to="/installation" className="nav-link" >
      <NextBtn />
+     </Link>
      </div>
      </section>
     )

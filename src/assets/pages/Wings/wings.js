@@ -5,6 +5,7 @@ import NextGen from "../NextGen/nextGen.js";
 import EIP from "../../pages/eIP/eip.js";
 import LastBtn from "../../components/LastBtn/lastBtn";
 import NextBtn from "../../components/NextBtn/nextBtn.js";
+import { Link } from "react-router-dom";
 
 const WINGS = () => {
     return (
@@ -14,11 +15,11 @@ const WINGS = () => {
                 </div>
             </div>
             <div className="wingsIntro">
-                <div className="porjectIntro">
+                <div className="projectIntro">
                 <span className="introTitle">
                 WINGS
                 </span>
-                <p className="introDescription">
+                <p className="wingsIntroDescription">
                 The Securities and Futures Commission (SFC) of Hong Kong is the independent statutory body charged with regulating the securities and futures markets in Hong Kong. The SFC is responsible for fostering an orderly securities and futures markets, to protect investors and to help promote Hong Kong as an international financial centre .
                 <br/>
                 <br/>
@@ -73,11 +74,19 @@ const WINGS = () => {
             <div className="timelineContainer">
                 <Timeline />
             </div>
+            <section id="nextGen">
             <NextGen />
+            </section>
+            <section id="eIP">
             <EIP />
+            </section>
             <div className="actionProject">
+            <Link to="/ha" className="nav-link" >
      <LastBtn />
+     </Link>
+     <Link to="/muji" className="nav-link" >
      <NextBtn />
+     </Link>
      </div>
         </section>
 

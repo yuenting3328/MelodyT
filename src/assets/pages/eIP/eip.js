@@ -89,10 +89,11 @@ const EIP = () => {
             e-IP Project
             </span>
             <span className="title" id="eIPDesignTitle">
-            Design
+            Working within a design system
             </span>
             <p className="description" id="eIPDesignDescription">
             Once the wireframes are complete, I seek client approval before proceeding to build a UI Library in Figma. The library allows for the systematic maintenance of design objects and attributes, enabling me to reuse UI components and styles at scale. After gaining client approval of the wireframe, I begin preparing the soft consultation material by converting the wireframe to a mockup using the UI Library. 
+
             </p>
             </div>
             <div className="imgContainer" id="eIPDesignImgContainer">
@@ -114,7 +115,7 @@ const EIP = () => {
             <br/>
             It's essential to test the interface with real users before moving on to the development stage to identify any areas for improvement. This feedback from the user's point of view can save time and resources, resulting in a better final product. By implementing revisions based on user testing, we can ensure a more seamless and successful launch.
             </p>
-            <div className="eIPBtnContainer">
+            {/* <div className="eIPBtnContainer">
             <a
             className="link"
             href="https://www.figma.com/proto/3Tl3FKPSoyY8Yh9YBNv00Y/%5BSFC-e-IP%5D-Soft-Consultation-v1.0-20230522?page-id=58%3A76791&type=design&node-id=1-372503&viewport=578%2C-601%2C0.02&t=YGPxfY2hruTDkd9r-1&scaling=scale-down&starting-point-node-id=1%3A372503&mode=design"
@@ -122,7 +123,7 @@ const EIP = () => {
             target="_blank"
             > <LearnBtn />
             </a>
-            </div>
+            </div> */}
             </div>
             <div className="eIPPrototypeimgContainer" id="eIPPrototypeImgContainer">
             <img src={eIPPrototype} alt="eIPPrototypeImg" className="eIPPrototypeImg" />

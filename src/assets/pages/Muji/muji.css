@@ -63,7 +63,7 @@ body {
  
 }
 
-.projectIntro{
+.mujiProjectIntro{
     width: 630px;
     gap: 40px;
     display: flex;
@@ -79,12 +79,12 @@ body {
     line-height: 150%;
 }
 
-.introDescription{
-    font-size: 1.25rem;
+p.introDescription{
+    font-size: 18px;
     font-family: "PlusJakartaSans-Regular";
     color:#061736;
     line-height: 150%;
-    width: 680px;
+    width: 630px;
 }
 
 .projectInfo{
@@ -141,15 +141,15 @@ body {
     gap:14px;
   }
   
-  .title{
+  .mujiTitle{
       font-family: "PlusJakartaSans-Bold";
       font-size: 1.75rem ;
       color: #061736;
       line-height: 150%;
   }
   
-  .description{
-      font-size: 1.25rem;
+  .mujiDescription{
+      font-size: 18px;
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 150%;
@@ -181,7 +181,7 @@ body {
 
 }
 
-  .textContainer{
+  .mujiTextContainer{
     display: flex;
     flex-direction: column;
     padding: 0 182.5px 60px;
@@ -258,7 +258,7 @@ body {
 }
 
 .mujiOutcomeDescription{
-    font-size: 1.25rem;
+    font-size: 18px;
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 28px;
@@ -333,16 +333,36 @@ img.mujiProductDesignImg{
     justify-content: center;
     padding: 82px 502px ;
     margin: 0;
-    color: #f5f5f5;
+    background-color: #f5f5f5;
   }
 
   img.mujiPrototypeGif{
     height:520px;
+    filter: drop-shadow(0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.3));
+
   }
 
-img.mujiPrototypeImg{
-    width: 1296px;
+  .mujiPrototypeVideoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 255.5px 96px 255.5px;
+ background-color: #f5f5f5;
+    margin:0;
+    
 }
+
+iframe.mujiVideo {
+ width: 785px;
+ height: 491px;
+ filter: drop-shadow(0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.3));
+ padding: 0;
+ margin: 0;
+}
+/* img.mujiPrototypeImg{
+    width: 1296px;
+} */
 
 .actionProject{
     display: flex;
@@ -351,4 +371,597 @@ img.mujiPrototypeImg{
     padding-right: 4.5rem;
     padding-bottom: 6rem;
     justify-content: space-between;
+}
+
+@media screen and (max-width:768px) {
+  #muji {
+    width: 768px;
+
+}
+
+#muji .overlap-group-wrapper {
+    background-color: #ffffff;
+    height: fit-content;
+    width: 768px;
+    }
+
+    #muji .overlap-group {
+    background-image: url(../../images/muji\ banner\ ipad.png);
+    background-size: 100% 100%;
+    height: 876px;
+    width:768px;
+    z-index: -1;
+    }
+    
+.mujiIntro {
+  padding: 52px 80px;
+  display: flex;
+  flex-direction: row;
+  background-color: #F4FBFF;
+  gap:67px;
+ 
+}
+
+.mujiProjectIntro{
+    width: 331px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.introTitle{
+    font-size: 2.5rem;
+    font-family: "PlusJakartaSans-Bold";
+    color: #163279;
+    line-height: 150%;
+}
+
+p.mujiIntroDescription{
+    font-size: 18px;
+    font-family: "PlusJakartaSans-Regular";
+    color:#061736;
+    line-height: 150%;
+    width: 331px;
+}
+
+.projectInfo{
+    width: 210px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.infoRow{
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+}
+
+.infoTitle{
+    font-size: 1.375rem;
+    font-family: "PlusJakartaSans-Medium";
+    color:#061736;
+    line-height: 150%;
+    margin:0;
+}
+
+.infoDescription{
+    font-size: 1rem;
+    font-family: "PlusJakartaSans-Light";
+    color:#636871;
+    line-height: 28px;
+    margin:0;
+}
+
+.mujiBackgroundContainer{
+    width: 768px;
+    padding-top: 110px;
+    padding-bottom: 220px;
+    justify-content: center;
+  
+  }
+  
+  .mujiBackgroundTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px 0;
+    width:708px;
+    justify-content: center;
+    gap:14px;
+  }
+  
+  .mujiTitle{
+      font-family: "PlusJakartaSans-Bold";
+      font-size: 1.75rem ;
+      color: #061736;
+      line-height: 150%;
+  }
+  
+  .mujiDescription{
+      font-size: 18px;
+      font-family: "PlusJakartaSans-Regular";
+      color:#474A58;
+      line-height: 150%;
+      width:708px;
+      margin:0;
+  }
+  
+  .imgContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      padding-bottom: 60px;
+      
+  }
+  
+  img.mujiBackgroundImg{
+    width:708px;
+    padding:0 30px;
+  }
+
+.mujiIdeaContainer{
+    width: 768px;
+    padding-bottom: 220px;
+    justify-content: center;
+
+}
+
+  .mujiTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 60px;
+    width:708px;
+    justify-content: center;
+    gap:14px;
+  }
+
+  .mujiOutcomeContainer{
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    row-gap: 18px;
+    justify-content: center;
+  }
+
+  .mujiOutcomeImgContainer{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+    row-gap: 28px;
+    padding: 0 30px 0 30px;
+  }
+
+  img.mujiOutcomeImg{
+    width:708px;
+  }
+
+  .mujiOutcomelImgRow{
+    gap: 28px;
+    padding: 0 30px 0 30px;
+  }
+
+.mujiOutcomeItem{
+    width:340px;
+  }
+
+  .mujiOutcomeSideContainer{
+    gap:28px;
+    padding: 0 30px 0 30px;
+    margin: 0;
+  }
+
+  .mujiOutcomeSideImgContainer{
+    align-items: left;
+    padding-right: 0;
+  }
+
+  img.mujiOutcomeImg4{
+    width:340px;
+  }
+
+.mujiOutcomeSideTextContainer{
+    display: flex;
+    flex-direction: column;
+    width:340px;
+    justify-content: center;
+    gap:14px;
+    padding-right: 0;
+}
+
+.mujiOutcomeDescription{
+    font-size: 18px;
+    font-family: "PlusJakartaSans-Regular";
+    color:#474A58;
+    line-height: 150%;
+    width:340px;
+    margin:0;
+}
+
+.mujiProductDesignContainer{
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    
+}
+ 
+img.mujiProductDesignImg{
+    width:708px;
+    padding:0 30px;
+  }
+
+  .mujiUIContainer{
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 220px;
+    justify-content: center;
+  }
+
+  .mujiUIImglist{
+    gap: 60px;
+    padding: 0 30px 0 30px;
+  }
+
+  .mujiUIImg{
+    width: 708px;
+  }
+
+  .mujiPrototypeContainer{
+    width: 768px;
+    padding-bottom: 220px;
+    justify-content: center;
+  }
+
+  .mujiPrototypeImglist{
+    gap: 60px;
+    padding: 0 30px 0 30px;
+  }
+
+  .mujiPrototypeGifContainer{
+    display: flex;
+    justify-content: center;
+    padding: 75px 205px ;
+    margin: 0;
+    background-color: #f5f5f5;
+  }
+
+  img.mujiPrototypeGif{
+    width:292px;
+    height:519px;
+  }
+
+  .mujiPrototypeVideoContainer{
+    padding: 76px 60px;
+ background-color: #f5f5f5;
+    margin:0;
+    
+}
+
+iframe.mujiVideo {
+  width: 588px;
+  height: 367px;
+}
+/* img.mujiPrototypeImg{
+    width: 1296px;
+} */
+
+.actionProject{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 6rem;
+    justify-content: space-between;
+}
+}
+@media screen and (max-width:375px) {
+  #muji {
+    width: 375px;
+
+}
+
+#muji .overlap-group-wrapper {
+    background-color: #ffffff;
+    height: fit-content;
+    width: 375px;
+    }
+
+    #muji .overlap-group {
+    background-image: url(../../images/muji\ banner\ ipad.png);
+    background-size: 100% 100%;
+    height: 427px;
+    width:375px;
+    z-index: -1;
+    }
+    
+.mujiIntro {
+  padding: 25px 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: #F4FBFF;
+  gap:32px;
+ 
+}
+
+.mujiProjectIntro{
+    width: 161px;
+    gap: 20px;
+}
+
+.introTitle{
+    font-size: 20px;
+    font-family: "PlusJakartaSans-Bold";
+    color: #163279;
+    line-height: 150%;
+}
+
+p.mujiIntroDescription{
+    font-size: 10px;
+    font-family: "PlusJakartaSans-Regular";
+    color:#061736;
+    line-height: 150%;
+    width: 161px;
+}
+
+.projectInfo{
+    width: 102px;
+    gap: 14px;
+}
+
+.infoRow{
+    gap: 3px;
+
+}
+
+.infoTitle{
+    font-size: 10px;
+    font-family: "PlusJakartaSans-Medium";
+    color:#061736;
+    line-height: 150%;
+    margin:0;
+}
+
+.infoDescription{
+    font-size: 10px;
+    font-family: "PlusJakartaSans-Light";
+    color:#636871;
+    line-height: 150%;
+    margin:0;
+}
+
+.mujiBackgroundContainer{
+    width: 375px;
+    padding-top: 55px;
+    padding-bottom: 110px;
+    justify-content: center;
+  
+  }
+  
+  .mujiBackgroundTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 16px 0;
+    width:343px;
+    justify-content: center;
+    gap:10px;
+  }
+  
+  .mujiTitle{
+      font-family: "PlusJakartaSans-Bold";
+      font-size: 14px ;
+      color: #061736;
+      line-height: 150%;
+  }
+  
+  .mujiDescription{
+      font-size: 10px;
+      font-family: "PlusJakartaSans-Regular";
+      color:#474A58;
+      line-height: 150%;
+      width:343px;
+      margin:0;
+  }
+  
+  .imgContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+      padding-bottom: 30px;
+      
+  }
+  
+  img.mujiBackgroundImg{
+    width:343px;
+    padding:0 16px;
+  }
+
+.mujiIdeaContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+
+}
+
+  .mujiTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px 30px;
+    width:343px;
+    justify-content: center;
+    gap:10px;
+  }
+
+  .mujiOutcomeContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    row-gap: 12px;
+    justify-content: center;
+  }
+
+  .mujiOutcomeImgContainer{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+    row-gap: 12px;
+    padding: 0 16px 0 16px;
+  }
+
+  img.mujiOutcomeImg{
+    width:343px;
+  }
+
+  .mujiOutcomelImgRow{
+    gap: 12px;
+    padding: 0 16px 0 16px;
+  }
+
+.mujiOutcomeItem{
+    width:164px;
+  }
+
+  .mujiOutcomeSideContainer{
+    gap:12px;
+    padding: 0 16px 0 16px;
+    margin: 0;
+  }
+
+  .mujiOutcomeSideImgContainer{
+    align-items: left;
+    padding-right: 0;
+  }
+
+  img.mujiOutcomeImg4{
+    width:164px;
+  }
+
+.mujiOutcomeSideTextContainer{
+    display: flex;
+    flex-direction: column;
+    width:164px;
+    justify-content: center;
+    gap:10px;
+    padding-right: 0;
+}
+
+span#mujiOutcomeTitle{
+  font-size:14px;
+  font-family: "PlusJakartaSans-Bold";
+}
+
+.mujiOutcomeDescription{
+    font-size: 10px;
+    font-family: "PlusJakartaSans-Regular";
+    color:#474A58;
+    line-height: 150%;
+    width:164px;
+    margin:0;
+}
+
+.mujiProductDesignContainer{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 110px;
+    justify-content: center;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    
+}
+ 
+img.mujiProductDesignImg{
+    width:343px;
+    padding:0 16px;
+  }
+
+  .mujiUIContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+  }
+
+  .mujiUIImglist{
+    gap: 30px;
+    padding: 0 16px 0 16px;
+  }
+
+  .mujiUIImg{
+    width: 343px;
+  }
+
+  .mujiPrototypeContainer{
+    width: 375px;
+    padding-bottom: 110px;
+    justify-content: center;
+  }
+
+  .mujiPrototypeImglist{
+    gap: 30px;
+    padding: 0 16px 0 16px;
+  }
+
+  .mujiPrototypeGifContainer{
+    display: flex;
+    justify-content: center;
+    padding: 36px 100px ;
+    margin: 0;
+    background-color: #f5f5f5;
+  }
+
+  img.mujiPrototypeGif{
+    width:141px;
+    height:251px;
+  }
+
+  .mujiPrototypeVideoContainer{
+    padding: 36px 29px;
+ background-color: #f5f5f5;
+    margin:0;
+    
+}
+
+iframe.mujiVideo {
+  width: 284px;
+ height: 177px;
+
+
+}
+/* img.mujiPrototypeImg{
+    width: 1296px;
+} */
+
+div.actionProject {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 55px;
+    justify-content: space-between;
+}
 }

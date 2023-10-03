@@ -7,6 +7,7 @@ import installationConceptImg from "../../images/installation concept.png";
 import installationWork from '../../images/installation outcome.png';
 import installationWork1 from "../../images/installation outcome side 1.png";
 import installationWork2 from "../../images/installation outcome side 2.png";
+import { Link } from "react-router-dom";
 const Installation = () => {
     return (
         <section id="installation">
@@ -51,8 +52,12 @@ const Installation = () => {
 </div>
 </div>
      <div className="actionProject">
+     <Link to="/experience" className="nav-link" >
   <LastBtn />
+  </Link>
+  <Link to="/seal" className="nav-link" >
   <NextBtn />
+  </Link>
   </div>
   </section>
 
