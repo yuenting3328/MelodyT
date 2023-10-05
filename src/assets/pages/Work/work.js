@@ -6,7 +6,7 @@ import WorkItem2 from "../../components/WorkItem2/workItem2.js";
 import WorkItem3 from "../../components/WorkItem3/workItem3.js";
 import WorkItem4 from "../../components/WorkItem4/workItem4.js";
 import WorkItem5 from "../../components/WorkItem5/workItem5.js";
-import Typewriter from "../../components/TypeWriter/typeWriter.js";
+// import Typewriter from "../../components/TypeWriter/typeWriter.js";
 
 
 const Work = () => {
@@ -16,7 +16,7 @@ const Work = () => {
                 <span className="Hello">Hi there! I’m</span>
                 <span className="selfIntroName">Melody Tse
                 </span>
-                <span className="selfIntroTitle"> a &nbsp; <Typewriter strings="UX/UI Designer" delay={300} infinite /></span>
+                <span className="selfIntroTitle"> a UX/UI Designer</span>
                 <span className="selfIntroLocation">based in Toronto, Canada
                 </span>
                 <p className="selfIntroPara">I strive to create digital products and websites that meet both business objectives and human needs. I stay curious to uncover valuable insights to enhance the design.</p>
@@ -34,6 +34,8 @@ const Work = () => {
         <section id="workItem4"><WorkItem4 /></section>
         <section id="workItem5"><WorkItem5 /></section>
         </>
+
+// &nbsp; <Typewriter strings="UX/UI Designer" delay={300} infinite />
     )
 }
 

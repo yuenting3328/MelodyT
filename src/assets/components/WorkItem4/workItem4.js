@@ -1,13 +1,13 @@
 import React from "react";
 import '../WorkItem1/workItem1.css';
-import motic from '../../images/motic.png';
+import motic from '../../images/motic1.png';
 import {Link} from 'react-router-dom';
 
 const WorkItem4 = () => {
     return(
         <section id="frame">
             <div className="workIntro1">
-        <span className="number1">4</span>
+        {/* <span className="number1">4</span> */}
         <span className="project1">Motic America</span>
         <p className="workTime">Motic Hong Kong Limited  |  December 2020</p>
         <p className="workDescrption">

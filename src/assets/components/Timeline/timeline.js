@@ -17,7 +17,7 @@ const Timeline = () => {
                     <div className="eipProjectTextContainer">
                         <div className="eipProjecTitleContainer">
                             <span className="yearTitle">
-                                2023
+                                2022 - 2023
                             </span>
                             <span className="sfcProjectTitle">
                             e-Investment Products Project
@@ -54,7 +54,7 @@ const Timeline = () => {
                     <div className="nextGenProjectTextContainer">
                         <div className="nextGenProjecTitleContainer">
                             <span className="yearTitle">
-                                2022
+                                2021- 2022
                             </span>
                             <span className="sfcProjectTitle">
                             Next Generation Project

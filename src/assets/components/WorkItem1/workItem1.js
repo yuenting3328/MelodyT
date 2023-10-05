@@ -1,6 +1,6 @@
 import React from "react";
 import './workItem1.css';
-import sfc from '../../images/SFC.png';
+import sfc from '../../images/sfc1.gif';
 import {Link} from 'react-router-dom';
 
 
@@ -8,8 +8,9 @@ const WorkItem1 = () => {
 
     return(
         <section id="frame">
+            <div class="sfcGlassContainer">
             <div className="workIntro1">
-        <span className="number1">1</span>
+        {/* <span className="number1">1</span> */}
         <span className="project1">WINGS</span>
         <p className="workTime">SFC  |  June 2023</p>
         <p className="workDescrption">
@@ -48,6 +49,7 @@ const WorkItem1 = () => {
         </div>
         </div>
         <img className="SFC" alt="Sfc" src={sfc} />
+        </div>
         </section>
     )
 }

@@ -32,34 +32,34 @@ const EMPF = () => {
                 <div className="projectInfo">
                 <div className="infoRow">
                     <span className="infoTitle">
-                    Date
+                    Role
                     </span>
                     <p className="infoDescription">
-                    August 2022
+                    UI Designer & UI Developer
                     </p>
                 </div>
                 <div className="infoRow">
             <span className="infoTitle">
-            Client
+            Duration
             </span>
             <p className="infoDescription">
-            Mandatory Provident Fund Schemes Authority
+            9 months
             </p>
         </div>
         <div className="infoRow">
             <span className="infoTitle">
-            My role
+            Tools
             </span>
             <p className="infoDescription">
-            UI Designer & UI Developer
+            Adobe XD, MUI library, Github, React
             </p>
         </div>
         <div className="infoRow">
             <span className="infoTitle">
-            What I did?
+            Team
             </span>
             <p className="infoDescription">
-            UI Design, Prototype, Front-end Development
+            eMPF Design Team & Tech Team
             </p>
         </div>
         <div className="infoRow">

@@ -18,6 +18,7 @@ import Experience from "./assets/pages/Experience/experience.js";
 import Installation from "./assets/pages/Installation/installation.js";
 import ScrollButton from "./assets/components/ScrollBtn/scrollBtn.js"
 import { Fragment } from 'react';
+
 function App() {
   return (
     
@@ -72,5 +73,60 @@ function App() {
     </Router>
   );
 }
+
+// function App() {
+//   return (
+    
+//     <Router>
+//       <AnimCursor />
+//       <Fragment>
+//     <div className="App">
+//     <ScrollButton/>
+//     <ScrollToTop/>
+   
+//     {/* <NavBar /> */}
+//     <div className='content'>
+//       <Switch>
+//         <Route exact path="/" > 
+//          <Work />
+//         </Route>
+//         <Route path="/about"> 
+//          <About />
+//         </Route>
+//         <Route path="/fun"> 
+//          <Fun />
+//         </Route>
+//         <Route path="/wings"> 
+//          <WINGS />
+//         </Route>
+//         <Route path="/muji"> 
+//          <Muji />
+//         </Route>
+//         <Route path="/motic"> 
+//          <Motic />
+//         </Route>
+//         <Route path="/empf"> 
+//          <EMPF />
+//         </Route>
+//         <Route path="/ha"> 
+//          <HA />
+//         </Route>
+//         <Route path="/seal"> 
+//          <Seal />
+//         </Route>
+//         <Route path="/experience"> 
+//          <Experience />
+//         </Route>
+//         <Route path="/installation"> 
+//          <Installation />
+//         </Route>
+//       </Switch>
+//     </div>
+//     <Footer /> 
+//     </div>
+//     </Fragment>
+//     </Router>
+//   );
+// }
 
 export default App;

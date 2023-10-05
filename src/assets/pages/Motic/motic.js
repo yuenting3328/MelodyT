@@ -35,34 +35,34 @@ const Motic = () => {
             <div className="projectInfo">
             <div className="infoRow">
                 <span className="infoTitle">
-                Date
+                Role
                 </span>
                 <p className="infoDescription">
-                March 2020
+                Branding & Website Designer
                 </p>
             </div>
             <div className="infoRow">
         <span className="infoTitle">
-        Client
+        Duration
         </span>
         <p className="infoDescription">
-        Motic Hong Kong Limited   
+        1 year  
         </p>
     </div>
     <div className="infoRow">
         <span className="infoTitle">
-        My role
+        Tools
         </span>
         <p className="infoDescription">
-        Website & Graphic Designer
+        Shopify, Adobe Premiere Pro, Adobe Illustrator, Adobe Photoshop
         </p>
     </div>
     <div className="infoRow">
         <span className="infoTitle">
-        What I did?
+        Team
         </span>
         <p className="infoDescription">
-        Branding, Website Design
+        General Menager, China & North America Design Team
         </p>
     </div>
     <div className="infoRow">

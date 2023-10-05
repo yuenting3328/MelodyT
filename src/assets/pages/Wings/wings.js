@@ -6,7 +6,6 @@ import EIP from "../../pages/eIP/eip.js";
 import LastBtn from "../../components/LastBtn/lastBtn";
 import NextBtn from "../../components/NextBtn/nextBtn.js";
 import { Link } from "react-router-dom";
-
 const WINGS = () => {
     return (
         <section id="wings">
@@ -29,34 +28,34 @@ const WINGS = () => {
                 <div className="projectInfo">
                 <div className="infoRow">
                     <span className="infoTitle">
-                    Date
+                    Role
                     </span>
                     <p className="infoDescription">
-                    June 2023
+                    UX/UI Designer
                     </p>
                 </div>
                 <div className="infoRow">
             <span className="infoTitle">
-            Client
+            Duration
             </span>
             <p className="infoDescription">
-            Securities and Futures Commission
+            2021, 2022, 2023
             </p>
         </div>
         <div className="infoRow">
             <span className="infoTitle">
-            My role
+            Tools
             </span>
             <p className="infoDescription">
-            UX/UI Designer
+            Figma, Final Cut Pro, Draw.io
             </p>
         </div>
         <div className="infoRow">
             <span className="infoTitle">
-            What I did?
+            Team
             </span>
             <p className="infoDescription">
-            UX/UI Design, Video Editing
+            SFC Tech Team, Vendor's Design Team & Tech Team
             </p>
         </div>
         <div className="infoRow">

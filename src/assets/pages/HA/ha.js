@@ -25,34 +25,34 @@ const HA = () => {
             </div>  <div className="projectInfo">
             <div className="infoRow">
                 <span className="infoTitle">
-                Date
+                Role
                 </span>
                 <p className="infoDescription">
-                June 2021
+                UX/UI Designer
                 </p>
             </div>
             <div className="infoRow">
         <span className="infoTitle">
-        Client
+        Duration
         </span>
         <p className="infoDescription">
-        Hospital Authority    
+        3 months 
         </p>
     </div>
     <div className="infoRow">
         <span className="infoTitle">
-        My role
+        Tools
         </span>
         <p className="infoDescription">
-        UX/UI Designer  
+        Sketch, Adobe Illustrator  
         </p>
     </div>
     <div className="infoRow">
         <span className="infoTitle">
-        What I did?
+        Team
         </span>
         <p className="infoDescription">
-        Research, UX & UI  Design   
+        PCCW Solution Design Team 
         </p>
     </div>
     <div className="infoRow">

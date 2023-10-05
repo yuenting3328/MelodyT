@@ -15,7 +15,6 @@ body {
 
 #seal {
     height:(100vh - 4rem);
-    width: 90rem;
     margin: 0;
     /* padding-bottom: 4rem; */
     overflow: hidden;
@@ -34,10 +33,84 @@ body {
     #seal .overlap-group {
     background-image: url(../../images/seal\ banner.png);
     background-size: 100% 100%;
-    height: 876px;
+    height: 100vh;
+    width: 100vw;
     z-index: -1;
+    animation-delay: 3s; 
+    -webkit-animation: fadeInFromNone 3s ease-out;
+      -moz-animation: fadeInFromNone 3s ease-out;
+      -o-animation: fadeInFromNone 3s ease-out;
+      animation: fadeInFromNone 3s ease-out;
     }
     
+    @-webkit-keyframes fadeInFromNone {
+        0% {
+            display: none;
+            opacity: 0;
+        }
+      
+        1% {
+            display: block;
+            opacity: 0;
+        }
+      
+        100% {
+            display: block;
+            opacity: 1;
+        }
+      }
+      
+      @-moz-keyframes fadeInFromNone {
+        0% {
+            display: none;
+            opacity: 0;
+        }
+      
+        1% {
+            display: block;
+            opacity: 0;
+        }
+      
+        100% {
+            display: block;
+            opacity: 1;
+        }
+      }
+      
+      @-o-keyframes fadeInFromNone {
+        0% {
+            display: none;
+            opacity: 0;
+        }
+      
+        1% {
+            display: block;
+            opacity: 0;
+        }
+      
+        100% {
+            display: block;
+            opacity: 1;
+        }
+      }
+      
+      @keyframes fadeInFromNone {
+        0% {
+            display: none;
+            opacity: 0;
+        }
+      
+        1% {
+            display: block;
+            opacity: 0;
+        }
+      
+        100% {
+            display: block;
+            opacity: 1;
+        }
+      }
+
 .sealIntro {
   padding: 3.25rem 8.75rem 3.25rem 8.75rem;
   display: flex;
@@ -45,6 +118,7 @@ body {
   background-color: #F4FBFF;
   gap: 30px;
 }
+
 
 .introTitle{
     font-size: 2.5rem;
@@ -182,14 +256,15 @@ img.sealWorkItem{
     }
     
     #seal .overlap-group-wrapper {
-        height: 875px;
+        height: 100vh;
         width: 100vw;
         }
     
         #seal .overlap-group {
         background-image: url(../../images/seal\ banner\ ipad.png);
         background-size: 100% 100%;
-        height: 875px;
+        height:100vh;
+        width: 100vw;
         z-index: -1;
         }
         
@@ -323,6 +398,8 @@ img.sealWorkItem{
     }
     
 }
+
+
 
 @media screen and (max-width:375px) {
     #seal {

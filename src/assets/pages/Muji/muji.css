@@ -30,7 +30,6 @@ body {
 
 #muji {
     height:(100vh - 4rem);
-    width: 90rem;
     margin: 0;
     /* padding-bottom: 4rem; */
     overflow: hidden;
@@ -49,11 +48,83 @@ body {
     #muji .overlap-group {
     background-image: url(../../images/muji\ banner.png);
     background-size: 100% 100%;
-    height: 876px;
-    width:1440px;
+    height: 100%;
+    width: 100%;
     z-index: -1;
+    animation-delay: 3s; 
+    -webkit-animation: fadeInFromNone 3s ease-out;
+      -moz-animation: fadeInFromNone 3s ease-out;
+      -o-animation: fadeInFromNone 3s ease-out;
+      animation: fadeInFromNone 3s ease-out;
     }
     
+    @-webkit-keyframes fadeInFromNone {
+      0% {
+          display: none;
+          opacity: 0;
+      }
+    
+      1% {
+          display: block;
+          opacity: 0;
+      }
+    
+      100% {
+          display: block;
+          opacity: 1;
+      }
+    }
+    
+    @-moz-keyframes fadeInFromNone {
+      0% {
+          display: none;
+          opacity: 0;
+      }
+    
+      1% {
+          display: block;
+          opacity: 0;
+      }
+    
+      100% {
+          display: block;
+          opacity: 1;
+      }
+    }
+    
+    @-o-keyframes fadeInFromNone {
+      0% {
+          display: none;
+          opacity: 0;
+      }
+    
+      1% {
+          display: block;
+          opacity: 0;
+      }
+    
+      100% {
+          display: block;
+          opacity: 1;
+      }
+    }
+    
+    @keyframes fadeInFromNone {
+      0% {
+          display: none;
+          opacity: 0;
+      }
+    
+      1% {
+          display: block;
+          opacity: 0;
+      }
+    
+      100% {
+          display: block;
+          opacity: 1;
+      }
+    }
 .mujiIntro {
   padding: 3.25rem 11.406rem 3.25rem 11.406rem;
   display: flex;
@@ -79,7 +150,7 @@ body {
     line-height: 150%;
 }
 
-p.introDescription{
+p.mujiIntroDescription{
     font-size: 18px;
     font-family: "PlusJakartaSans-Regular";
     color:#061736;

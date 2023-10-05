@@ -1,13 +1,13 @@
 import React from "react";
 import '../WorkItem1/workItem1.css';
-import muji from '../../images/muji.png';
+import muji from '../../images/muji.gif';
 import { Link } from "react-router-dom";
 
 const WorkItem2 = () => {
     return(
         <section id="frame">
             <div className="workIntro1">
-        <span className="number1">2</span>
+        {/* <span className="number1">2</span> */}
         <span className="project1">Warmtle</span>
         <p className="workTime">Muji Product Exploration  |  December 2020 </p>
         <p className="workDescrption">

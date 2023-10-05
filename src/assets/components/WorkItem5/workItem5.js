@@ -1,13 +1,13 @@
 import React from "react";
 import '../WorkItem1/workItem1.css';
-import HA from '../../images/HA.png';
+import HA from '../../images/ha1.gif';
 import {Link} from 'react-router-dom';
 
 const WorkItem5 = () => {
     return(
         <section id="frame">
             <div className="workIntro1">
-        <span className="number1">5</span>
+        {/* <span className="number1">5</span> */}
         <span className="project1">HA Go</span>
         <p className="workTime">Hospital Authority  |  June 2021</p>
         <p className="workDescrption">

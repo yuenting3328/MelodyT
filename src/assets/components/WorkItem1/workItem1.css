@@ -37,6 +37,7 @@ html, body {
     width: 100vw;
     overflow: hidden;
     position: relative;
+    
 
 }
 
@@ -51,6 +52,7 @@ html, body {
     animation-delay: 1s; 
     -webkit-animation: blur 3s ease 0s ;
     -moz-animation: blur 3s ease 0s ;
+
 }
 
 @keyframes blur {
@@ -97,20 +99,20 @@ html, body {
     }
   }
 
-.number1 {
+/* .number1 {
     font-family: "PlusJakartaSans-ExtraBold" ;
     font-size: 5rem;
-}
+} */
 
 .project1 {
-    font-family: "PlusJakartaSans-SemiBold" ;
+    font-family: "PlusJakartaSans-ExtraBold" ;
     font-size: 3.125rem;
 }
 
 .workTime {
     font-family: "PlusJakartaSans-Medium" ;
     font-size: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     margin:0;
 }
 
@@ -131,7 +133,7 @@ html, body {
 }
 
 .detail{
-    padding-top: 8rem;
+    padding-top: 13rem;
     font-family: "PlusJakartaSans-Light" ;
     font-size: 1rem;
 }
@@ -245,16 +247,17 @@ html, body {
         width: 375px;
         display: flex;
         height: 900px;
-        margin-bottom: 70px;
+        margin-bottom: 60px;
         margin-top: 0;
     }
 
     .workIntro1{
         display: relative;
+        height: fit-content;
         flex-direction: column;
         justify-items: center;
         width: 340px;
-        margin-top: 300px;
+        margin-top: 400px;
         margin-left:45px;
         padding: 0;
   

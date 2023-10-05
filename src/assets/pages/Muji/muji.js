@@ -38,34 +38,34 @@ const Muji = () =>{
             <div className="projectInfo">
             <div className="infoRow">
                 <span className="infoTitle">
-                Date
+                Role
                 </span>
                 <p className="infoDescription">
-                July 2019
+                Branding & UX/UI Designer 
                 </p>
             </div>
             <div className="infoRow">
         <span className="infoTitle">
-        Client
+        Duration
+        </span>
+        <p className="infoDescription">
+        2019, 2020
+        </p>
+    </div>
+    <div className="infoRow">
+        <span className="infoTitle">
+        Tools
+        </span>
+        <p className="infoDescription">
+        Adobe XD, Fusion 360, Adobe Illutrator, Adobe Premiere Pro, Adobe Photoshop
+        </p>
+    </div>
+    <div className="infoRow">
+        <span className="infoTitle">
+        Team
         </span>
         <p className="infoDescription">
         Personal Project
-        </p>
-    </div>
-    <div className="infoRow">
-        <span className="infoTitle">
-        My role
-        </span>
-        <p className="infoDescription">
-        Product Designer
-        </p>
-    </div>
-    <div className="infoRow">
-        <span className="infoTitle">
-        What I did?
-        </span>
-        <p className="infoDescription">
-        Branding, UX/UIDesign, Product Design
         </p>
     </div>
     <div className="infoRow">

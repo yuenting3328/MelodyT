@@ -8,6 +8,7 @@ import asl from '../../images/asl logo.png';
 import mpfa from '../../images/mpfa logo.png';
 import line from '../../images/Vector 19.png';
 import ResumeBtn from "../ResumeBtn/resumeBtn.js";
+import cvPdf from "../../pdf/Melody Tse_CV_2023.pdf";
 
 const SelfDescription =() => {
  return(
@@ -31,7 +32,7 @@ electronic applications on WINGS, a common platform for world-renowned SFC elect
 submission services.
 </p>
 <div className="aboutBtn">
-<ResumeBtn />
+<a href = {cvPdf} ><ResumeBtn /></a>
 </div>
 </div>
 </div>

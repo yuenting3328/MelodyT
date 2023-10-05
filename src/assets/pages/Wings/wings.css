@@ -51,7 +51,80 @@ body {
     height: 876px;
     width:1440px;
     z-index: -1;
+    animation-delay: 3s; 
+    animation: blur 3s ease 0s ;
+    animation-delay: 1s; 
+    -webkit-animation: blur 3s ease 0s ;
+    -moz-animation: blur 3s ease 0s ;
     }
+    
+    @-webkit-keyframes fadeInFromNone {
+        0% {
+            display: none;
+            opacity: 0;
+        }
+      
+        1% {
+            display: block;
+            opacity: 0;
+        }
+      
+        100% {
+            display: block;
+            opacity: 1;
+        }
+      }
+      
+      @-moz-keyframes fadeInFromNone {
+        0% {
+            display: none;
+            opacity: 0;
+        }
+      
+        1% {
+            display: block;
+            opacity: 0;
+        }
+      
+        100% {
+            display: block;
+            opacity: 1;
+        }
+      }
+      
+      @-o-keyframes fadeInFromNone {
+        0% {
+            display: none;
+            opacity: 0;
+        }
+      
+        1% {
+            display: block;
+            opacity: 0;
+        }
+      
+        100% {
+            display: block;
+            opacity: 1;
+        }
+      }
+      
+      @keyframes fadeInFromNone {
+        0% {
+            display: none;
+            opacity: 0;
+        }
+      
+        1% {
+            display: block;
+            opacity: 0;
+        }
+      
+        100% {
+            display: block;
+            opacity: 1;
+        }
+      }
     
 .wingsIntro {
   padding: 3.25rem 11.406rem 3.25rem 11.406rem;
