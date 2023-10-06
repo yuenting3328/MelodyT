@@ -2,17 +2,17 @@ html, body { margin: 0; padding: 0;}
 
 @font-face {
     font-family: "PlusJakartaSans-Bold" ;
-    src: url("../../fonts/PlusJakartaSans-Bold.ttf");
+    src: url("./PlusJakartaSans-Bold.ttf");
   }
   
   @font-face {
     font-family: "PlusJakartaSans-SemiBold" ;
-    src: url("../../fonts/PlusJakartaSans-SemiBold.ttf");
+    src: url("./PlusJakartaSans-SemiBold.ttf");
   }
   
   @font-face {
     font-family: "PlusJakartaSans-Medium" ;
-    src: url("../../fonts/PlusJakartaSans-Medium.ttf");
+    src: url("./PlusJakartaSans-Medium.ttf");
   }
   
   *{
