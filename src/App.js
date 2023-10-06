@@ -38,7 +38,7 @@ function App() {
         <Route path="#/about"> 
          <About />
         </Route>
-        <Route path="#/fun"> 
+        <Route path="/fun"> 
          <Fun />
         </Route>
         <Route path="#/wings"> 
@@ -59,10 +59,10 @@ function App() {
         <Route path="#/seal"> 
          <Seal />
         </Route>
-        <Route path="#/experience"> 
+        <Route path="/experience"> 
          <Experience />
         </Route>
-        <Route path="#/installation"> 
+        <Route path="/installation"> 
          <Installation />
         </Route>
       </Switch>
