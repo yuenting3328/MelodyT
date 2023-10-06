@@ -35,34 +35,34 @@ function App() {
         <Route exact path="/" > 
          <Work />
         </Route>
-        <Route path="/about"> 
+        <Route path="#/about"> 
          <About />
         </Route>
-        <Route path="/fun"> 
+        <Route path="#/fun"> 
          <Fun />
         </Route>
-        <Route path="/wings"> 
+        <Route path="#/wings"> 
          <WINGS />
         </Route>
-        <Route path="/muji"> 
+        <Route path="#/muji"> 
          <Muji />
         </Route>
-        <Route path="/motic"> 
+        <Route path="#/motic"> 
          <Motic />
         </Route>
-        <Route path="/empf"> 
+        <Route path="#/empf"> 
          <EMPF />
         </Route>
-        <Route path="/ha"> 
+        <Route path="#/ha"> 
          <HA />
         </Route>
-        <Route path="/seal"> 
+        <Route path="#/seal"> 
          <Seal />
         </Route>
-        <Route path="/experience"> 
+        <Route path="#/experience"> 
          <Experience />
         </Route>
-        <Route path="/installation"> 
+        <Route path="#/installation"> 
          <Installation />
         </Route>
       </Switch>
