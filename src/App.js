@@ -1,6 +1,6 @@
 import React  from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 // import NavBar from './assets/components/NavBar/navbar.js';
 import Work from './assets/pages/Work/work.js';
 import AnimCursor from './assets/components/AnimCursor/animCursor.js';
