@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/yuenting3328/melodyt/precache-manifest.572f3254e1c567c50e5f9aa47eb26204.js"
+  "/yuenting3328/melodyt/precache-manifest.45a7d49996556c091d04711cf00c35a5.js"
 );
 
 workbox.clientsClaim();

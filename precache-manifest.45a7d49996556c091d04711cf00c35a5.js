@@ -16,16 +16,16 @@ self.__precacheManifest = [
     "url": "/yuenting3328/melodyt/static/js/runtime~main.872123af.js"
   },
   {
-    "revision": "08d59825aa09f741c9272b85e6a1adbf",
-    "url": "/yuenting3328/melodyt/static/media/PlusJakartaSans-SemiBold.08d59825.ttf"
+    "revision": "f539ae4a8884822210a4553cc88ca3dc",
+    "url": "/yuenting3328/melodyt/static/media/PlusJakartaSans-Regular.f539ae4a.ttf"
   },
   {
     "revision": "9fb6d71fc9edf9db455adeb04da9795c",
     "url": "/yuenting3328/melodyt/static/media/PlusJakartaSans-Medium.9fb6d71f.ttf"
   },
   {
-    "revision": "f539ae4a8884822210a4553cc88ca3dc",
-    "url": "/yuenting3328/melodyt/static/media/PlusJakartaSans-Regular.f539ae4a.ttf"
+    "revision": "08d59825aa09f741c9272b85e6a1adbf",
+    "url": "/yuenting3328/melodyt/static/media/PlusJakartaSans-SemiBold.08d59825.ttf"
   },
   {
     "revision": "d6fb190614a9297c6263f85094463592",
@@ -372,12 +372,12 @@ self.__precacheManifest = [
     "url": "/yuenting3328/melodyt/static/media/HA banner.103b472c.png"
   },
   {
-    "revision": "f3484868d357b2b6a37ff6a5f9b863aa",
-    "url": "/yuenting3328/melodyt/static/media/muji banner.f3484868.png"
-  },
-  {
     "revision": "e4df200cb246f194154801b077828a02",
     "url": "/yuenting3328/melodyt/static/media/muji banner ipad.e4df200c.png"
+  },
+  {
+    "revision": "f3484868d357b2b6a37ff6a5f9b863aa",
+    "url": "/yuenting3328/melodyt/static/media/muji banner.f3484868.png"
   },
   {
     "revision": "a1ce902b51dc660163c677f93524c3b6",
@@ -404,12 +404,12 @@ self.__precacheManifest = [
     "url": "/yuenting3328/melodyt/static/media/motic banner.23fbfb96.png"
   },
   {
-    "revision": "6b7105cd1622bcefefaf5a9074b67a3d",
-    "url": "/yuenting3328/melodyt/static/media/seal banner.6b7105cd.png"
-  },
-  {
     "revision": "8b884bea28b9046f760a5f16420ccf61",
     "url": "/yuenting3328/melodyt/static/media/seal banner ipad.8b884bea.png"
+  },
+  {
+    "revision": "6b7105cd1622bcefefaf5a9074b67a3d",
+    "url": "/yuenting3328/melodyt/static/media/seal banner.6b7105cd.png"
   },
   {
     "revision": "153cd550c4ce71cb0f8ca6ea754498d4",
@@ -424,7 +424,7 @@ self.__precacheManifest = [
     "url": "/yuenting3328/melodyt/static/media/installation banner.8c509609.png"
   },
   {
-    "revision": "8d7bca7bd49f39d0f5b68f3c68d1ab9b",
+    "revision": "a463af9ac0d113e90f53a35de39f9c23",
     "url": "/yuenting3328/melodyt/index.html"
   }
 ];
