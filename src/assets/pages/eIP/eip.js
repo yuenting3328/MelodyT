@@ -8,7 +8,7 @@ import eIPPlanning2 from "../../images/wings storyboard.png";
 import eIPPlanning3 from "../../images/wings eIP wireframe.png";
 import eIPDesign from "../../images/wings design system.png";
 import eIPPrototype from "../../images/sfc prototype.gif";
-import LearnBtn from "../../components/LearnBtn/learnBtn.js";
+
 const EIP = () => {
     return(
         <section id="eIP">
