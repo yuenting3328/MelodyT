@@ -16,20 +16,20 @@ self.__precacheManifest = [
     "url": "/yuenting3328/melodyt/static/js/runtime~main.872123af.js"
   },
   {
-    "revision": "08d59825aa09f741c9272b85e6a1adbf",
-    "url": "/yuenting3328/melodyt/static/media/PlusJakartaSans-SemiBold.08d59825.ttf"
-  },
-  {
-    "revision": "d6fb190614a9297c6263f85094463592",
-    "url": "/yuenting3328/melodyt/static/media/PlusJakartaSans-Light.d6fb1906.ttf"
-  },
-  {
     "revision": "f539ae4a8884822210a4553cc88ca3dc",
     "url": "/yuenting3328/melodyt/static/media/PlusJakartaSans-Regular.f539ae4a.ttf"
   },
   {
+    "revision": "08d59825aa09f741c9272b85e6a1adbf",
+    "url": "/yuenting3328/melodyt/static/media/PlusJakartaSans-SemiBold.08d59825.ttf"
+  },
+  {
     "revision": "9fb6d71fc9edf9db455adeb04da9795c",
     "url": "/yuenting3328/melodyt/static/media/PlusJakartaSans-Medium.9fb6d71f.ttf"
+  },
+  {
+    "revision": "d6fb190614a9297c6263f85094463592",
+    "url": "/yuenting3328/melodyt/static/media/PlusJakartaSans-Light.d6fb1906.ttf"
   },
   {
     "revision": "9bfdb6bb1fda2806463b64e44c5eaed9",
@@ -372,12 +372,12 @@ self.__precacheManifest = [
     "url": "/yuenting3328/melodyt/static/media/HA banner.103b472c.png"
   },
   {
-    "revision": "e4df200cb246f194154801b077828a02",
-    "url": "/yuenting3328/melodyt/static/media/muji banner ipad.e4df200c.png"
-  },
-  {
     "revision": "f3484868d357b2b6a37ff6a5f9b863aa",
     "url": "/yuenting3328/melodyt/static/media/muji banner.f3484868.png"
+  },
+  {
+    "revision": "e4df200cb246f194154801b077828a02",
+    "url": "/yuenting3328/melodyt/static/media/muji banner ipad.e4df200c.png"
   },
   {
     "revision": "a1ce902b51dc660163c677f93524c3b6",
@@ -424,7 +424,7 @@ self.__precacheManifest = [
     "url": "/yuenting3328/melodyt/static/media/installation banner.8c509609.png"
   },
   {
-    "revision": "fafb0319facfb01f3ec8d97d9f6057be",
+    "revision": "ae83906f8906bab5adebb7bb41aa6782",
     "url": "/yuenting3328/melodyt/index.html"
   }
 ];
