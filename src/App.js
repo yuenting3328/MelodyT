@@ -36,9 +36,9 @@ function App() {
         <Route exact path="/" > 
          <Work />
         </Route>
-        <Route exact path="/about"> 
+        <Link to="/about"> 
          <About />
-        </Route>
+        </Link>
         <Route path="/fun"> 
          <Fun />
         </Route>
