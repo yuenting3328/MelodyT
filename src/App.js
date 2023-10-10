@@ -39,7 +39,7 @@ function App() {
         <Route exact path="/about"> 
          <About />
         </Route>
-        <Route exact path="/fun"> 
+        <Route path="#/fun"> 
          <Fun />
         </Route>
         <Route path="/wings"> 
