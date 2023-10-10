@@ -36,10 +36,10 @@ function App() {
         <Route exact path="/" > 
          <Work />
         </Route>
-        <Route path="/about"> 
+        <Route exact path="/about"> 
          <About />
         </Route>
-        <Route path="/fun"> 
+        <Route exact path="/fun"> 
          <Fun />
         </Route>
         <Route path="/wings"> 
