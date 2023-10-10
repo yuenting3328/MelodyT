@@ -17,7 +17,8 @@ import ScrollToTop from './assets/components/ScrollToTop/scrollTo.js';
 import Seal from "./assets/pages/Seal/seal.js";
 import Experience from "./assets/pages/Experience/experience.js";
 import Installation from "./assets/pages/Installation/installation.js";
-import ScrollButton from "./assets/components/ScrollBtn/scrollBtn.js"
+import ScrollButton from "./assets/components/ScrollBtn/scrollBtn.js"\
+import linkAbout from "./assets/pages/About/linkAbout"
 import { Fragment } from 'react';
 
 function App() {
@@ -33,14 +34,13 @@ function App() {
     {/* <NavBar /> */}
     <div className='content'>
       <Switch>
-        <Link to="/about">about2</Link>
         <Route exact path="/" > 
          <Work />
         </Route>
-        <Route path="/about" component={About}> 
+        <Route path="/about" component={<linkAbout />}> 
          <About />
         </Route>
-        <Route path="/fun"> 
+        <Route path="/fun" component={<Fun />}> 
          <Fun />
         </Route>
         <Route path="/wings"> 
