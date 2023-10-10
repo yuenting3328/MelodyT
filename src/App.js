@@ -37,10 +37,10 @@ function App() {
         <Route exact path="/" > 
          <Work />
         </Route>
-        <Route path="/about" component={<linkAbout />}> 
+        <Route path="/about"> 
          <About />
         </Route>
-        <Route path="/fun" component={<Fun />}> 
+        <Route path="/fun"> 
          <Fun />
         </Route>
         <Route path="/wings"> 
