@@ -1,7 +1,7 @@
 import React  from 'react';
 import './App.css';
 //import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import NavBar from './assets/components/NavBar/navbar.js';
 import Work from './assets/pages/Work/work.js';
 import AnimCursor from './assets/components/AnimCursor/animCursor.js';
@@ -36,9 +36,9 @@ function App() {
         <Route exact path="/" > 
          <Work />
         </Route>
-        <Link to="/about"> 
+        <Route path="/about" component={About}> 
          <About />
-        </Link>
+        </Route>
         <Route path="/fun"> 
          <Fun />
         </Route>
