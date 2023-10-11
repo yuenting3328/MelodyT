@@ -453,9 +453,9 @@ img.installationWorkItem{
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 100vw) {
     #installation {
-        width: 375px;
+        width: 100vw;
     }
     
     #installation .overlap-group-wrapper {

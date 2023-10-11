@@ -242,9 +242,9 @@ html, body {
     }
 }
 
-@media screen and  (max-width:600px) {
+@media screen and  (max-width:480px) {
     #frame {
-        width: 375px;
+        width: 100vw;
         display: flex;
         height: 900px;
         margin-bottom: 60px;

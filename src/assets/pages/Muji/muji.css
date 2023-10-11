@@ -746,16 +746,16 @@ iframe.mujiVideo {
     justify-content: space-between;
 }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
   #muji {
-    width: 375px;
+    width: 100vw;
 
 }
 
 #muji .overlap-group-wrapper {
     background-color: #ffffff;
     height: fit-content;
-    width: 375px;
+    width: 100vw;
     }
 
     #muji .overlap-group {
@@ -822,7 +822,7 @@ p.mujiIntroDescription{
 }
 
 .mujiBackgroundContainer{
-    width: 375px;
+    width: 100vw;
     padding-top: 55px;
     padding-bottom: 110px;
     justify-content: center;
@@ -869,7 +869,7 @@ p.mujiIntroDescription{
   }
 
 .mujiIdeaContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
 
@@ -885,7 +885,7 @@ p.mujiIntroDescription{
   }
 
   .mujiOutcomeContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     row-gap: 12px;
     justify-content: center;
@@ -952,7 +952,7 @@ span#mujiOutcomeTitle{
 }
 
 .mujiProductDesignContainer{
-    width: 375px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -974,7 +974,7 @@ img.mujiProductDesignImg{
   }
 
   .mujiUIContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
   }
@@ -989,7 +989,7 @@ img.mujiProductDesignImg{
   }
 
   .mujiPrototypeContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
   }

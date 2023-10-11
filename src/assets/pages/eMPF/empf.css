@@ -724,16 +724,16 @@ img.empfDesignSystemImg{
 
 }
 
-@media screen and  (max-width:600px) {
+@media screen and  (max-width:480px) {
   #empf {
-    width: 375px;
+    width: 100vw;
 
 }
 
 #empf .overlap-group-wrapper {
     background-color: #ffffff;
     height:fit-content;
-    width: 375px;
+    width: 100vw;
     }
 
     #empf .overlap-group {
@@ -805,7 +805,7 @@ img.empfDesignSystemImg{
 
 
 .empfProjectGoalContainer{
-    width: 375px;
+    width: 100vw;
     padding-top: 55px;
     padding-bottom: 110px;
     justify-content: center;
@@ -868,7 +868,7 @@ img.empfGoalImg{
 }
 
 .empfDesignContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
     align-items: center;
@@ -896,7 +896,7 @@ img.empfDesignImg{
 }
 
 .empfUI{
-    width: 375px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -945,7 +945,7 @@ img.empfUIImg{
 }
 
 .empfDesignSystemContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
     align-items: center;
@@ -963,7 +963,7 @@ img.empfDesignSystemImg{
   }
 
   .empfDevelopmentContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
     align-items: center;
@@ -981,7 +981,7 @@ img.empfDesignSystemImg{
   }
 
   .empfPrototypeContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
     align-items: center;
@@ -994,7 +994,7 @@ img.empfDesignSystemImg{
   }
 
   .empfPrototypeImgContainer{
-    width: 375px;
+    width: 100vw;
     display: flex;
     padding: 0 16px;
     color: #f5f5f5;

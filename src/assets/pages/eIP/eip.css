@@ -348,13 +348,13 @@ img.eIPPrototypeImg{
 }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
   #eIP{
-    width: 375px;
+    width: 100vw;
 }
 
 .joinedEIPContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
     align-items: center;
@@ -410,7 +410,7 @@ img.eIPPrototypeImg{
   }
 
   .eIPGoalContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
     align-items: center;
@@ -424,7 +424,7 @@ img.eIPPrototypeImg{
 }
 
 .eIPResearchContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
     align-items: center;
@@ -444,7 +444,7 @@ img.eIPResearchImg{
   }
 
   .eIPPlanningContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
     align-items: center;
@@ -464,7 +464,7 @@ img.eIPResearchImg{
   }
 
   .eIPDesignContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
     align-items: center;
@@ -476,7 +476,7 @@ img.eIPResearchImg{
   }
 
   .eIPPrototypeContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
     align-items: center;

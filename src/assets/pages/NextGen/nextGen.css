@@ -262,13 +262,13 @@
   
   }
 
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:480px) {
     #nextGen{
-      width: 375px;
+      width: 100vw;
   }
   
   .projectGoalContainer{
-      width: 375px;
+      width: 100vw;
       padding-bottom: 110px;
       justify-content: center;
     
@@ -323,7 +323,7 @@
     }
   
     .nextGenDesignContainer{
-      width: 375px;
+      width: 100vw;
       display: flex;
       flex-direction: column;
       margin: 0;
@@ -347,7 +347,7 @@
     }
   
     .nextGenWireframeContainer{
-      width: 375px;
+      width: 100vw;
       display: flex;
       flex-direction: column;
       margin: 0;
@@ -361,7 +361,7 @@
     }
   
     .nextGenVideoContainer{
-      width: 375px;
+      width: 100vw;
       display: flex;
       flex-direction: column;
       margin: 0;

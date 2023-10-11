@@ -336,9 +336,9 @@ body {
     } 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
     #timeline{
-        width: 375px;
+        width: 100vw;
         padding-top: 55px;
         padding-bottom: 110px;
     }
@@ -368,7 +368,7 @@ body {
     }
     
     .sfcTimeline{
-        width: 375px;
+        width: 100vw;
         gap: 0;
         display: flex;
         flex-direction: column;

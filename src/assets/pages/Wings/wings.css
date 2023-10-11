@@ -283,16 +283,16 @@ body {
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
     #wings {
-        width: 375px;
+        width: 100vw;
     
     }
     
     #wings .overlap-group-wrapper {
         background-color: #ffffff;
         height: fit-content;
-        width: 375px;
+        width: 100vw;
         }
     
         #wings .overlap-group {

@@ -38,7 +38,7 @@
     color: #0066CC;
   }
 
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:480px) {
     #nextBtn {
       background-color: white;
       border-radius: 6px;

@@ -401,9 +401,9 @@ img.sealWorkItem{
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
     #seal {
-        width: 375px;
+        width: 100vw;
     
     }
     
@@ -422,7 +422,7 @@ img.sealWorkItem{
     div.sealIntro{
       padding: 25px 40px;
       gap: 20px;
-      width: 375px;
+      width: 100vw;
       height: 130.73;
     }
     

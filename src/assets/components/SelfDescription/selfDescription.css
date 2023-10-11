@@ -403,6 +403,8 @@ body{
 
 }
 
+
+
 .about .experience {
     align-items: flex-start;
     display: inline-flex;
@@ -431,7 +433,7 @@ body{
 .about .icons {
     align-items: center;
     display: grid;
-    /* flex: 0; */
+
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
     left: 0rem;

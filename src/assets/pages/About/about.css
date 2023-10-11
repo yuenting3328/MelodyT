@@ -100,7 +100,7 @@ margin: 0;
     }
 }
 
-@media screen and  (max-width:600px) {
+@media screen and  (max-width:480px) {
     #aboutMeContent{
         padding: bottom 60px ;
         margin: 0;

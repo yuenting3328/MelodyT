@@ -466,16 +466,16 @@ iframe{
     
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
     #experience {
-        width: 375px;
+        width: 100vw;
     
     }
     
     #experience .overlap-group-wrapper {
         background-color: #ffffff;
         height: 427px;
-        width: 375px;
+        width: 100vw;
         }
     
         #experience .overlap-group {
@@ -557,7 +557,7 @@ iframe{
     }
     
     .experienceDesign{
-        width: 375px;
+        width: 100vw;
         height: 380px;
         display: flex;
         flex-direction: column;

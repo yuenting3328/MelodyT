@@ -502,27 +502,27 @@ p.haIntroDescription {
 
 @media screen and  (max-width:375px) {
   #ha {
-    width: 375px;
+    width: 100vw;
 
 }
 
 #ha .overlap-group-wrapper {
     height: fit-content;
-    width: 375px;
+    width: 100vw;
     }
 
     #ha .overlap-group {
     background-image: url(../../images/ha\ banner\ ipad.png);
     background-size: 100% 100%;
     height: 427px;
-    width: 375px;
+    width: 100vw;
     z-index: -1;
     }
     
 div.haIntro {
   padding: 25px 40px;
   gap: 32px;
-  width: 375px;
+  width: 100vw;
   height: 321px;
  
 }
@@ -574,7 +574,7 @@ p.infoDescription{
 
 
 .haProjectGoalContainer{
-    width: 375px;
+    width: 100vw;
     padding-top: 55px;
     padding-bottom: 110px;
     justify-content: center;
@@ -613,7 +613,7 @@ p.infoDescription{
   }
 
   .problemContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
   
@@ -625,7 +625,7 @@ p.infoDescription{
   }
 
   .researchContainer{
-    width: 375px;
+    width: 100vw;
     padding-bottom: 110px;
     justify-content: center;
   
@@ -637,7 +637,7 @@ p.infoDescription{
   }
 
   .solutionContainer{
-    width: 375px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     margin: 0;
