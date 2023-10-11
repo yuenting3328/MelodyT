@@ -227,8 +227,8 @@ html {
     }
 
   }
-
-  @media screen and  (max-width:375px) {
+  @media screen and  (max-width: 600px) {
+  /* @media screen and  (max-width:375px) { */
 
     #intro2 {
       height:400px;

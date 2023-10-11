@@ -195,6 +195,16 @@ html, body {
     width:40rem;
     
 }
+/* fix update update by pigpig
+@media screen and  (max-width:768px) {
+    selfIntroPara{
+    font-size: 1.125rem;
+    font-family:"PlusJakartaSans-Regular";
+    line-height: 1.75rem;
+    padding-top: 24px;
+    width:25rem;
+    }
+} */
 
 /* .actionBtn{
     width: 100vw;
@@ -298,7 +308,9 @@ html, body {
 
 
     .selfIntroPara{
-        width: 635px;
+        /* fix update */
+        width: 535px;
+        /* width: 635px; */
     }
 
     #workItem1,#workItem2,#workItem3,#workItem4,#workItem5{
