@@ -431,7 +431,7 @@ body{
 }
 
 .about .icons {
-    align-items: center;
+    align-items: center; 
     display: grid;
 
     grid-template-columns: auto auto auto;

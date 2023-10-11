@@ -120,7 +120,8 @@ margin: 0;
 
     div.about{
         margin: 0;
-        height: 750px;
+        /* height: 750px; */
+        height:900px;
     }
 }
 /* 
