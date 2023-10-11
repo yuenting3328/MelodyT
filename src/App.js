@@ -18,7 +18,6 @@ import Seal from "./assets/pages/Seal/seal.js";
 import Experience from "./assets/pages/Experience/experience.js";
 import Installation from "./assets/pages/Installation/installation.js";
 import ScrollButton from "./assets/components/ScrollBtn/scrollBtn.js";
-import linkAbout from "./assets/pages/About/linkAbout";
 import { Fragment } from 'react';
 
 function App() {
