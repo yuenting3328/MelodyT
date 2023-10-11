@@ -199,7 +199,7 @@ html, body { margin: 0; padding: 0;}
   @media screen and  (max-width:480px) {
     header {
       height: 100px;
-      width: 343px;
+      width: 95vw;
       justify-content: space-between;
       padding: 10px 16px 10px 16px;
       margin: 0;
@@ -248,7 +248,7 @@ html, body { margin: 0; padding: 0;}
       justify-content: center;
       align-items: center;
       color: #fff;
-      width: 100vw;
+      width: 108vw;
       height: 600px;
       padding: 24px 0;
       z-index: 10000000;
@@ -281,7 +281,7 @@ html, body { margin: 0; padding: 0;}
 
     .nav_item{
       margin-top: 0.4rem;
-      margin-right: 1.5rem;
+      /* margin-right: 1.5rem; */
       cursor: pointer;
  
     }

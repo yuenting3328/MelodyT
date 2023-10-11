@@ -500,7 +500,7 @@ p.haIntroDescription {
 }
 }
 
-@media screen and  (max-width:375px) {
+@media screen and  (max-width:480px) {
   #ha {
     width: 100vw;
 
@@ -520,10 +520,12 @@ p.haIntroDescription {
     }
     
 div.haIntro {
-  padding: 25px 40px;
+  /* padding: 25px 40px; */
+  padding: 6vw;
   gap: 32px;
   width: 100vw;
-  height: 321px;
+  /* height: 321px; */
+  height: 90vw;
  
 }
 
