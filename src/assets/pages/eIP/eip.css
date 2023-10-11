@@ -30,7 +30,7 @@
     overflow: hidden;
     position: relative;
     background-color: #ffffff;
-    width: 100%;
+    width: 100vw;;
 }
 
 .joinedEIPContainer{
@@ -348,7 +348,7 @@ img.eIPPrototypeImg{
 }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:600px) {
   #eIP{
     width: 375px;
 }

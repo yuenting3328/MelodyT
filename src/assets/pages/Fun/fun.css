@@ -215,7 +215,7 @@
 
 }
 
-@media screen and  (max-width:375px) {
+@media screen and  (max-width:600px) {
   #cache {
     height:400px;
     width: 340px;

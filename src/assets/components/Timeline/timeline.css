@@ -27,7 +27,7 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #ffffff;
-    width: 100%;
+    width: 100vw;;
     padding-top: 110px;
     padding-bottom: 220px;
 }
@@ -336,7 +336,7 @@ body {
     } 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:600px) {
     #timeline{
         width: 375px;
         padding-top: 55px;
@@ -344,7 +344,7 @@ body {
     }
     
     .timelineContainer{
-        width:375px;
+        width:600px;
         display: flex;
         flex-direction: column;
         gap:55px;

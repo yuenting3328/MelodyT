@@ -35,7 +35,7 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #ffffff;
-    width: 100%;
+    width: 100vw;;
 
 }
 
@@ -49,7 +49,7 @@ body {
     background-image: url(../../images/muji\ banner.png);
     background-size: 100% 100%;
     height: 100%;
-    width: 100%;
+    width: 100vw;;
     z-index: -1;
     animation-delay: 3s; 
     -webkit-animation: fadeInFromNone 3s ease-out;
@@ -746,7 +746,7 @@ iframe.mujiVideo {
     justify-content: space-between;
 }
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width:600px) {
   #muji {
     width: 375px;
 
@@ -762,7 +762,7 @@ iframe.mujiVideo {
     background-image: url(../../images/muji\ banner\ ipad.png);
     background-size: 100% 100%;
     height: 427px;
-    width:375px;
+    width:600px;
     z-index: -1;
     }
     

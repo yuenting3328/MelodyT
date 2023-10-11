@@ -20,7 +20,7 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #ffffff;
-    width: 100%;
+    width: 100vw;;
 
 }
 
@@ -401,7 +401,7 @@ img.sealWorkItem{
 
 
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:600px) {
     #seal {
         width: 375px;
     

@@ -46,7 +46,7 @@ html, body { margin: 0; padding: 0;}
   .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;;
   }
 
   @keyframes slideTop {
@@ -153,8 +153,8 @@ html, body { margin: 0; padding: 0;}
       right: -120%;
       background-color: #163279;
       color: #fff;
-      /* width: 100%; */
-      width: 100%;
+      /* width: 100vw;; */
+      width: 100vw;;
       height: 100vh;
       padding: 24px 0;
       z-index: 100;

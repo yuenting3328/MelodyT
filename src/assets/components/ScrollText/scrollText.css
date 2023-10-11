@@ -232,8 +232,7 @@ html {
 
     #intro2 {
       height:400px;
-      width: 375px;
-    
+      width: 100vw;;    
     }
     
     .bg {
@@ -249,7 +248,7 @@ html {
 
     .introContent {
       height: 400px;
-      width: 375px;
+      width: 100vw;
       padding-top: 8rem;
       padding-left: 0;
       position: absolute;

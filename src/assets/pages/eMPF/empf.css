@@ -37,7 +37,7 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #ffffff;
-    width: 100%;
+    width: 100vw;;
 
 }
 
@@ -724,7 +724,7 @@ img.empfDesignSystemImg{
 
 }
 
-@media screen and  (max-width:375px) {
+@media screen and  (max-width:600px) {
   #empf {
     width: 375px;
 
@@ -740,7 +740,7 @@ img.empfDesignSystemImg{
     background-image: url(../../images/empf\ banner\ ipad.png);
     background-size: 100% 100%;
     height: 427px;
-    width:375px;
+    width:600px;
     z-index: -1;
     }
     

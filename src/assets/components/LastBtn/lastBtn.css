@@ -38,7 +38,7 @@
     color: #0066CC;
   }
 
-  @media screen and (max-width:375px) {
+  @media screen and (max-width:600px) {
     #lastBtn {
       background-color: white;
       border-radius: 6px;

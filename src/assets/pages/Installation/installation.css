@@ -21,7 +21,7 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #ffffff;
-    width: 100%;
+    width: 100vw;;
 }
 
 #installation .overlap-group-wrapper {

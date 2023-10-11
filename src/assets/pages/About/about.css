@@ -16,7 +16,8 @@ html, body { margin: 0;
     position: relative;
     z-index: -2;
     height:(100vh - 4rem);
-    width: 90rem;
+    /* width: 90rem; */
+    width:100vw;
     margin: 0;
     padding-bottom: 4rem;
     overflow: hidden;
@@ -99,7 +100,7 @@ margin: 0;
     }
 }
 
-@media screen and  (max-width:375px) {
+@media screen and  (max-width:600px) {
     #aboutMeContent{
         padding: bottom 60px ;
         margin: 0;

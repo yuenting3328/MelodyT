@@ -35,7 +35,7 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #ffffff;
-    width: 100%;
+    width: 100vw;;
 
 }
 
@@ -283,7 +283,7 @@ body {
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:600px) {
     #wings {
         width: 375px;
     
@@ -299,7 +299,7 @@ body {
         background-image: url(../../images/wings\ banner\ ipad.png);
         background-size: 100% 100%;
         height: 427px;
-        width:375px;
+        width:600px;
         z-index: -1;
         }
         

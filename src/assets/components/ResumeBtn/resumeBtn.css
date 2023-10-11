@@ -34,7 +34,7 @@
     color: #0066CC;
   }
 
-  @media screen and  (max-width:375px) {
+  @media screen and  (max-width:600px) {
     .resumeBtn {
       background-color: #ffffff;
       border-radius: 5px;

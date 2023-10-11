@@ -35,7 +35,7 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #ffffff;
-    width: 100%;
+    width: 100vw;;
 
 }
 
@@ -49,7 +49,7 @@ body {
     background-image: url(../../images/HA\ banner.png);
     background-size: 100% 100%;
     height: 100%;
-    width: 100%;
+    width: 100vw;;
     z-index: -1;
     animation-delay: 3s; 
     -webkit-animation: fadeInFromNone 3s ease-out;
@@ -326,7 +326,7 @@ text-decoration: underline;
     background-image: url(../../images/ha\ banner\ ipad.png);
     background-size: 100% 100%;
     height: 100%;
-    width: 100%;
+    width: 100vw;;
     z-index: -1;
     }
     
