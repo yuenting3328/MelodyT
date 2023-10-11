@@ -306,8 +306,8 @@ body {
     .wingsIntro {
       padding: 25px 40px;
       gap:32px;
-      height:403px;
-     
+      /* height:403px; */
+     height:160vw;
     }
     
     .projectIntro{
