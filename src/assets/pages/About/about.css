@@ -107,7 +107,8 @@ margin: 0;
         }  
     
         div.aboutIntro{
-            height: 1000px;
+            /* height: 1000px; */
+            height: 1100px;
             margin: 0;
         }
 
@@ -121,7 +122,7 @@ margin: 0;
     div.about{
         margin: 0;
         /* height: 750px; */
-        height:900px;
+        height:1100px;
     }
 }
 /* 
