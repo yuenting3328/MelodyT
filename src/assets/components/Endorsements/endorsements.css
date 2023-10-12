@@ -365,7 +365,7 @@
 @media screen and  (max-width:480px) {
     .endorsements {
         width: 100vw;
-        margin-top: 200vh;
+        margin-top: 500vh;
         }
     
     .endorsements .group-wrapper {
