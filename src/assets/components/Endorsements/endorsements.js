@@ -56,9 +56,7 @@ const Endorsements = () => {
     <div className="frame-5">
     <div className="text-wrapper">ASHELY LAU <span role="img" aria-label="GB">🇬🇧</span></div>
     <p className="text-wrapper-4">
-    Scrum Master of Automated Systems (HK)
-    <br />
-    Limited
+    Scrum Master of Automated Systems (HK) Limited
     </p>
     </div>
     </div>

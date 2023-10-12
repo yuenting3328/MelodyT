@@ -160,8 +160,8 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 768px;
-        height: 2500px;
+        width: 100vw;
+        height: 300vh;
 
     }
     

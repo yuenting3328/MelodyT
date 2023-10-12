@@ -114,7 +114,7 @@ header{
     background-color: #163279;
     color: #fff;
     width: 60%;
-    height: 120vh;
+    /* height: 120vh; */
     padding: 24px 0;
     z-index: 100;
     transition: 0.5s;
