@@ -364,7 +364,9 @@
 
 @media screen and  (max-width:480px) {
     .endorsements {
-        width: 100vw;;    }
+        width: 100vw;
+        margin-top: 220vw;
+        }
     
     .endorsements .group-wrapper {
         background-color: #ffffff;
