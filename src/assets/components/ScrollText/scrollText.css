@@ -126,6 +126,7 @@ html, body { margin: 0; }
     ) fixed;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-overflow-scrolling: touch;
     text-align: center;
 
   } 

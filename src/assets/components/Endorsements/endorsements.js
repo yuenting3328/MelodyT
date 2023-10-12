@@ -13,8 +13,8 @@ const Endorsements = () => {
     <div className="endorsements">
     <div className="group-wrapper">
     <div className="group">
-    <div className="frame-2" style="-webkit-overflow-scrolling: touch;overflow-y: scroll;">
-    <div className="frame-3" style="-webkit-overflow-scrolling: touch;overflow-y: scroll;">
+    <div className="frame-2">
+    <div className="frame-3">
     <div className="frame-4">
     <img className="mask-group" alt="Mask group" src={peter}/>
     <div className="frame-5">
