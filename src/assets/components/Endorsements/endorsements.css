@@ -382,7 +382,8 @@
     
     .endorsements .frame-2 {
         align-items: flex-start;
-        flex-direction: row;
+        /* flex-direction: row; */
+        flex-direction: column;
         padding-top: 1rem;
         padding-left: 1rem;
         padding-bottom: 0;
