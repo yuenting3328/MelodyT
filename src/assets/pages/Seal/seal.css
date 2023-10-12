@@ -249,7 +249,7 @@ img.sealWorkItem{
     justify-content: space-between;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1366px) {
     #seal {
         width: 768px;
     

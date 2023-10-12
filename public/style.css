@@ -108,7 +108,7 @@ html, body { margin: 0; padding: 0;}
     display: none;
   }
   
-  @media screen and  (max-width:768px) {
+  @media screen and  (max-width:1366px) {
     header {
       height: 140px;
       justify-content: space-between;
