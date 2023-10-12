@@ -29,7 +29,7 @@ const ScrollButton = () =>{
   
   return (
     <Button style={{display: visible ? 'inline' : 'none'}} >
-     <IoIosArrowUp onClick={scrollToTop} size={42} style={{padding: "2px 3px", display:"flex"}}
+     <IoIosArrowUp onClick={scrollToTop} size={42} style={{padding: "2px 3px", display:"flex", height:"40px", width:"40px"}}
      />
     </Button>
 
