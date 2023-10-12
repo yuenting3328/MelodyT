@@ -249,7 +249,7 @@ html, body { margin: 0; padding: 0;}
       align-items: center;
       color: #fff;
       width: 108vw;
-      height: 600px;
+      height: 100vh;
       padding: 24px 0;
       z-index: 10000000;
       transition: 0.5s;
