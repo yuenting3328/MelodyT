@@ -371,13 +371,13 @@
     .endorsements .group-wrapper {
         background-color: #ffffff;
         /* height: 600px; */
-        height: 2500px ;
+        height: 4000px ;
         overflow: hidden;
         width: 100vw;;    }
     
     .endorsements .group {
         /* height: 800px; */
-        height: 2500px ;
+        height: 4000px ;
         left: 16px;
         position: relative;
         top: 10px;
@@ -395,7 +395,7 @@
         display: flex;
         gap: 40px;
         /* height: 466px ; */
-        height: 2500px ;
+        height: 4000px ;
         left: 0;
         right:1;
         overflow-x: scroll;
