@@ -161,20 +161,20 @@ body{
         flex-direction: column;
         justify-content: center;
         width: 768px;
-        height: 1700px;
+        height: 2500px;
 
     }
     
     .about .frame-wrapper {
         background-color: #ffffff;
-        height: 1700px;
+        height: 2500px;
         overflow: hidden;
         width: 768px;
     }
     
     .about .frame-2 {
         width: 768px;
-        height: 1700px;
+        height: 2500px;
     }
     
     .about .intro {
