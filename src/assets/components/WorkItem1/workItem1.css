@@ -171,7 +171,7 @@ html, body {
 }
 
 
-@media screen and  (max-width:932px) {
+@media screen and  (max-width:1366px) {
  
     #frame {
         width: 100vw;

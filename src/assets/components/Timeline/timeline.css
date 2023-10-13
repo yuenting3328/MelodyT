@@ -180,7 +180,7 @@ body {
 
 }
 
-@media screen and (max-width:932px) {
+@media screen and (max-width:1366px) {
     #timeline{
         width: 100vw;
         padding-top: 110px;
