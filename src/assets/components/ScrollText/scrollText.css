@@ -215,7 +215,7 @@ html {
 
     .introContent {
       height: 700px;
-      width: 82rem;
+      width: 100vw;
       padding-top: 16rem;
       padding-left: 0;
       position: absolute;

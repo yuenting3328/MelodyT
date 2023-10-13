@@ -207,7 +207,7 @@
         left: 32px;
         position: relative;
         top: 112px;
-        width: 100vw;
+        width: 90vw;
     }
     
     .endorsements .frame-2 {
@@ -223,7 +223,7 @@
         overflow-x: scroll;
         position: absolute;
         top: 130px;
-        width: 704px;
+        width: 75vw;
         height: 230vh;
     }
     
@@ -238,7 +238,7 @@
         gap: 32px;
         padding: 40px 30px;
         position: relative;
-        width: 80vw;
+        width: 75vw;
         height:40vh;
     }
     
