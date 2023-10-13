@@ -318,7 +318,7 @@ text-decoration: underline;
 }
 
 #ha .overlap-group-wrapper {
-    height: 100vh;
+    /* height: fit-content; */
     width: 100vw;
     }
 
@@ -326,8 +326,9 @@ text-decoration: underline;
     background-image: url(../../images/ha\ banner\ ipad.png);
     background-size: 100% 100%;
     height: 100%;
-    width: 100vw;;
+    width: 70vw;;
     z-index: -1;
+    margin-left: 80px;
     }
     
 div.haIntro {

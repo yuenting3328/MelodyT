@@ -447,18 +447,21 @@ img.sealWorkItem{
     
     div.sealConcept{
         margin: 0;
-        height: 495.6px;
+        height: 90vh;
         display: flex;
         flex-direction: column;
-        padding: 55px 16px 220px 16px ;
+        padding: 60px 16px 220px 16px ;
         gap: 30px;
         
     }
     
-    img .sealConceptImg{
-     width: 281.27px;
+    .sealConceptImg{
+     /* width: 281.27px;
      height: 320.23px;
-     padding: 0 47px;
+     padding: 0 47px; */
+     width:90vw;
+     height: 90vh;
+     margin-bottom: 50px;
     }
     
     div.conceptContainer{
