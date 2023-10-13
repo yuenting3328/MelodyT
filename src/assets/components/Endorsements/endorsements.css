@@ -188,7 +188,7 @@
     white-space: nowrap;
 }
 
-@media screen and  (max-width:1024px) {
+@media screen and  (max-width:1366px) {
     .endorsements {
         /* width: 100vw; */
         width: 95vw;
@@ -197,13 +197,13 @@
     .endorsements .group-wrapper {
         background-color: #ffffff;
         /* height: 1000px; */
-        height: 250vh;
+        height: 300vh;
         overflow: hidden;
         width: 95vw;
     }
     
     .endorsements .group {
-        height: 250vh;
+        height: 300vh;
         left: 32px;
         position: relative;
         top: 112px;
@@ -224,7 +224,7 @@
         position: absolute;
         top: 130px;
         width: 85vw;
-        height: 230vh;
+        height: 280vh;
     }
     
     .endorsements .frame-3 {
@@ -303,7 +303,7 @@
         font-size: 16px;
         font-weight: 300;
         /* height: 373.77px; */
-        height:40vh;
+        height:25vh;
         letter-spacing: 0;
         line-height: 26px;
         position: relative;

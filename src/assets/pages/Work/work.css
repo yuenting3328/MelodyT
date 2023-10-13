@@ -196,7 +196,7 @@ html, body {
     
 }
 /* fix update update by pigpig
-@media screen and  (max-width:1024px) {
+@media screen and  (max-width:1366px) {
     selfIntroPara{
     font-size: 1.125rem;
     font-family:"PlusJakartaSans-Regular";
@@ -265,7 +265,7 @@ html, body {
     }
 } */
 
-@media screen and  (max-width:1024px) {
+@media screen and  (max-width:1366px) {
     
     #intro {
         height:(100vh - 4rem);

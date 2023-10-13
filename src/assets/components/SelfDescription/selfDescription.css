@@ -155,13 +155,13 @@ body{
     width: 139.81px;
 }
 
-@media screen and  (max-width:1024px) {
+@media screen and  (max-width:1366px) {
     .about {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 100vw;
-        height: 300vh;
+        height: 320vh;
 
     }
     
