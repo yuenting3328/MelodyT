@@ -188,10 +188,10 @@
     white-space: nowrap;
 }
 
-@media screen and  (max-width:1366px) {
+@media screen and  (max-width:1024px) {
     .endorsements {
         /* width: 100vw; */
-        width: 100vw;
+        width: 95vw;
     }
     
     .endorsements .group-wrapper {
@@ -199,7 +199,7 @@
         /* height: 1000px; */
         height: 250vh;
         overflow: hidden;
-        width: 100vw;
+        width: 95vw;
     }
     
     .endorsements .group {
@@ -223,7 +223,7 @@
         overflow-x: scroll;
         position: absolute;
         top: 130px;
-        width: 75vw;
+        width: 85vw;
         height: 230vh;
     }
     
@@ -239,7 +239,7 @@
         padding: 40px 30px;
         position: relative;
         width: 75vw;
-        height:40vh;
+        height:50vh;
     }
     
     .endorsements .frame-4 {
@@ -308,7 +308,7 @@
         line-height: 26px;
         position: relative;
         /* width: 309.81px; */
-        width: 80vw;
+        width: 70vw;
     }
     
     /* .endorsements .secondary-btn-instance {
@@ -388,7 +388,8 @@
         /* height: 600px; */
         height: 300vh ;
         overflow: hidden;
-        width: 100vw;;    }
+        width: 100vw;
+        display: contents;   }
     
     .endorsements .group {
         /* height: 800px; */
@@ -534,7 +535,7 @@
         position: absolute;
         top: 0;
         /* width: 347px; */
-        width: 100vw;
+        width: 90vw;
     }
     
     .endorsements .text-wrapper-5 {

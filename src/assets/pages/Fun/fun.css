@@ -187,7 +187,7 @@
     padding-right: 1rem;
 }
 
-@media screen and  (max-width:1366px) {
+@media screen and  (max-width:1024px) {
   #cache {
     height:742px;
     width: 760px;

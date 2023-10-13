@@ -175,7 +175,7 @@
     width: 70.59px;
 }
 
-@media screen and  (max-width:1366px) {
+@media screen and  (max-width:1024px) {
     .skill {
         width: 100vw;
     }
