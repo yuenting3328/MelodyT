@@ -81,7 +81,7 @@ margin: 0;
 
 @media screen and  (max-width:1366px) {
     div.aboutIntro{
-        height: 1550px;
+        height: 200vh;
         margin: 0;
     }
 
