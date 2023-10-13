@@ -78,7 +78,7 @@ header{
   display: none;
 }
 
-@media screen and  (max-width:1366px) {
+@media screen and  (max-width:932px) {
   header {
     height: 140px;
     justify-content: space-between;

@@ -311,7 +311,7 @@ text-decoration: underline;
     justify-content: space-between;
 }
 
-@media screen and  (max-width:1366px) {
+@media screen and  (max-width:932px) {
   #ha {
     width: 100vw;
 

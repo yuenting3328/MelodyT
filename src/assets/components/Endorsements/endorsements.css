@@ -188,7 +188,7 @@
     white-space: nowrap;
 }
 
-@media screen and  (max-width:1366px) {
+@media screen and  (max-width:932px) {
     .endorsements {
         /* width: 100vw; */
         width: 95vw;

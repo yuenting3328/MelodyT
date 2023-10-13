@@ -79,7 +79,7 @@ margin: 0;
     margin: 0;
 }
 
-@media screen and  (max-width:1366px) {
+@media screen and  (max-width:932px) {
     div.aboutIntro{
         height: 200vh;
         margin: 0;
