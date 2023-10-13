@@ -328,22 +328,22 @@ iframe{
         height: 1020px;
         display: flex;
         flex-direction: column;
-        padding: 110px 30px 220px 30px ;
+        padding: 110px 30px 110px 30px ;
         gap: 60px;
         
     }
     
-    img .experienceConceptImg{
-     width: 580px;
-     height:661px;
-     padding: 0 64px;
+    img.experienceConceptImg{
+     width: 60vw;
+     height:60vw;
+     padding: 0 15vw;
      margin: 0;
      background-color: #F4FBFF;
      color: #F4FBFF;
     }
     
     div.conceptContainer{
-     padding: 0;
+     padding: 0 15vw;
      margin: 0;
      height: 187px;
      width: 708px;
@@ -375,7 +375,7 @@ iframe{
         display: flex;
         flex-direction: column;
         margin: 0;
-        padding: 0 30px 220px 30px;
+        padding: 0 5vw;
         justify-content: center;
         gap:60px;
       }
@@ -419,7 +419,8 @@ iframe{
     }
     
     .videoContainer{
-        padding: 60px 110px 60px 110px;
+        /* padding: 60px 110px 60px 110px; */
+        padding: 5vw 0;
         margin:0;
         background-color: #f6f9ff;
         display: flex;
@@ -427,8 +428,8 @@ iframe{
     }
     
     iframe{
-        width: 360px;
-        height: 634px;
+        width: 90vw;
+        height: 50vw;
         padding: 0;
         margin: 0;
         
@@ -597,7 +598,7 @@ iframe{
       
     .experienceOutcome{
         margin: 0;
-        padding: 0;
+        padding: 5vw 5vw;
         /* width: 1440px; */
         height: 600px;
         display: flex;
