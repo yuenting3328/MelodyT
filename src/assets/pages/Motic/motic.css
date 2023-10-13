@@ -415,14 +415,14 @@ img.moticWireframeImg1{
 
 @media screen and (max-width:1366px) {
   #motic {
-    width: 768px;
+    width: 100vw;
 
 }
 
 #motic .overlap-group-wrapper {
     background-color: #ffffff;
     height: fit-content;
-    width: 768px;
+    width: 100vw;
     height: fit-content;
     }
 
@@ -488,7 +488,7 @@ p.moticIntroDescription {
 }
 
 .moticChallengeContainer{
-    width: 768px;
+    width: 100vw;
     padding-top: 110px;
     padding-bottom: 220px;
     justify-content: center;
@@ -608,7 +608,7 @@ img.moticSolutionItem{
 }
 
 .moticDesignContainer{
-    width: 768px;
+    width: 100vw;
     padding-bottom: 220px;
     justify-content: center;
     gap:60px;
@@ -629,7 +629,7 @@ img.moticDesignImg{
 }
 
 .moticWireframeContainer{
-    width: 768px;
+    width: 100vw;
     padding-bottom: 220px;
     justify-content: center;
     gap:60px;
@@ -650,7 +650,7 @@ img.moticWireframeImg1{
   }
 
   .moticOutcomeContainer{
-    width: 768px;
+    width: 100vw;
     padding-bottom: 220px;
     justify-content: center;
   }

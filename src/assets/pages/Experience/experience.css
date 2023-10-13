@@ -281,7 +281,7 @@ iframe{
 
 @media screen and (max-width:1366px) {
     #experience {
-        width: 768px;
+        width: 100vw;
     
     }
     
@@ -369,7 +369,7 @@ iframe{
     }
     
     .experienceDesign{
-        width: 768px;
+        width: 100vw;
         height: 780px;
         display: flex;
         flex-direction: column;

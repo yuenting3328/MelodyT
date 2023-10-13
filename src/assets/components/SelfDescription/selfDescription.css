@@ -169,11 +169,11 @@ body{
         background-color: #ffffff;
         height: 2500px;
         overflow: hidden;
-        width: 768px;
+        width: 100vw;
     }
     
     .about .frame-2 {
-        width: 768px;
+        width: 100vw;
         height: 2500px;
     }
     

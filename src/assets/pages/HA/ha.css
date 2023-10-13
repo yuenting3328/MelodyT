@@ -313,13 +313,13 @@ text-decoration: underline;
 
 @media screen and  (max-width:1366px) {
   #ha {
-    width: 768px;
+    width: 100vw;
 
 }
 
 #ha .overlap-group-wrapper {
     height: 100vh;
-    width: 768px;
+    width: 100vw;
     }
 
     #ha .overlap-group {
@@ -333,7 +333,7 @@ text-decoration: underline;
 div.haIntro {
   padding: 52px 80px;
   gap: 67px;
-  width: 768px;
+  width: 100vw;
   height: 628px;
  
 }
@@ -393,7 +393,7 @@ p.haIntroDescription {
 
 
 .haProjectGoalContainer{
-    width: 768px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -442,7 +442,7 @@ p.haIntroDescription {
   }
 
   .problemContainer{
-    width: 768px;
+    width: 100vw;
     padding-bottom: 220px;
     justify-content: center;
   
@@ -454,7 +454,7 @@ p.haIntroDescription {
   }
 
   .researchContainer{
-    width: 768px;
+    width: 100vw;
     padding-bottom: 0 0 220px;
     justify-content: center;
   

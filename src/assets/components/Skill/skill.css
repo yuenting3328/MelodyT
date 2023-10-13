@@ -177,13 +177,13 @@
 
 @media screen and  (max-width:1366px) {
     .skill {
-        width: 768px;
+        width: 100vw;
     }
     
     .skill .group-wrapper {
         background-color: #ffffff;
         height: 1000px;
-        width: 768px;
+        width: 100vw;
     }
     
     .skill .group {
@@ -262,7 +262,7 @@
         left: 0;
         position: absolute;
         top: 491px;
-        width: 768px;
+        width: 100vw;
     }
     
     .skill .frame-4 {
@@ -270,7 +270,7 @@
         left: 32px;
         position: absolute;
         top: 64px;
-        width: 768px;
+        width: 100vw;
     }
     
     .skill .text-wrapper-4 {

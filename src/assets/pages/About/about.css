@@ -17,7 +17,7 @@ html, body { margin: 0;
     z-index: -2;
     height:(100vh - 4rem);
     /* width: 90rem; */
-    width:100vw;
+    width:100vw;;
     margin: 0;
     padding-bottom: 4rem;
     overflow: hidden;

@@ -199,11 +199,11 @@ img.eIPPrototypeImg{
 
 @media screen and (max-width:1366px) {
   #eIP{
-    width: 768px;
+    width: 100vw;
 }
 
 .joinedEIPContainer{
-    width: 768px;
+    width: 100vw;
     padding-bottom: 220px;
     justify-content: center;
     align-items: center;
@@ -256,7 +256,7 @@ img.eIPPrototypeImg{
   }
 
   .eIPGoalContainer{
-    width: 768px;
+    width: 100vw;
     padding-bottom: 220px;
     justify-content: center;
     align-items: center;
@@ -270,7 +270,7 @@ img.eIPPrototypeImg{
 }
 
 .eIPResearchContainer{
-    width: 768px;
+    width: 100vw;
     padding-bottom: 220px;
     justify-content: center;
     align-items: center;
@@ -290,7 +290,7 @@ img.eIPResearchImg{
   }
 
   .eIPPlanningContainer{
-    width: 768px;
+    width: 100vw;
     padding-bottom: 220px;
     justify-content: center;
     align-items: center;
@@ -310,7 +310,7 @@ img.eIPResearchImg{
   }
 
   .eIPDesignContainer{
-    width: 768px;
+    width: 100vw;
     padding-bottom: 220px;
     justify-content: center;
     align-items: center;
@@ -322,7 +322,7 @@ img.eIPResearchImg{
   }
 
   .eIPPrototypeContainer{
-    width: 768px;
+    width: 100vw;
     padding-bottom: 220px;
     justify-content: center;
     align-items: center;

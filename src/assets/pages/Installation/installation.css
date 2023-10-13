@@ -278,7 +278,7 @@ img.installationWorkItem{
         padding: 0;
      }
     #installation {
-        width: 768px;
+        width: 100vw;
     }
     
     #installation .overlap-group-wrapper {
