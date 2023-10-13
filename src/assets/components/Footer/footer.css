@@ -168,7 +168,7 @@ body {
     
     @media screen and  (max-width:1366px) {
         .footer {
-            width: 100vw;
+            /* width: 100vw; */
             height: 521px;
             background: #163279;
             display: flex;
