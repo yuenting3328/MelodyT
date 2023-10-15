@@ -23,11 +23,11 @@ const SelfDescription =() => {
                         lives of others. My expertise lies in taking ideas from wireframe to prototype and conducting user
                         research, interaction design, and practical operations for several corporates. <br />
                         <br />
-                        With over 4 years of hands-on experience in digital product design, I have devoted the past 3 years to
+                        With over 3 years of hands-on experience in digital product design, I have devoted the past 3 years to
                         specialize in User Experience and User Interface. Born and raised in Hong Kong, I have worked for
                         companies in over 7 industry sectors, creating digital applications and websites. <br />
                         <br />
-                        Currently, I am focused on designing system design and implementation services for investment product
+                        Recently, I am focused on designing system design and implementation services for investment product
                         electronic applications on WINGS, a common platform for world-renowned SFC electronic forms and
                         submission services.
                         </p>

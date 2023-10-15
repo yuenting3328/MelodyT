@@ -65,7 +65,7 @@ const Muji = () =>{
         Team
         </span>
         <p className="infoDescription">
-        Personal Project
+        Self initiated project
         </p>
     </div>
     <div className="infoRow">

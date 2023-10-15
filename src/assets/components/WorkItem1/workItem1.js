@@ -8,7 +8,6 @@ const WorkItem1 = () => {
 
     return(
         <section id="frame">
-            <div class="sfcGlassContainer">
             <div className="workIntro1">
         {/* <span className="number1">1</span> */}
         <span className="project1">WINGS</span>
@@ -49,7 +48,6 @@ const WorkItem1 = () => {
         </div>
         </div>
         <img className="SFC" alt="Sfc" src={sfc} />
-        </div>
         </section>
     )
 }

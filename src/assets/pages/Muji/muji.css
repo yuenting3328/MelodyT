@@ -35,7 +35,12 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #ffffff;
-    width: 100vw;;
+    width: 100vw;
+    animation-delay: 3s; 
+    -webkit-animation: fadeInFromNone 3s ease-out;
+      -moz-animation: fadeInFromNone 3s ease-out;
+      -o-animation: fadeInFromNone 3s ease-out;
+      animation: fadeInFromNone 3s ease-out;
 
 }
 
@@ -48,14 +53,9 @@ body {
     #muji .overlap-group {
     background-image: url(../../images/muji\ banner.png);
     background-size: 100% 100%;
-    height: 100%;
-    width: 100vw;;
+    height: 108vh;
+    width: 100vw;
     z-index: -1;
-    animation-delay: 3s; 
-    -webkit-animation: fadeInFromNone 3s ease-out;
-      -moz-animation: fadeInFromNone 3s ease-out;
-      -o-animation: fadeInFromNone 3s ease-out;
-      animation: fadeInFromNone 3s ease-out;
     }
     
     @-webkit-keyframes fadeInFromNone {

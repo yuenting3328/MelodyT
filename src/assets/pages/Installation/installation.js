@@ -38,7 +38,7 @@ const Installation = () => {
 <div className="conceptImg">
 <img src={installationConceptImg} alt="installationConceptImg" className="installationConceptImg" />
 </div>
-<div className="conceptContainer">
+<div className="installationConceptContainer">
 <span className="conceptTitle">Concept</span>
 <p className="conceptDescription">My artwork is based on a research proposal which focuses on using photographs as the main material. I have utilized these photos to create a hazy and detached mood by removing certain parts of the images through Photoshop. This technique helps to highlight the growing social issue of ‘phubbing’ - where individuals become so consumed by their mobile phones that they hardly notice people around them. Phubbers and non-phubbers may be physically close but are emotionally in two separate worlds. Through this artwork, I aim to shed light on the communication gap that technology is creating among people in the contemporary world. 
 </p>

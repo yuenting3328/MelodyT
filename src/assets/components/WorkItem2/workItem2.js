@@ -9,7 +9,7 @@ const WorkItem2 = () => {
             <div className="workIntro1">
         {/* <span className="number1">2</span> */}
         <span className="project1">Warmtle</span>
-        <p className="workTime">Muji Product Exploration  |  December 2020 </p>
+        <p className="workTime">Self initiated project  |  December 2020 </p>
         <p className="workDescrption">
         Working on case study project to improve a brand using
         new design ideas

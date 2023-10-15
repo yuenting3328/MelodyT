@@ -48,7 +48,7 @@ const Endorsements = () => {
     always look to Melody for guidance if I encountered any problem. Furthermore, her warm personality made
     the working environment more comforting.”
     </p>
-    <a href = {pdf2} ><LearnBtn /></a>
+    <a href="https://www.linkedin.com/in/melody-t-7b1b02135/"><LearnBtn /></a>
     </div>
     <div className="frame-3">
     <div className="frame-4">
@@ -68,7 +68,7 @@ const Endorsements = () => {
     project requirements and, took great care to ensure that her design choices supported the clients&#39;
     goals.”
     </p>
-    <a href="https://www.linkedin.com/in/melody-t-7b1b02135/"><LearnBtn /></a>
+    <a href = {pdf2} ><LearnBtn /></a>
     </div>
     <div className="frame-3">
     <div className="frame-4">

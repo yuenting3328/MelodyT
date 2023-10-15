@@ -45,7 +45,7 @@ html, body {
     position: absolute;
     z-index: -5;
     top: 12rem;
-    right: 7rem;
+    right: 2rem;
     object-fit: cover;
     height: 100vh;
     animation: blur 3s ease 0s ;
@@ -258,7 +258,7 @@ html, body {
         justify-items: center;
         width: 340px;
         margin-top: 400px;
-        margin-left:45px;
+        margin-left:50px;
         padding: 0;
   
         
@@ -270,7 +270,7 @@ html, body {
         height: 360px;
         position: absolute;
         top: 0;
-        right: 36px ;
+        right: 30px ;
         justify-content: center;
         align-items: center;        
     }

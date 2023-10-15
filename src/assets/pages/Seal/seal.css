@@ -20,7 +20,12 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #ffffff;
-    width: 100vw;;
+    width: 100vw;
+    animation-delay: 3s; 
+    -webkit-animation: fadeInFromNone 3s ease-out;
+      -moz-animation: fadeInFromNone 3s ease-out;
+      -o-animation: fadeInFromNone 3s ease-out;
+      animation: fadeInFromNone 3s ease-out;
 
 }
 
@@ -33,14 +38,10 @@ body {
     #seal .overlap-group {
     background-image: url(../../images/seal\ banner.png);
     background-size: 100% 100%;
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     z-index: -1;
-    animation-delay: 3s; 
-    -webkit-animation: fadeInFromNone 3s ease-out;
-      -moz-animation: fadeInFromNone 3s ease-out;
-      -o-animation: fadeInFromNone 3s ease-out;
-      animation: fadeInFromNone 3s ease-out;
+    
     }
     
     @-webkit-keyframes fadeInFromNone {
@@ -190,7 +191,7 @@ img .sealConceptImg{
 .sealWorkContainer{
   display: flex;
   flex-direction: column;
-  padding: 0 140px 60px;
+  padding: 0 182px 60px;
   gap: 14px;
 }
 
@@ -447,10 +448,10 @@ img.sealWorkItem{
     
     div.sealConcept{
         margin: 0;
-        height: 90vh;
+        height: 40vh;
         display: flex;
         flex-direction: column;
-        padding: 60px 16px 220px 16px ;
+        padding: 22px 16px 110px 16px ;
         gap: 30px;
         
     }
@@ -460,15 +461,16 @@ img.sealWorkItem{
      height: 320.23px;
      padding: 0 47px; */
      width:90vw;
-     height: 90vh;
-     margin-bottom: 50px;
+     height: 50vh;
+     margin-bottom: 30px;
     }
     
     div.conceptContainer{
      padding: 0;
      margin: 0;
      width: 343px;
-     height: 146px;
+     height: 126px;
+     padding-top: 0px;
     }
     
     span.conceptTitle{

@@ -22,6 +22,11 @@ body {
     position: relative;
     background-color: #ffffff;
     width: 100vw;
+    animation-delay: 3s; 
+    -webkit-animation: fadeInFromNone 3s ease-out;
+      -moz-animation: fadeInFromNone 3s ease-out;
+      -o-animation: fadeInFromNone 3s ease-out;
+      animation: fadeInFromNone 3s ease-out;
 
 }
 
@@ -37,11 +42,6 @@ body {
     height: 100vh;
     width: 100vw;
     z-index: -1;
-    animation-delay: 3s; 
-    -webkit-animation: fadeInFromNone 3s ease-out;
-      -moz-animation: fadeInFromNone 3s ease-out;
-      -o-animation: fadeInFromNone 3s ease-out;
-      animation: fadeInFromNone 3s ease-out;
     }
 
 
@@ -189,7 +189,7 @@ img .experienceConceptImg{
     padding: 0;
     justify-content: center;
     gap:60px;
-    padding: 0 140px 60px;
+    padding: 0 182px 60px;
   }
 
   .experienceDesignContainer{
@@ -225,7 +225,7 @@ img .experienceConceptImg{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    padding: 110px 140px 220px 140px ;
+    padding: 110px 182px 220px 182px ;
     gap: 81px;
     
 }
@@ -517,7 +517,7 @@ iframe{
         height: 520px;
         display: flex;
         flex-direction: column;
-        padding: 55px 16px 110px 16px ;
+        padding: 55px 16px 0px 16px ;
         gap: 30px;
         
     }
@@ -534,7 +534,7 @@ iframe{
     div.conceptContainer{
      padding: 0;
      margin: 0;
-     height: 60vh;
+     height: 50vh;
      width: 50vw;
      display: flex;
      flex-direction: column;
@@ -648,11 +648,13 @@ iframe{
         width: 343px;
     }
     
-    .actionProject{
+    div.actionProject{
         display: flex;
         flex-direction: row;
         padding-left: 16px;
         padding-right: 16px;
+        padding-bottom: 6rem;
+        justify-content: space-between;
     }
     
 }

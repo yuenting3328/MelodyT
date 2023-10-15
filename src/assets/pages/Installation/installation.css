@@ -21,7 +21,12 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #ffffff;
-    width: 100vw;;
+    width: 100vw;
+    animation-delay: 3s; 
+    -webkit-animation: fadeInFromNone 3s ease-out;
+      -moz-animation: fadeInFromNone 3s ease-out;
+      -o-animation: fadeInFromNone 3s ease-out;
+      animation: fadeInFromNone 3s ease-out;
 }
 
 #installation .overlap-group-wrapper {
@@ -33,14 +38,10 @@ body {
     #installation .overlap-group {
         background-image: url(../../images/installation\ banner.png) ;
         background-size: 100% 100%;
-        height: 100vh;
+        height: 120vh;
         width: 100vw;
         z-index: -1;
-        animation-delay: 3s; 
-        -webkit-animation: fadeInFromNone 3s ease-out;
-          -moz-animation: fadeInFromNone 3s ease-out;
-          -o-animation: fadeInFromNone 3s ease-out;
-          animation: fadeInFromNone 3s ease-out;
+       
         }
 
         @-webkit-keyframes fadeInFromNone {
@@ -207,7 +208,7 @@ img .installationConceptImg{
  margin: 0;
 }
 
-.conceptContainer{
+.installationConceptContainer{
  padding: 0;
  margin: 0;
  width: 414px;
@@ -390,7 +391,7 @@ img.installationWorkItem{
      margin: 0;
     }
     
-    .conceptContainer{
+    .installationConceptContainer{
      padding: 0;
      margin: 0;
      width: 708px;
@@ -539,7 +540,7 @@ img.installationWorkItem{
     .installationConcept{
         margin: 0;
         /* width: 1440px; */
-        height: 671.17px;
+        height: 671px;
         display: flex;
         flex-direction: column;
         padding: 55px 16px 160px 16px ;
@@ -553,7 +554,7 @@ img.installationWorkItem{
     div.conceptImg {
         padding: 0 37px;
         margin: 0;
-        width: 300px;
+        width: 50vw;
         display: absolute;
         justify-content: center;
 
@@ -567,10 +568,10 @@ img.installationWorkItem{
      margin: 0;
     }
     
-    .conceptContainer{
+    .installationConceptContainer{
      padding: 0;
      margin: 0;
-     width: 343px;
+     width: 90vw;
      display: flex;
      flex-direction: column;
      gap: 6px;
@@ -590,7 +591,7 @@ img.installationWorkItem{
         color:#474A58;
         line-height: 150%;
         width: 343px;
-        height: 176.3px;
+        height: 176px;
     }
     
     .installationImgContainer{

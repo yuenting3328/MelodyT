@@ -69,6 +69,9 @@ const EMPF = () => {
             <p className="infoDescription">
             <a class="pressLink" href="https://xd.adobe.com/view/0c40d7fd-366b-41c6-63a1-3183ea9c991d-7a71/screen/36045ce1-ec06-42b8-b6a2-affa59d86d4c" > eMPF Prototype </a>
             </p>
+            <p className="infoDescription">
+            <a class="pressLink" href="https://xd.adobe.com/view/bba2fc9c-0f04-4122-9f79-ba3615656ec2-eef1/" > eMPF Styleguide </a>
+            </p>
         </div>    
         </div>
             </div>

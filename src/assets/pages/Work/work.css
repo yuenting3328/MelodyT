@@ -345,12 +345,12 @@ html, body {
         }
     
         .selfIntroContent {
-            height: 500px;
+        height: 500px;
         position: relative;
         padding-bottom: 0 ;
         padding-right: 2px;
-        padding-left: 30px;
-        padding-top: 140px;
+        padding-left: 55px;
+        padding-top: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -381,7 +381,8 @@ html, body {
         .selfIntroPara{
             font-size: 0.8rem;
             width: 300px;
-            line-height: 1.6rem;
+            line-height: 150%;
+            padding-top: 12px;
 
         }
 

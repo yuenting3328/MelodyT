@@ -19,10 +19,10 @@ html, body { margin: 0; }
   object-fit: cover;
   height: 100vh;
   animation-delay: 4s; 
-  -webkit-animation: fadeInFromNone 12s ease-out;
-    -moz-animation: fadeInFromNone 12s ease-out;
-    -o-animation: fadeInFromNone 12s ease-out;
-    animation: fadeInFromNone 12s ease-out;
+  -webkit-animation: fadeInFromNone 9s ease-out;
+    -moz-animation: fadeInFromNone 9s ease-out;
+    -o-animation: fadeInFromNone 9s ease-out;
+    animation: fadeInFromNone 9s ease-out;
 }
 
 
