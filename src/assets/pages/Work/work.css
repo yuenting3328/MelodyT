@@ -354,7 +354,7 @@ html, body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 343px;
+        width: 80vw;
         z-index: 2;
         margin-top: 0;
         margin-bottom: 0;

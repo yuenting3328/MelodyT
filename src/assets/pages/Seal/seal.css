@@ -448,7 +448,7 @@ img.sealWorkItem{
     
     div.sealConcept{
         margin: 0;
-        height: 40vh;
+        height: 75vh;
         display: flex;
         flex-direction: column;
         padding: 22px 16px 110px 16px ;
@@ -461,7 +461,7 @@ img.sealWorkItem{
      height: 320.23px;
      padding: 0 47px; */
      width:90vw;
-     height: 50vh;
+     height: 60vh;
      margin-bottom: 30px;
     }
     
