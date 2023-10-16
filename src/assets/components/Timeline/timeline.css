@@ -183,6 +183,164 @@ body {
 @media screen and (max-width:1366px) {
     #timeline{
         width: 100vw;
+        height: 160vh;
+        padding-top: 110px;
+        padding-bottom: 300px;
+    }
+    
+    .timelineContainer{
+        width:100vw;
+        display: flex;
+        flex-direction: column;
+        gap:110px;
+        justify-content: center;
+        left: 20rem;
+    
+    }
+    
+    .timelineTitleContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .timelineTitle{
+        font-size: 2.5rem;
+        font-family: "PlusJakartaSans-ExtraBold";
+        color:#061736;
+        line-height: 150%;
+    }
+    
+    .sfcTimeline{
+        width: 100vw;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0 14rem;
+    }
+    
+    .eipSpeechBubbleContainer{
+        padding-top: 570px;
+        margin: 0;
+        display: flex;
+    
+    }
+    
+    
+    .eipProjectSpeechBubble{
+        padding: 38px 40px 38px 40px;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        margin-left: 3rem;
+        border-radius: 20px;
+        background-color: #ffffff;
+        filter: drop-shadow(0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.3));
+    }
+    
+    .eipProjectTextContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 0 ;
+        width:440px;
+        justify-content: center;
+        gap:17px;
+    }
+    
+    .sfcProjectDescription{
+        font-size: 17px;
+        font-family: "PlusJakartaSans-Regular";
+        color:#8F9398;
+        line-height: 150%;
+    }
+    
+    .eipProjecTitleContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 0 ;
+        justify-content: center;
+        gap:9px;
+    }
+    
+    .yearTitle{
+        font-size: 18px;
+        font-family: "PlusJakartaSans-Bold";
+        color:#0066CC;
+        line-height: 150%;
+    }
+    
+    .sfcProjectTitle{
+        font-size: 20px;
+        font-family: "PlusJakartaSans-Bold";
+        color:#061736;
+        line-height: 150%;
+    }
+    
+    .sfctimelineVectorContainer{
+        padding-top:0;
+        margin-top: -900px;
+        display: flex;
+
+    }
+    
+    .timelineVectorContainer{
+        margin:0;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    .nextGenSpeechBubbleContainer{
+        padding-bottom: 0;
+        margin: 0;
+        display: flex;
+    
+    }
+    
+    
+    .nextGenProjectSpeechBubble{
+        padding: 38px 40px 38px 40px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -1000px;
+        height: 320px;
+        margin-left: 3rem;
+        border-radius: 20px;
+        background-color: #ffffff;
+        filter: drop-shadow(0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.3));
+    }
+    
+    .nextGenProjectTextContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 0 ;
+        width:437px;
+        gap:17px;
+    }
+    
+    .nextGenProjecTitleContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 0 ;
+        justify-content: center;
+        gap:10px;
+    }
+    
+    .btnContainer{
+        padding-top: 28px;
+        padding-right: 280px;
+        margin:0;
+    
+    } 
+}
+
+@media screen and (max-width:820px) {
+    #timeline{
+        width: 100vw;
         padding-top: 110px;
         padding-bottom: 300px;
     }

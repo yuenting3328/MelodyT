@@ -158,6 +158,122 @@
     
     }
     
+    div.textContainer{
+      display: flex;
+      flex-direction: column;
+      padding: 0 30px 60px;
+      width:94vw;
+      justify-content: center;
+      gap:14px;
+    }
+    
+    .subtitle{
+      font-family: "PlusJakartaSans-SemiBold";
+      font-size: 20px;
+      color: #979797;
+      line-height: 150%;
+  }
+  
+    .title{
+        font-family: "PlusJakartaSans-Bold";
+        font-size: 1.75rem ;
+        color: #061736;
+        line-height: 150%;
+    }
+    
+    p.description{
+        font-size: 18px;
+        font-family: "PlusJakartaSans-Regular";
+        color:#474A58;
+        line-height: 150%;
+        width:94vw;
+        margin:0;
+    }
+    
+    .imgContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        
+    }
+    
+    img.nextGenGoalImg{
+      width:94vw;
+      padding:0 30px;
+    }
+  
+    .nextGenDesignContainer{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding-bottom: 220px;
+      justify-content: center;
+    }
+  
+    .nextGenDesignTextContainer{
+      display: flex;
+      flex-direction: column;
+      padding: 0 30px 120px;
+      width:94vw;
+      justify-content: center;
+      gap:14px;
+    }
+  
+    img.nextGenDesignImg{
+      width:94vw;
+      padding:0 30px;
+    }
+  
+    .nextGenWireframeContainer{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding-bottom: 220px;
+      justify-content: center;
+    }
+  
+    img.nextGenWireframeImg{
+      width:94vw;
+      padding:0 30px;
+    }
+  
+    .nextGenVideoContainer{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding-bottom: 220px;
+      justify-content: center;
+    }
+  
+    .nextGenBtnContainer{
+      padding-top: 18px;
+      margin:0;
+      display: flex;
+    }
+  
+    img.nextGenVideoImg{
+      width:94vw;
+      padding:0 30px;
+    }
+  
+  }
+
+  @media screen and (max-width:820px) {
+    #nextGen{
+      width: 100vw;
+  }
+  
+  .projectGoalContainer{
+      width: 100vw;
+      padding-bottom: 220px;
+      justify-content: center;
+    
+    }
+    
     .textContainer{
       display: flex;
       flex-direction: column;

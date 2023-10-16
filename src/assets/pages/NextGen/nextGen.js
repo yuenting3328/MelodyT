@@ -9,7 +9,7 @@ const NextGen = () => {
     return(
         <section id="nextGen">
             <div className="projectGoalContainer">
-            <div className="textContainer" id="nextGenGoalTextContaier">
+            <div className="textContainer" id="nextGenGoalTextContainer">
             <span className="subtitle" id="nextGenGoalTitle">
             Next Generation Project
             </span>
