@@ -354,7 +354,10 @@ body {
         line-height: 150%;
         margin:0;
     }
-    
+    div.timelineContainer{
+        padding-top: 55px;
+        padding-bottom: 110px;
+    }
     .actionProject{
         display: flex;
         flex-direction: row;

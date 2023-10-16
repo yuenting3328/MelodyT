@@ -339,8 +339,8 @@ body {
 @media screen and (max-width:480px) {
     #timeline{
         width: 100vw;
-        padding-top: 55px;
-        padding-bottom: 110px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
     
     .timelineContainer{
