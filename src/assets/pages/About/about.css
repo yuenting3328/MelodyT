@@ -109,27 +109,29 @@ margin: 0;
     
         div.aboutIntro{
             /* height: 1000px; */
-            height: 1100px;
+            height: 125vh;
             margin: 0;
         }
         div.aboutTool{
-            margin-bottom: 1500px;
+            margin-bottom: 1480px;
         }
 
         
-     #aboutSkill{
+     /* #aboutSkill{
         padding-bottom:0 ;
         margin: 0;
 
-    }
-
-    div.about{
+    } */
+    #aboutReco{
         margin: 0;
-        /* height: 750px; */
+        height: 550px;
+        padding-bottom: 0;
+    }
+    /* div.about{
+        margin: 0;
         height: 918px;
         padding-bottom: 0;
-        /* margin-top: 300px; */
-    }
+    } */
     .content{
         position: relative;
         z-index:-100 ;

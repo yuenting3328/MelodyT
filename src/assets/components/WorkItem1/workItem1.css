@@ -246,7 +246,7 @@ html, body {
     #frame {
         width: 100vw;
         display: flex;
-        height: 900px;
+        height: 880px;
         margin-bottom: 60px;
         margin-top: 0;
     }

@@ -394,11 +394,11 @@
     
     .endorsements .group {
         /* height: 800px; */
-        height: 270vh ;
+        height: 225vh ;
         width: 90vw;
         left: 0px;
         position: relative;
-        top: -115rem;
+        top: -118rem;
         /* width: 100vw; */
     }
     
@@ -412,7 +412,7 @@
         display: flex;
         gap: 40px;
         /* height: 466px ; */
-        height: 270vh ;
+        height: 200vh ;
         left: 0.8rem;
         right:1;
         overflow-x: hidden;

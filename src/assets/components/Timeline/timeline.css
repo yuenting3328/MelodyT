@@ -339,7 +339,7 @@ body {
 @media screen and (max-width:480px) {
     #timeline{
         width: 100vw;
-        padding-top: 0;
+        padding-top: 55px;
         padding-bottom: 110px;
     }
     
@@ -349,7 +349,7 @@ body {
         display: flex;
         flex-direction: column;
         gap:55px;
-        justify-content: center;
+        justify-content: flex-start;
         height:110vh;
     }
     
