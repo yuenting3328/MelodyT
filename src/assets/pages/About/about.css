@@ -110,7 +110,7 @@ margin: 0;
         div.aboutIntro{
             /* height: 1000px; */
             height: 125vh;
-            margin: 0;
+            margin-bottom: 150px;
         }
         div.aboutTool{
             margin-bottom: 1480px;
