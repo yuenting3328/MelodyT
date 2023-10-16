@@ -769,7 +769,7 @@ p.moticIntroDescription {
 }
 
 img.moticChallengeImg{
-  width:343px;
+  width:358px;
   padding:0 16px;
 }
 
@@ -784,13 +784,13 @@ img.moticChallengeImg{
 }
 
 img.moticChallengeImg2{
-  width:167px;
+  width:176px;
 }
   
   .moticTextContainer{
     display: flex;
     flex-direction: column;
-    width: 153px;
+    width: 176px;
     justify-content: flex-start;
     gap:10px;
   }
@@ -816,7 +816,7 @@ img.moticChallengeImg2{
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 150%;
-    width:343px;
+    width:358px;
     margin:0;
 }
 
@@ -825,9 +825,9 @@ img.moticChallengeImg2{
     padding-bottom: 110px;
 }
 
-.textContainer{
+#motic div.textContainer{
     padding: 0 16px 30px;
-    width: 343px;
+    width: 358px;
     gap:10px;
   }
 
@@ -849,7 +849,7 @@ img.moticChallengeImg2{
 }
 
 iframe.moticVideo {
- width: 284px;
+ width: 300px;
  height: 177px;
  padding: 0;
  margin: 0;
@@ -868,7 +868,7 @@ iframe.moticVideo {
 }
 
 img.moticSolutionItem{
- width: 166px;
+ width: 172px;
  padding: 0;
  margin: 0;
 }
@@ -890,7 +890,7 @@ img.moticSolutionItem{
 }
 
 img.moticDesignImg{
-  width:343px;
+  width:358px;
   padding:0 16px;
 }
 
@@ -907,11 +907,11 @@ img.moticDesignImg{
 }
 
 img.moticWireframeImg1{
-    width:343px;
+    width:358px;
   }
 
   img.moticWireframeImg2{
-    width:343px;
+    width:358px;
 
   }
 
@@ -927,11 +927,11 @@ img.moticWireframeImg1{
   }
 
   img.moticOutcomeImg1{
-    width:343px;
+    width:358px;
   }
   
   img.moticOutcomeImg2{
-    width:343px;
+    width:358px;
   }
 
   .actionProject{

@@ -740,7 +740,7 @@ img.empfDesignSystemImg{
     background-image: url(../../images/empf\ banner\ ipad.png);
     background-size: 100% 100%;
     height: 427px;
-    width:600px;
+    width:100vw;
     z-index: -1;
     }
     
@@ -817,7 +817,7 @@ img.empfDesignSystemImg{
     display: flex;
     flex-direction: column;
     padding: 0 16px 30px;
-    width:343px;
+    width:358px;
     justify-content: center;
     gap:10px;
   }
@@ -850,7 +850,7 @@ img.empfDesignSystemImg{
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 150%;
-      width:343px;
+      width:358px;
       margin:0;
   }
 
@@ -863,7 +863,7 @@ img.empfDesignSystemImg{
 }
 
 img.empfGoalImg{
-  width:343px;
+  width:358px;
   padding:0 16px;
 }
 
@@ -879,7 +879,7 @@ img.empfGoalImg{
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 150%;
-    width:343px;
+    width:358px;
     margin:0;
 }
 
@@ -891,7 +891,7 @@ img.empfGoalImg{
 
 
 img.empfDesignImg{
-    width:343px;
+    width:358px;
     padding: 0 16px;
 }
 
@@ -919,7 +919,7 @@ img.empfUIImg{
 .empfUIContainer{
     padding: 0;
     margin: 0;
-    width: 343px;
+    width: 358px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -939,7 +939,7 @@ img.empfUIImg{
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 150%;
-    width:343px;
+    width:358px;
     margin:0;
 
 }
@@ -952,7 +952,7 @@ img.empfUIImg{
 }
 
 img.empfDesignSystemImg{
-    width: 343px;
+    width: 358px;
     padding: 0 16px;
 }
 
@@ -976,7 +976,7 @@ img.empfDesignSystemImg{
   }
 
   .empfDevelopmentImg{
-    width: 343px;
+    width: 358px;
     padding: 0 16px;
   }
 
@@ -1002,7 +1002,7 @@ img.empfDesignSystemImg{
   }
 
   img.empfPrototypeImg{
-    width: 284px;
+    width: 298px;
     padding: 36px 30px;
     margin: 0 16px;
   }

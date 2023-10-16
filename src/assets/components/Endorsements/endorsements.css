@@ -413,9 +413,9 @@
         gap: 40px;
         /* height: 466px ; */
         height: 270vh ;
-        left: 1rem;
+        left: 0.8rem;
         right:1;
-        overflow-x: scroll;
+        overflow-x: hidden;
         /* position: absolute; */
         top: 130px;
         /* width: 343px; */

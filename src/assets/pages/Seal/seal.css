@@ -471,7 +471,7 @@ img.sealWorkItem{
     div.conceptContainer{
      padding: 0;
      margin: 0;
-     width: 343px;
+     width: 358px;
      height: 126px;
      padding-top: 0px;
     }
@@ -488,12 +488,12 @@ img.sealWorkItem{
         font-family: "PlusJakartaSans-Regular";
         color:#474A58;
         line-height: 150%;
-        width: 343px;
+        width: 358px;
         height: 123px;
     }
     
     .sealWork{
-      width: 343px;
+      width: 358px;
       display: flex;
     }
     
@@ -516,7 +516,7 @@ img.sealWorkItem{
         font-family: "PlusJakartaSans-Regular";
         color:#474A58;
         line-height: 150%;
-        width:343px;
+        width:358px;
     }
     
     .sealImgContainer{
@@ -541,19 +541,19 @@ img.sealWorkItem{
     }
     
     img.sealWork{
-        width: 343px;
+        width: 358px;
     }
     
     img.sealWorkItem{
-     width: 343px;
+     width: 358px;
      gap:30px;
     }
     
-    div.actionProject{
+    #seal div.actionProject{
         display: flex;
         flex-direction: row;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
         padding-bottom: 6rem;
         justify-content: space-between;
     }

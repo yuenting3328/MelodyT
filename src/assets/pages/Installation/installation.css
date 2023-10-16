@@ -491,7 +491,7 @@ img.installationWorkItem{
         font-family: "PlusJakartaSans-Regular";
         color:#061736;
         line-height: 150%;
-        width: 295px;
+        width: 310px;
         height: 70px;
     }
     
@@ -508,7 +508,7 @@ img.installationWorkItem{
     }
     
     img.researchPhotos{
-     width: 343px;
+     width: 358px;
      margin: 0;
      padding:0;
     }
@@ -534,7 +534,7 @@ img.installationWorkItem{
         font-family: "PlusJakartaSans-Regular";
         color:#474A58;
         line-height: 150%;
-        width:343px;
+        width:358px;
     }
     
     .installationConcept{
@@ -590,7 +590,7 @@ img.installationWorkItem{
         font-family: "PlusJakartaSans-Regular";
         color:#474A58;
         line-height: 150%;
-        width: 343px;
+        width: 358px;
         height: 176px;
     }
     
@@ -617,19 +617,19 @@ img.installationWorkItem{
     }
     
     img.installationWork{
-        width: 343px;
+        width: 358px;
     }
     
     img.installationWorkItem{
-     width: 167px;
+     width: 174px;
      gap:10px;
     }
     
     div.actionProject{
         display: flex;
         flex-direction: row;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
         padding-bottom: 6rem;
         justify-content: space-between;
     }

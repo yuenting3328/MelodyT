@@ -365,7 +365,7 @@ img.eIPPrototypeImg{
     display: flex;
     flex-direction: column;
     padding: 0 16px 30px;
-    width:343px;
+    width:358px;
     justify-content: center;
     gap:0;
     grid-gap: 0;
@@ -392,7 +392,7 @@ img.eIPPrototypeImg{
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 150%;
-      width:343px;
+      width:358px;
       margin:0;
   }
   
@@ -405,7 +405,7 @@ img.eIPPrototypeImg{
   }
   
   img.joinedEIPImg{
-    width:343px;
+    width:358px;
     padding:0 16px;
   }
 
@@ -439,7 +439,7 @@ img.eIPPrototypeImg{
 }
 
 img.eIPResearchImg{
-    width:343px;
+    width:358px;
     padding:0 16px;
   }
 
@@ -459,7 +459,7 @@ img.eIPResearchImg{
   }
 
   img.eIPPlanningImg{
-    width:343px;
+    width:358px;
     padding:0 16px;
   }
 
@@ -471,7 +471,7 @@ img.eIPResearchImg{
   }
 
   img.eIPDesignImg{
-    width:343px;
+    width:358px;
     padding:0 16px;
   }
 
@@ -498,6 +498,6 @@ img.eIPResearchImg{
 }
 
 img.eIPPrototypeImg{
-    width: 210px;
+    width: 220px;
 }
 }

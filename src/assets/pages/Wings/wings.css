@@ -299,7 +299,7 @@ body {
         background-image: url(../../images/wings\ banner\ ipad.png);
         background-size: 100% 100%;
         height: 427px;
-        width:600px;
+        width: 390px;
         z-index: -1;
         }
         
@@ -307,7 +307,7 @@ body {
       padding: 25px 40px;
       gap:32px;
       /* height:403px; */
-     height:150vw;
+     height:50vh;
     }
     
     .projectIntro{

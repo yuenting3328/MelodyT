@@ -762,7 +762,7 @@ iframe.mujiVideo {
     background-image: url(../../images/muji\ banner\ ipad.png);
     background-size: 100% 100%;
     height: 427px;
-    width:600px;
+    width:100vw;
     z-index: -1;
     }
     
@@ -833,7 +833,7 @@ p.mujiIntroDescription{
     display: flex;
     flex-direction: column;
     padding: 30px 16px 0;
-    width:343px;
+    width:358px;
     justify-content: center;
     gap:10px;
   }
@@ -850,7 +850,7 @@ p.mujiIntroDescription{
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 150%;
-      width:343px;
+      width:358px;
       margin:0;
   }
   
@@ -864,7 +864,7 @@ p.mujiIntroDescription{
   }
   
   img.mujiBackgroundImg{
-    width:343px;
+    width:358px;
     padding:0 16px;
   }
 
@@ -879,7 +879,7 @@ p.mujiIntroDescription{
     display: flex;
     flex-direction: column;
     padding: 0 16px 30px;
-    width:343px;
+    width:358px;
     justify-content: center;
     gap:10px;
   }
@@ -901,7 +901,7 @@ p.mujiIntroDescription{
   }
 
   img.mujiOutcomeImg{
-    width:343px;
+    width:358px;
   }
 
   .mujiOutcomelImgRow{
@@ -910,7 +910,7 @@ p.mujiIntroDescription{
   }
 
 .mujiOutcomeItem{
-    width:164px;
+    width:174px;
   }
 
   .mujiOutcomeSideContainer{
@@ -925,13 +925,13 @@ p.mujiIntroDescription{
   }
 
   img.mujiOutcomeImg4{
-    width:164px;
+    width:174px;
   }
 
 .mujiOutcomeSideTextContainer{
     display: flex;
     flex-direction: column;
-    width:164px;
+    width:174px;
     justify-content: center;
     gap:10px;
     padding-right: 0;
@@ -947,7 +947,7 @@ span#mujiOutcomeTitle{
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 150%;
-    width:164px;
+    width:174px;
     margin:0;
 }
 
@@ -969,7 +969,7 @@ span#mujiOutcomeTitle{
 }
  
 img.mujiProductDesignImg{
-    width:343px;
+    width:358px;
     padding:0 16px;
   }
 
@@ -985,7 +985,7 @@ img.mujiProductDesignImg{
   }
 
   .mujiUIImg{
-    width: 343px;
+    width: 358px;
   }
 
   .mujiPrototypeContainer{
@@ -1002,7 +1002,7 @@ img.mujiProductDesignImg{
   .mujiPrototypeGifContainer{
     display: flex;
     justify-content: center;
-    padding: 36px 100px ;
+    padding: 36px 118px ;
     margin: 0;
     background-color: #f5f5f5;
   }
