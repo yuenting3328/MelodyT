@@ -469,6 +469,9 @@ iframe{
 }
 
 @media screen and (max-width:480px) {
+    /* #experience div.content{
+        height: 395vh;
+        } */
     #experience {
         width: 100vw;
     
@@ -558,7 +561,7 @@ iframe{
         height: 82px;
     }
     
-    .experienceDesign{
+    div.experienceDesign{
         width: 100vw;
         height: 380px;
         display: flex;
@@ -648,11 +651,11 @@ iframe{
         width: 343px;
     }
     
-    div.actionProject{
+    #experience div.actionProject{
         display: flex;
         flex-direction: row;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
         padding-bottom: 6rem;
         justify-content: space-between;
     }

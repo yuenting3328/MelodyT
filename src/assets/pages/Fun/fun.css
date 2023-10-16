@@ -216,6 +216,10 @@
 }
 
 @media screen and  (max-width:480px) {
+  /* div.content{
+  height: 85vh;
+  } */
+
   #cache {
     height:400px;
     width: 340px;
