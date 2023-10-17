@@ -178,6 +178,86 @@ body {
             margin:0;
         }
         
+        .footer .footerDiv {
+            align-items: flex-start;
+            display: inline-flex;
+            flex: 0 0 auto;
+            flex-direction: column;
+            gap: 24px;
+            position: relative;
+        }
+        
+        .footer .footerFrame-2 {
+            align-items: flex-start;
+            /* display: inline-flex; */
+            flex: 0 0 auto;
+            flex-direction: column;
+            gap: 20px;
+            position: relative;
+        }
+        
+        .footer .text-wrapper {
+            font-size: 0.9rem;
+            font-weight: 300;
+            left: 46px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: absolute;
+            top: 27.563rem;
+            width: 607px;
+        }
+
+        .footer .footerFrame {
+            justify-content: left;
+            align-items: flex-start;
+            display: inline-flex;
+            gap: 45px;
+            left: 46px;
+            position: absolute;
+            top: 6.438rem;
+        }
+
+        .footer .footerLogo {
+            align-items: flex-start;
+            height: 162px;
+            position: relative;
+            width: 162px;
+        }
+        
+        .footer p.footerParagraph {
+            width: 70vw;
+            font-size: 1.5rem;
+            line-height: 2.4rem;
+            margin: 1rem 0 0 0;
+        }
+
+        .footer .footer-frame-3 {
+            gap: 30px;
+        
+        }
+
+        .footer .get-in-touch {
+            font-size: 36px;
+        }
+
+        .footer .footerImg {
+            height: 42px;
+            width: 42px;
+        }
+    }
+
+    @media screen and  (max-width:820px) {
+        .footer {
+            /* width: 100vw; */
+            height: 521px;
+            background: #163279;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            margin:0;
+        }
+        
         .footer .text-wrapper {
             font-size: 0.9rem;
             font-weight: 300;
