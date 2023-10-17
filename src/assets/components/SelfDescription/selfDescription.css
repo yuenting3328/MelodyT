@@ -504,13 +504,13 @@ body{
     
     .about .frame-wrapper {
         background-color: #ffffff;
-        height: 125vh;
+        height: 150vh;
         overflow: hidden;
         width: 100vw;    }
     
     .about .frame-2 {
-        width: 100vw;;
-        height: 800px;
+        width: 100vw;
+        height: 900px;
     }
     
     .about .intro {
