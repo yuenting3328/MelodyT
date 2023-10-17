@@ -2,7 +2,7 @@ html, body { margin: 0; }
 
 #intro2 {
   height:(100vh - 4rem);
-  width: 90rem;
+  width: 90vw;
   margin: 0;
   padding-bottom: 4rem;
   overflow: hidden;
@@ -15,7 +15,7 @@ html, body { margin: 0; }
   position: absolute;
   z-index: -10;
   top: 15vh;
-  right: 10vw;
+  right: 5vw;
   object-fit: cover;
   height: 65vh;
   animation-delay: 4s; 
@@ -98,7 +98,7 @@ html, body { margin: 0; }
 
 .introContent {
   height: 100vh;
-  width: 82rem;
+  width: 90vw;
   padding: 4rem;
   font-size: 3rem;
   font-weight: 700;
