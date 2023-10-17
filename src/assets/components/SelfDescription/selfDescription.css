@@ -157,7 +157,7 @@ body{
 
 @media screen and  (max-width:1366px) {
     div.aboutIntro {
-        height: 150vh;
+        height: 160vh;
     }
 
     .about {
@@ -165,7 +165,7 @@ body{
         flex-direction: column;
         justify-content: center;
         width: 100vw;
-        height: 150vh;
+        height: 160vh;
 
     }
     

@@ -287,16 +287,16 @@ html, body {
     }
 
     .selfBg{
-        width: 618px;
-        height: 574px;
-        left: 12rem;
+        width: 55vw;
+        height: 65vh;
+        left: 30rem;
         display: flex;
     }
 
     .selfIntroContent {
-    padding-top: 280px;
-    padding-right: 44px;
-    padding-left: 130px;
+    padding-top: 80px;
+    padding-right: 200px;
+    padding-left: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
