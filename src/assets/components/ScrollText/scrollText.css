@@ -14,10 +14,10 @@ html, body { margin: 0; }
 .bg {
   position: absolute;
   z-index: -10;
-  top: -2rem;
-  right: 2rem;
+  top: 15vh;
+  right: 10vw;
   object-fit: cover;
-  height: 100vh;
+  height: 65vh;
   animation-delay: 4s; 
   -webkit-animation: fadeInFromNone 9s ease-out;
     -moz-animation: fadeInFromNone 9s ease-out;
