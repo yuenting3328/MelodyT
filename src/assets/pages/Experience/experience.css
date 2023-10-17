@@ -693,7 +693,7 @@ iframe{
         line-height: 150%;
     }
     
-    p.introDescription {
+    #experience p.introDescription {
         font-size: 10px;
         font-family: "PlusJakartaSans-Regular";
         color:#061736;
@@ -707,10 +707,10 @@ iframe{
         margin: 0;
         padding: 0;
         /* width: 1440px; */
-        height: 520px;
+        height: 380px;
         display: flex;
         flex-direction: column;
-        padding: 55px 16px 0px 16px ;
+        padding: 55px 16px 110px 16px ;
         gap: 30px;
         
     }
@@ -731,7 +731,7 @@ iframe{
      width: 50vw;
      display: flex;
      flex-direction: column;
-     justify-content: center;
+     justify-content: flex-start;
      gap: 6px;
     }
     
@@ -740,9 +740,10 @@ iframe{
         font-family: "PlusJakartaSans-Bold";
         color: #061736;
         line-height: 150%;
+        padding-top: 0;
     }
     
-    p.conceptDescription{
+    #experience p.conceptDescription{
         font-size: 10px;
         font-family: "PlusJakartaSans-Regular";
         color:#474A58;
@@ -752,7 +753,7 @@ iframe{
     }
     
     div.experienceDesign{
-        width: 100vw;
+        width: 92vw;
         height: 380px;
         display: flex;
         flex-direction: column;

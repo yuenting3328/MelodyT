@@ -592,7 +592,7 @@ img.sealWorkItem{
         line-height: 150%;
     }
     
-    p.introDescription{
+    #seal p.introDescription{
         font-size: 10px;
         font-family: "PlusJakartaSans-Regular";
         color:#061736;
@@ -603,7 +603,7 @@ img.sealWorkItem{
         
     }
     
-    div.sealConcept{
+    #seal div.sealConcept{
         margin: 0;
         height: 75vh;
         display: flex;
@@ -617,7 +617,7 @@ img.sealWorkItem{
      /* width: 281.27px;
      height: 320.23px;
      padding: 0 47px; */
-     width:90vw;
+     width:92vw;
      height: 60vh;
      margin-bottom: 15px;
     }
@@ -626,7 +626,7 @@ img.sealWorkItem{
      padding: 0;
      margin: 0;
      width: 358px;
-     height: 148px;
+     height: 154px;
      padding-top: 0px;
     }
     

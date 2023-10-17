@@ -725,7 +725,7 @@ img.installationWorkItem{
         height: 671px;
         display: flex;
         flex-direction: column;
-        padding: 55px 16px 110px 16px ;
+        padding: 0 16px 110px 16px ;
         gap: 30px;
         align-items: center;
         justify-content: center;
