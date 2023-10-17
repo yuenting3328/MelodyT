@@ -50,8 +50,8 @@ body {
     #empf .overlap-group {
     background-image: url(../../images/empf\ banner.png);
     background-size: 100% 100%;
-    height: 876px;
-    width:1440px;
+    height: 120vh;
+    width:100vw;
     z-index: -1;
     animation-delay: 3s; 
     -webkit-animation: fadeInFromNone 3s ease-out;
@@ -129,16 +129,18 @@ body {
       }
     
 .empfIntro {
-  padding: 3.25rem 11.406rem 3.25rem 11.406rem;
+  padding: 6vh 12vw 6vh 12vw;
   display: flex;
   flex-direction: row;
   background-color: #F4FBFF;
-  gap:136px;
- 
+  gap:10vw;
+  /* width: 76vw; */
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .empfProjectIntro{
-    width: 630px;
+    width: 45vw;
     gap: 40px;
     display: flex;
     flex-direction: column;
@@ -162,7 +164,7 @@ body {
 }
 
 .projectInfo{
-    width: 365px;
+    width: 21vw;
     gap: 30px;
     display: flex;
     flex-direction: column;
@@ -1009,8 +1011,8 @@ img.empfDesignSystemImg{
   }
 
   #empf div.actionProject{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5vw;
+    padding-right: 5vw;
     padding-bottom: 6rem;
     justify-content: space-between;
 }

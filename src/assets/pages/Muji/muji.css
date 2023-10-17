@@ -126,16 +126,17 @@ body {
       }
     }
 .mujiIntro {
-  padding: 3.25rem 11.406rem 3.25rem 11.406rem;
+  padding: 6vh 12vw 6vh 12vw;
   display: flex;
   flex-direction: row;
   background-color: #F4FBFF;
-  gap:136px;
- 
+  gap:10vw;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .mujiProjectIntro{
-    width: 630px;
+    width: 45vw;
     gap: 40px;
     display: flex;
     flex-direction: column;
@@ -159,7 +160,7 @@ p.mujiIntroDescription{
 }
 
 .projectInfo{
-    width: 365px;
+    width: 21vw;
     gap: 30px;
     display: flex;
     flex-direction: column;
