@@ -133,14 +133,13 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #F4FBFF;
-  gap:10vw;
-  /* width: 76vw; */
-  justify-content: center;
+  gap: 10vw;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
 .empfProjectIntro{
-    width: 45vw;
+    width: 47vw;
     gap: 40px;
     display: flex;
     flex-direction: column;
@@ -160,11 +159,11 @@ body {
     font-family: "PlusJakartaSans-Regular";
     color:#061736;
     line-height: 150%;
-    width: 680px;
+    width: 47vw;
 }
 
 .projectInfo{
-    width: 21vw;
+    width: 24vw;
     gap: 30px;
     display: flex;
     flex-direction: column;
@@ -212,8 +211,8 @@ body {
   .empfTextContainer{
     display: flex;
     flex-direction: column;
-    padding: 0 182.5px 60px;
-    width:1075px;
+    padding: 0 12vw 60px;
+    width:76vw;
     justify-content: center;
     gap:14px;
   }
@@ -246,7 +245,7 @@ body {
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 150%;
-      width:1050px;
+      width:76vw;
       margin:0;
   }
 
@@ -259,8 +258,8 @@ body {
 }
 
 img.empfGoalImg{
-  width:1075px;
-  padding:0 182.5px;
+  width:76vw;
+  padding:0 12vw;
 
 
 }
@@ -280,7 +279,7 @@ img.empfGoalImg{
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 150%;
-    width:1076px;
+    width:76vw;
     margin:0;
 }
 
@@ -296,8 +295,8 @@ img.empfGoalImg{
 
 
 img.empfDesignImg{
-    width:1020px;
-    padding: 0 210px;
+    width:76vw;
+    padding: 0 12vw;
 }
 
 .empfUI{
@@ -314,22 +313,22 @@ img.empfDesignImg{
 .empfUIImgContainer{
    display: flex;
    margin: 0;
-   padding-left: 182px;
+   padding-left: 12vw;
 }
 
 img.empfUIImg{
-  width: 508px;
+  width: 43vw;
   
 }
 
 .empfUIContainer{
     padding: 0;
     margin: 0;
-    width: 414px;
+    width: 43vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 182px;
+    padding-right: 0;
     gap: 14px;
 }
 
@@ -346,7 +345,7 @@ img.empfUIImg{
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 150%;
-    width:414px;
+    width:24vw;
     margin:0;
 
 }
@@ -362,8 +361,8 @@ img.empfUIImg{
 }
 
 img.empfDesignSystemImg{
-    width: 1075px;
-    padding: 0 182.5px;
+    width: 76vw;
+    padding: 0 12vw;
 }
 
 .empfDesignSystemBtnContainer{
@@ -389,8 +388,8 @@ img.empfDesignSystemImg{
   }
 
   .empfDevelopmentImg{
-    width: 1052px;
-    padding: 0 194px;
+    width: 66vw;
+    padding: 0 22vw;
   }
 
   .empfPrototypeContainer{
@@ -410,15 +409,15 @@ img.empfDesignSystemImg{
   }
 
   .empfPrototypeImgContainer{
-    width: 1296px;
+    width: 76vw;
     display: flex;
-    padding: 0 72px;
+    padding: 0 12vw;
     color: #F5F5F5;
     margin: 0;
   }
 
   img.empfPrototypeImg{
-    width: 786px;
+    width: 60vw;
     padding: 96px 255px;
     background-color: #F5F5F5;
   }

@@ -136,7 +136,7 @@ body {
 }
 
 .mujiProjectIntro{
-    width: 45vw;
+    width: 47vw;
     gap: 40px;
     display: flex;
     flex-direction: column;
@@ -156,11 +156,11 @@ p.mujiIntroDescription{
     font-family: "PlusJakartaSans-Regular";
     color:#061736;
     line-height: 150%;
-    width: 45vw;
+    width: 47vw;
 }
 
 .projectInfo{
-    width: 21vw;
+    width: 25vw;
     gap: 30px;
     display: flex;
     flex-direction: column;
