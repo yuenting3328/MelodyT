@@ -49,7 +49,7 @@ body {
     #motic .overlap-group {
     background-image: url(../../images/motic\ banner.png);
     background-size: 100% 100%;
-    height: 876px;
+    height: 110vh;
     z-index: -1;
     animation-delay: 3s; 
     -webkit-animation: fadeInFromNone 3s ease-out;
@@ -127,16 +127,18 @@ body {
       }
     
 .moticIntro {
-  padding: 3.25rem 11.406rem 3.25rem 11.406rem;
+  padding: 6vh 12vw 6vh 12vw;
   display: flex;
   flex-direction: row;
   background-color: #F4FBFF;
-  gap:136px;
+  gap:10vw;
+  justify-content: space-between;
+  align-items: flex-start;
  
 }
 
 .moticProjectIntro{
-    width: 630px;
+    width: 47vw;
     gap: 40px;
     display: flex;
     flex-direction: column;
@@ -156,11 +158,11 @@ p.moticIntroDescription{
     font-family: "PlusJakartaSans-Regular";
     color:#061736;
     line-height: 150%;
-    width: 630px;
+    width: 47vw;
 }
 
 .projectInfo{
-    width: 365px;
+    width: 24vw;
     gap: 30px;
     display: flex;
     flex-direction: column;
@@ -211,8 +213,8 @@ p.moticIntroDescription{
 }
 
 img.moticChallengeImg{
-  width:1076px;
-  padding:0 182px;
+  width:76vw;
+  padding:0 12vw;
 }
 
 .sideContainer{
@@ -221,18 +223,18 @@ img.moticChallengeImg{
     justify-content:center ;
     align-items: center;
     gap: 136px;
-    padding: 70px 182.5px 0 182.5px;
+    padding: 70px 12vw 0 12vw;
     
 }
 
 img.moticChallengeImg2{
-  width:525px;
+  width:43vw;
 }
   
   .moticTextContainer{
     display: flex;
     flex-direction: column;
-    width:414px;
+    width:43vw;
     justify-content: center;
     gap:14px;
   }
@@ -249,7 +251,7 @@ img.moticChallengeImg2{
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 28px;
-      width:414px;
+      width:26vw;
       margin:0;
   }
   
@@ -258,7 +260,7 @@ img.moticChallengeImg2{
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 150%;
-    width:1075px;
+    width:76vw;
     margin:0;
 }
 
@@ -268,13 +270,15 @@ img.moticChallengeImg2{
     flex-direction: column;
     margin: 0;
     padding-bottom: 220px;
+    justify-content: center;
+    align-items: center;
 }
 
 .textContainer{
     display: flex;
     flex-direction: column;
-    padding: 0 182.5px 60px;
-    width:1075px;
+    padding: 0 12vw 60px;
+    width:76vw;
     justify-content: center;
     gap:14px;
   }
@@ -284,7 +288,7 @@ img.moticChallengeImg2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:0 72px;
+    padding:0 12vw;
     margin:0;
     gap:30px;
 }
@@ -301,8 +305,8 @@ img.moticChallengeImg2{
 }
 
 iframe.moticVideo {
- width: 785px;
- height: 491px;
+ width: 53vw;
+ height: 50vh;
  padding: 0;
  margin: 0;
  
@@ -320,7 +324,7 @@ iframe.moticVideo {
 }
 
 img.moticSolutionItem{
- width: 633px;
+ width: 37.2vw;
  padding: 0;
  margin: 0;
 }
@@ -345,8 +349,8 @@ img.moticSolutionItem{
 }
 
 img.moticDesignImg{
-  width:1076px;
-  padding:0 182px;
+  width:76vw;
+  padding:0 12vw;
 }
 
 .moticWireframeContainer{
@@ -365,15 +369,15 @@ img.moticDesignImg{
     margin:0;
     padding: 0;
     row-gap: 30px;
-    padding: 0 182.5px 0 182.5px;
+    padding: 0 12vw 0 12vw;
 }
 
 img.moticWireframeImg1{
-    width:1076px;
+    width:76vw;
   }
 
   img.moticWireframeImg2{
-    width:1076px;
+    width:76vw;
 
   }
 
@@ -392,15 +396,15 @@ img.moticWireframeImg1{
     margin:0;
     padding: 0;
     row-gap: 60px;
-    padding: 0 72px 0 72px;
+    padding: 0 12vw 0 12vw;
   }
 
   img.moticOutcomeImg1{
-    width:1296px;
+    width:76vw;
   }
   
   img.moticOutcomeImg2{
-    width:1296px;
+    width:76vw;
   }
 
   .actionProject{
