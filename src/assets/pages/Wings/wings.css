@@ -127,16 +127,18 @@ body {
       }
     
 .wingsIntro {
-  padding: 3.25rem 11.406rem 3.25rem 11.406rem;
+  padding: 6vh 12vw;
   display: flex;
   flex-direction: row;
   background-color: #F4FBFF;
-  gap:136px;
+  gap:10vw;
+  justify-content: center;
+  align-items: flex-start;
  
 }
 
 .projectIntro{
-    width: 630px;
+    width: 47vw;
     gap: 40px;
     display: flex;
     flex-direction: column;
@@ -156,11 +158,11 @@ body {
     font-family: "PlusJakartaSans-Regular";
     color:#061736;
     line-height: 150%;
-    width: 680px;
+    width: 47vw;
 }
 
 .projectInfo{
-    width: 365px;
+    width: 24vw;
     gap: 30px;
     display: flex;
     flex-direction: column;

@@ -132,8 +132,8 @@ html, body {
 .selfIntroContent {
     position: relative;
     height: 100vh;
-    width: 82rem;
-    padding: 4rem 120px 4rem 120px;
+    width: 76vw;
+    padding: 6vh 12vw;
     font-size: 3rem;
     font-weight: 700;
     display: flex;

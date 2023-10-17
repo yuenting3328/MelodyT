@@ -47,8 +47,8 @@
   .textContainer{
     display: flex;
     flex-direction: column;
-    padding: 0 182.5px 60px;
-    width:1075px;
+    padding: 0 12vw 60px;
+    width:76vw;
     justify-content: center;
     gap:14px;
   }
@@ -72,7 +72,7 @@
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 150%;
-      width:1075px;
+      width:76vw;
       margin:0;
   }
   
@@ -85,8 +85,8 @@
   }
   
   img.joinedEIPImg{
-    width:1076px;
-    padding:0 182.5px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   .eIPGoalContainer{
@@ -125,8 +125,8 @@
 }
 
 img.eIPResearchImg{
-    width:1076px;
-    padding:0 182.5px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   .eIPPlanningContainer{
@@ -148,8 +148,8 @@ img.eIPResearchImg{
   }
 
   img.eIPPlanningImg{
-    width:1076px;
-    padding:0 182.5px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   .eIPDesignContainer{
@@ -163,8 +163,8 @@ img.eIPResearchImg{
   }
 
   img.eIPDesignImg{
-    width:1076px;
-    padding:0 182.5px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   .eIPPrototypeContainer{
@@ -188,12 +188,12 @@ img.eIPResearchImg{
       flex-direction: column;
       justify-content:center ;
       align-items: center;
-      padding: 94px 252px;
+      padding: 94px 13vw;
       background-color: #f5f5f5;
 }
 
 img.eIPPrototypeImg{
-    width: 790px;
+    width: 50vw;
     filter: drop-shadow(0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.3));
 }
 

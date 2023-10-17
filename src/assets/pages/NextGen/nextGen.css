@@ -47,8 +47,8 @@
   .textContainer{
     display: flex;
     flex-direction: column;
-    padding: 0 182.5px 60px;
-    width:1075px;
+    padding: 0 12vw 60px;
+    width:76vw;
     justify-content: center;
     gap:14px;
   }
@@ -67,12 +67,12 @@
       line-height: 150%;
   }
   
-  .description{
+  p.description{
       font-size: 18px;
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 150%;
-      width:1075px;
+      width:76vw;
       margin:0;
   }
   
@@ -85,8 +85,8 @@
   }
   
   img.nextGenGoalImg{
-    width:1076px;
-    padding:0 182px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   .nextGenDesignContainer{
@@ -101,15 +101,15 @@
   .nextGenDesignTextContainer{
     display: flex;
     flex-direction: column;
-    padding: 0 182.5px 120px;
-    width:1075px;
+    padding: 0 12vw 120px;
+    width:76vw;
     justify-content: center;
     gap:14px;
   }
 
   img.nextGenDesignImg{
-    width:1076px;
-    padding:0 182px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   .nextGenWireframeContainer{
@@ -122,8 +122,8 @@
   }
 
   img.nextGenWireframeImg{
-    width:1076px;
-    padding:0 182px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   .nextGenVideoContainer{
@@ -142,8 +142,8 @@
   }
 
   img.nextGenVideoImg{
-    width:1076px;
-    padding:0 182px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   @media screen and (max-width:1366px) {
