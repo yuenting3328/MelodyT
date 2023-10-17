@@ -36,8 +36,8 @@ html, body { margin: 0; padding: 0;}
   header{
     display: flex;
     background-color: transparent;
-    justify-content: space-around;
-    padding: 20px 75px 10px 75px;
+    justify-content: space-between;
+    padding: 20px 6vw 10px 6vw;
     margin: 0;
     align-items: center;
     animation: slideTop 1s ease forwards ;
@@ -46,7 +46,7 @@ html, body { margin: 0; padding: 0;}
   .sticky {
     position: fixed;
     top: 0;
-    width: 100vw;;
+    width: 100vw;
   }
 
   @keyframes slideTop {
@@ -64,7 +64,7 @@ html, body { margin: 0; padding: 0;}
   .logo{
     display: flex;
     align-items: left;
-    margin-right: 600px;
+    margin-right: 0;
   }
   
   .logo img {

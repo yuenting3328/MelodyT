@@ -26,10 +26,10 @@ html, body {
 .selfBg {
     position: absolute;
     z-index: -30;
-    top: -2rem;
-    right: -3.5rem;
+    top: -4.5vh;
+    right: 0vw;
     object-fit: cover;
-    height: 100vh;
+    height: 90vh;
     animation-delay: 4s; 
     -webkit-animation: fadeInFromNone 4s ease-out;
       -moz-animation: fadeInFromNone 4s ease-out;
@@ -132,8 +132,8 @@ html, body {
 .selfIntroContent {
     position: relative;
     height: 100vh;
-    width: 76vw;
-    padding: 6vh 12vw;
+    width: 78vw;
+    padding: 6vh 10vw;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
