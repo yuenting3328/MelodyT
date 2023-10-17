@@ -128,18 +128,20 @@ body {
       }
     
 .haIntro {
-  padding: 3.25rem 11.406rem 3.25rem 11.406rem;
+  padding: 6vh 12vw;
   display: flex;
   flex-direction: row;
   background-color: #F4FBFF;
-  gap:136px;
+  gap:10vw;
   animation-delay: 3s; 
   z-index: 10;
+  justify-content: space-between;
+  align-items: flex-start;
  
 }
 
-.projectIntro{
-    width: 630px;
+#ha .projectIntro{
+    width: 47vw;
     gap: 40px;
     display: flex;
     flex-direction: column;
@@ -159,11 +161,11 @@ body {
     font-family: "PlusJakartaSans-Regular";
     color:#061736;
     line-height: 150%;
-    width: 680px;
+    width: 47vw;
 }
 
 .projectInfo{
-    width: 365px;
+    width: 24vw;
     gap: 30px;
     display: flex;
     flex-direction: column;
@@ -209,14 +211,15 @@ text-decoration: underline;
     padding-top: 110px;
     padding-bottom: 220px;
     justify-content: center;
+    align-items: center;
   
   }
   
   .haTextContainer{
     display: flex;
     flex-direction: column;
-    padding: 0 182.5px 60px;
-    width:1075px;
+    padding: 0 12vw 60px;
+    width:76vw;
     justify-content: center;
     gap:14px;
   }
@@ -233,7 +236,7 @@ text-decoration: underline;
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 150%;
-      width:1075px;
+      width:76vw;
       margin:0;
   }
   
@@ -246,8 +249,8 @@ text-decoration: underline;
   }
   
   img.haGoalImg{
-    width:1076px;
-    padding:0 182px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   .problemContainer{
@@ -261,8 +264,8 @@ text-decoration: underline;
   }
 
   img.haProblemImg{
-    width:1076px;
-    padding:0 182px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   .researchContainer{
@@ -276,8 +279,8 @@ text-decoration: underline;
   }
 
   img.haResearchImg{
-    width:1076px;
-    padding:0 182px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   .solutionContainer{
@@ -295,14 +298,14 @@ text-decoration: underline;
     font-family: "PlusJakartaSans-SemiBold";
     color:#061736;
     line-height: 150%;
-    width:1075px;
+    width:76vw;
     margin:0;
 }
 
 
   img.haSolutionImg{
-    width:1296px;
-    padding:0 72px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   .actionProject{
@@ -717,18 +720,19 @@ p.haIntroDescription {
     }
     
 div.haIntro {
-  padding: 25px 40px;
+  padding: 25px 6vw 25px 6vw;
   /* padding: 6vw; */
-  gap: 32px;
-  width: 100vw;
+  gap: 8vw;
+  width: 88vw;
   /* height: 321px; */
-  height: 36vh;
+  height: 32vh;
+  justify-content: center;
+  align-items: flex-start;
  
 }
 
-div.projectIntro{
-    width: 161px;
-    height: 270px;
+#ha div.projectIntro{
+    width: 49vw;
     gap: 20px;
 }
 
@@ -740,12 +744,12 @@ span.introTitle{
 p.haIntroDescription {
     font-size: 10px;
     line-height: 150%;
-    width: 161px;
-    height: 233px;
+    width: 49vw;
+    height: 200px;
 }
 
 div.projectInfo{
-    width: 102px;
+    width: 24vw;
     gap: 14px;
     display: flex;
     flex-direction: column;
