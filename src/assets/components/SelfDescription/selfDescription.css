@@ -494,7 +494,7 @@ body{
         flex-direction: column;
         justify-content: center;
         width: 100vw;
-        height: 1000px;
+        height: 180vh;
 
     }
 
@@ -504,13 +504,13 @@ body{
     
     .about .frame-wrapper {
         background-color: #ffffff;
-        height: 160vh;
+        height: 180vh;
         overflow: hidden;
         width: 100vw;    }
     
     .about .frame-2 {
         width: 100vw;
-        height: 160vh;
+        height: 180vh;
     }
     
     .about .intro {
