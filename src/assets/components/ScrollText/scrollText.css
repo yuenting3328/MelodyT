@@ -273,11 +273,12 @@ html {
     .bg {
       position: absolute;
       top: -2.5rem;
-      right: 2rem;
+      right: 13vw;
       object-fit: cover;
       justify-content: center;
       align-self: center;
-      height: 350px;
+      height: 300px;
+      width:300px;
 
     }
 
