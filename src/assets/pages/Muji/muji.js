@@ -85,10 +85,10 @@ const Muji = () =>{
     </div>
             <div className="mujiBackgroundTextContainer" id="mujiBackgroundTextContaier">
             <span className="mujiTitle" id="mujiBackgroundTitle">
-            Research
+            The Background
             </span>
             <p className="mujiDescription" id="mujiBackgroundDescription">
-            I have studied Gmail's design and find their user icon to be quite impressive, as it offers quick access to several key actions, including changing, managing, and adding another account. Additionally, Gmail has incorporated intuitive micro-interactions that guide users through the product in an effortless and intuitive way, making for a more seamless user experience.
+            MUJI is a brand that remains grounded in the present, neither dwelling on the past nor fixating solely on the future. Its goal is to seek out practical, everyday items that exhibit a timeless appeal, all the while maintaining a collaborative relationship between the makers and consumers who come together to create products that seamlessly integrate into modern lifestyles. Throughout this process, MUJI never loses sight of its vision of a "simple, pleasant life," keeping it at the forefront of everything it does.
             </p>
             </div>
     </div>

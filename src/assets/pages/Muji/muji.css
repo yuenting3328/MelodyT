@@ -156,7 +156,7 @@ p.mujiIntroDescription{
     font-family: "PlusJakartaSans-Regular";
     color:#061736;
     line-height: 150%;
-    width: 630px;
+    width: 45vw;
 }
 
 .projectInfo{
@@ -200,17 +200,16 @@ p.mujiIntroDescription{
     padding-top: 110px;
     padding-bottom: 220px;
     justify-content: center;
-  
+    align-items: center;
   }
   
-  .mujiBackgroundTextContainer{
+  #muji div.mujiBackgroundTextContainer{
     display: flex;
     flex-direction: column;
-    padding: 60px 182.5px 0;
-    width:1075px;
+    padding: 60px 12vw 0 12vw;
+    width:76vw;
     justify-content: center;
-
-    gap:14px;
+    gap: 14px;
   }
   
   .mujiTitle{
@@ -225,7 +224,7 @@ p.mujiIntroDescription{
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 150%;
-      width:1075px;
+      width:76vw;
       margin:0;
   }
   
@@ -239,8 +238,8 @@ p.mujiIntroDescription{
   }
   
   img.mujiBackgroundImg{
-    width:1076px;
-    padding:0 182px;
+    width:76vw;
+    padding:0 12vw;
   }
 
 .mujiIdeaContainer{
@@ -250,14 +249,15 @@ p.mujiIntroDescription{
     margin: 0;
     padding-bottom: 220px;
     justify-content: center;
+    align-items: center;
 
 }
 
   .mujiTextContainer{
     display: flex;
     flex-direction: column;
-    padding: 0 182.5px 60px;
-    width:1075px;
+    padding: 0 12vw 60px;
+    width:76vw;
     justify-content: center;
     gap:14px;
   }
@@ -278,11 +278,11 @@ p.mujiIntroDescription{
     margin:0;
     padding: 0;
     row-gap: 46px;
-    padding: 0 72px 0 72px;
+    padding: 0 12vw 0 12vw;
   }
 
   img.mujiOutcomeImg{
-    width:1296px;
+    width:76vw;
   }
 
   .mujiOutcomelImgRow{
@@ -291,11 +291,11 @@ p.mujiIntroDescription{
     margin:0;
     padding: 0;
     gap: 46px;
-    padding: 0 72px 0 72px;
+    padding: 0 12vw 0 12vw;
   }
 
 .mujiOutcomeItem{
-    width:624px;
+    width:37vw;
   }
 
   .mujiOutcomeSideContainer{
@@ -304,7 +304,7 @@ p.mujiIntroDescription{
     justify-content:center ;
     align-items: center;
     gap:50px;
-    padding: 0 72px 0 72px;
+    padding: 0 12vw 0 12vw;
     margin: 0;
   }
 
@@ -317,16 +317,16 @@ p.mujiIntroDescription{
   }
 
   img.mujiOutcomeImg4{
-    width:624px;
+    width:37vw;
   }
 
 .mujiOutcomeSideTextContainer{
     display: flex;
     flex-direction: column;
-    width:422px;
+    width:37vw;
     justify-content: center;
     gap:14px;
-    padding-right: 60px;
+    padding-right: 0;
 }
 
 .mujiOutcomeDescription{
@@ -334,7 +334,7 @@ p.mujiIntroDescription{
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 28px;
-    width:414px;
+    width:24vw;
     margin:0;
 }
 
@@ -356,8 +356,8 @@ p.mujiIntroDescription{
 }
  
 img.mujiProductDesignImg{
-    width:1076px;
-    padding:0 182px;
+    width:76vw;
+    padding:0 12vw;
   }
 
   .mujiUIContainer{
@@ -375,11 +375,11 @@ img.mujiProductDesignImg{
     margin:0;
     padding: 0;
     gap: 60px;
-    padding: 0 72px 0 72px;
+    padding: 0 12vw 0 12vw;
   }
 
   .mujiUIImg{
-    width: 1296px;
+    width: 76vw;
   }
 
   .mujiPrototypeContainer{
@@ -397,7 +397,7 @@ img.mujiProductDesignImg{
     margin:0;
     padding: 0;
     gap: 60px;
-    padding: 0 72px 0 72px;
+    padding: 0 12vw 0 12vw;
   }
 
   .mujiPrototypeGifContainer{
@@ -409,7 +409,7 @@ img.mujiProductDesignImg{
   }
 
   img.mujiPrototypeGif{
-    height:520px;
+    height:50vh;
     filter: drop-shadow(0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.3));
 
   }
@@ -426,8 +426,8 @@ img.mujiProductDesignImg{
 }
 
 iframe.mujiVideo {
- width: 785px;
- height: 491px;
+ width: 52vw;
+ height: 50vh;
  filter: drop-shadow(0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.3));
  padding: 0;
  margin: 0;
