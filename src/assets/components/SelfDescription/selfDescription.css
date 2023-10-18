@@ -511,9 +511,9 @@ div.frame-2 {
 
     }
 
-    div.aboutIntro {
+    /* div.aboutIntro {
         /* height: 120vh; */
-    }
+    } */
     
     .about .frame-wrapper {
         background-color: #ffffff;
@@ -521,12 +521,12 @@ div.frame-2 {
         overflow: hidden;
         width: 100vw;   
      }
-    
+   
     .about .frame-2 {
         /* width: 100vw;
         height: 180vh; */
-    }
-    
+    } 
+
     .about .intro {
         display: flex;
         flex-direction: column;
@@ -664,4 +664,3 @@ div.frame-2 {
     width: 67.25px;
 }
     
-}
