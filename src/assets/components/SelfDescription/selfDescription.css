@@ -194,7 +194,7 @@ div.frame-2 {
         align-items: center; 
         padding-left: 60px;
         padding-right:60px;
-        width: 588px;
+        width: 80vw;
         height: fit-content;
 
     }
@@ -250,6 +250,7 @@ div.frame-2 {
     position: relative;
     top: -35rem;
     left: 2rem;
+    width: 80vw;
 
 }
 
@@ -280,13 +281,12 @@ div.frame-2 {
 
 .about .icons {
     align-items: center;
-    display: grid;
-    /* flex: 0; */
-    grid-template-columns: auto auto auto;
-    grid-gap: 60px;
-    left: 0rem;
+    display: inline-flex;
+    flex: 0 0 auto;
+    grid-gap: 4vw;
+    gap: 4vw;
     position: relative;
-    padding:  0 18px;
+    flex-wrap: wrap;
 }
 
 .about .logo-en {
@@ -338,7 +338,7 @@ div.frame-2 {
     
     .about .frame-wrapper {
         background-color: #ffffff;
-        height: 2300px;
+        height: 1600px;
         overflow: hidden;
         width: 100vw;
     }
@@ -368,7 +368,7 @@ div.frame-2 {
         align-items: center; 
         padding-left: 60px;
         padding-right:60px;
-        width: 588px;
+        width: 85vw;
 
     }
     
@@ -379,7 +379,7 @@ div.frame-2 {
         margin-top: -59.12px;
         position: relative;
         width: 614px;
-        right: -6rem;
+        right: -6vw;
 
     }
     
@@ -406,12 +406,12 @@ div.frame-2 {
         position: relative;
         width: 588px;
         color: #474A58;
-        left: 5rem;
+        left: 5vw;
 
     }
 .aboutBtn{
     position: relative;
-    left: 5rem;
+    left: 5vw;
 }
 
 .about .icon-list {
@@ -421,7 +421,8 @@ div.frame-2 {
     flex-direction: column;
     gap: 22px;
     position: relative;
-    left: 5rem;
+    left:0;
+    padding: 2vw;
 
 }
 
@@ -455,7 +456,7 @@ div.frame-2 {
     display: grid;
     /* flex: 0; */
     grid-template-columns: auto auto auto;
-    grid-gap: 26px;
+    grid-gap: 3vw;
     left: 0rem;
     position: relative;
     padding:  0 18px;

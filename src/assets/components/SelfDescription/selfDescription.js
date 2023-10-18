@@ -21,7 +21,7 @@ const SelfDescription =() => {
                         <p className="i-m-melody-tse-a-UX">
                         I&#39;m Melody Tse, a UX/UI Designer who is passionate about using technology and design to enhance the
                         lives of others. My expertise lies in taking ideas from wireframe to prototype and conducting user
-                        research, interaction design, and practical operations. <br />
+                        research, interaction design, and practical operations for several corporates. <br />
                         <br />
                         With over 3 years of hands-on experience in digital product design, I have devoted the past 3 years to
                         specialize in User Experience and User Interface. Born and raised in Hong Kong, I have worked for

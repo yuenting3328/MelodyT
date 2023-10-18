@@ -204,7 +204,7 @@ html {
     
     .bg {
       position: absolute;
-      top: -4rem;
+      top: -4vh;
       right: 14rem;
       object-fit: cover;
       justify-content: center;
@@ -238,8 +238,8 @@ html {
     
     .bg {
       position: absolute;
-      top: -4rem;
-      right: 9rem;
+      top: -4vw;
+      right: 9vw;
       object-fit: cover;
       justify-content: center;
       align-self: center;
