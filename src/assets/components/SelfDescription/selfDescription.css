@@ -516,7 +516,7 @@ div.frame-2 {
     
     .about .frame-wrapper {
         background-color: #ffffff;
-        /* height: 180vh; */
+        height: 150vh;
         overflow: hidden;
         width: 100vw;    }
     
@@ -587,7 +587,7 @@ div.frame-2 {
     flex-direction: column;
     gap: 12px;
     position: relative;
-    left: 5vw;
+    left: 0vw;
 
 }
 

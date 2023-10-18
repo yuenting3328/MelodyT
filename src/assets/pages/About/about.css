@@ -130,7 +130,7 @@ margin: 0;
     #aboutMeContent{
         padding: bottom 60px ;
         margin: 0;
-        height: 1100px;
+        height: 900px;
         }  
     
         div.aboutIntro{
@@ -150,7 +150,7 @@ margin: 0;
     } */
     #aboutReco{
         margin: 0;
-        height: 120vh;
+        height: 80vh;
         padding-bottom: 0;
     }
     /* div.about{

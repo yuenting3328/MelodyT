@@ -197,24 +197,23 @@
 @media screen and  (max-width:1366px) {
     .endorsements {
         /* width: 100vw; */
-        width: 95vw;
+        width: 100vw;
     }
-    .endorsements .frame-2
     
     .endorsements .group-wrapper {
         background-color: #ffffff;
         /* height: 1000px; */
-        height: 500vh;
+        height: 300vh;
         overflow: hidden;
-        width: 95vw;
+        width: 100vw;
     }
     
     .endorsements .group {
-        height: 480vh;
+        height:300vh;
         left: 32px;
         position: relative;
-        top: 95rem;
-        width: 90vw;
+        top: 0rem;
+        width: 100vw;
     }
     
     .endorsements .frame-2 {
@@ -401,7 +400,7 @@
         height: 240vh;
         left: 32px;
         position: relative;
-        top: 38rem;
+        top: 10vh;
         width: 90vw;
     }
     
@@ -597,7 +596,7 @@
         width: 90vw;
         left: 0px;
         position: relative;
-        top: -100vh;
+        top: -160vh;
         /* width: 100vw; */
     }
     
