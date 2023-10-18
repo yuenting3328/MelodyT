@@ -585,18 +585,18 @@
     .endorsements .group-wrapper {
         background-color: #ffffff;
         /* height: 600px; */
-        height: 100vh ;
+        height: 120vh ;
         overflow: hidden;
         width: 100vw;
         display: contents;   }
     
     .endorsements .group {
         /* height: 800px; */
-        height: 100vh ;
+        height: 120vh ;
         width: 90vw;
         left: 0px;
         position: relative;
-        top: -170vh;
+        top: -165vh;
         /* width: 100vw; */
     }
     
