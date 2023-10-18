@@ -596,7 +596,7 @@
         width: 90vw;
         left: 0px;
         position: relative;
-        top: -165vh;
+        top: -170vh;
         /* width: 100vw; */
     }
     
@@ -610,7 +610,7 @@
         display: flex;
         gap: 40px;
         /* height: 466px ; */
-        height: 220vh ;
+        height: 200vh ;
         left: 0.8rem;
         right:1;
         overflow-x: hidden;
