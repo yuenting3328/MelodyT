@@ -5,29 +5,31 @@
 body{
     background-color: transparent;
 }
-.about {
+div.about {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 100vw;;
+    width: 100vw;
 }
 
 .about .frame-wrapper {
     background-color: #ffffff;
-    height: 1040px;
+    height: 120vh;
     overflow: hidden;
-    width: 1440px;
+    width: 100vw;
+    
+
 }
 
-.about .frame-2 {
+div.frame-2 {
     align-items: flex-end;
     display: inline-flex;
     flex-direction: column;
     gap: 43px;
-    left: -80px;
+    left: -5.5vw;
     position: relative;
     top: 126px;
+
 }
 
 .about .intro {
@@ -39,11 +41,11 @@ body{
 }
 
 .about .icon {
-    height: 614px;
+    height: 83vh;
     margin-bottom: -18.98px;
     margin-top: -59.12px;
     position: relative;
-    width: 614px;
+    width: 43vw;
     right: -8vw;
 }
 
@@ -52,7 +54,7 @@ body{
     display: inline-flex;
     flex: 0 0 auto;
     flex-direction: column;
-    gap: 57px;
+    gap: 7vh;
     position: relative;
 }
 
@@ -66,7 +68,7 @@ body{
     line-height: 32px;
     margin-top: -1px;
     position: relative;
-    width: 746.2px;
+    width: 51vw;
     color: #474A58;
 }
 
@@ -79,7 +81,7 @@ body{
     display: inline-flex;
     flex: 0 0 auto;
     flex-direction: column;
-    gap: 22px;
+    gap: 3vh;
     position: relative;
 }
 
@@ -88,7 +90,7 @@ body{
     display: inline-flex;
     flex: 0 0 auto;
     flex-direction: column;
-    gap: 19px;
+    gap: 2.5vh;
     position: relative;
 }
 
@@ -97,7 +99,7 @@ body{
     margin-top: -0.5px;
     object-fit: cover;
     position: relative;
-    width: 1296px;
+    width: 90vw;
 }
 
 .about .text-wrapper {
@@ -116,43 +118,43 @@ body{
     align-items: center;
     display: inline-flex;
     flex: 0 0 auto;
-    gap: 51px;
+    gap: 4vw;
     position: relative;
 }
 
 .about .logo-en {
-    height: 38.61px;
+    height: 5vh;
     object-fit: cover;
     position: relative;
-    width: 278.26px;
+    width: 20vw;
 }
 
 .about .securities-and {
-    height: 61.29px;
+    height: 8.1vh;
     object-fit: cover;
     position: relative;
-    width: 186.2px;
+    width: 13vw;
 }
 
 .about .logo-mpfa {
-    height: 61.29px;
+    height: 8.2vh;
     object-fit: cover;
     position: relative;
-    width: 192.53px;
+    width: 12vw;
 }
 
 .about .asl-logo-combo {
-    height: 34.75px;
+    height: 4.5vh;
     object-fit: cover;
     position: relative;
-    width: 257.83px;
+    width: 17.8vw;
 }
 
 .about .motic {
-    height: 40.82px;
+    height: 5.2vh;
     object-fit: cover;
     position: relative;
-    width: 139.81px;
+    width: 9.7vw;
 }
 
 @media screen and  (max-width:1366px) {
@@ -343,9 +345,18 @@ body{
     
     .about .frame-2 {
         width: 100vw;
-        /* height: 2500px; */
-        /* display: contents; */
     }
+    div.frame-2 {
+        align-items: flex-end;
+        display: inline-flex;
+        flex-direction: column;
+        gap: 0px;
+        left: 0vw;
+        position: relative;
+        top: 0px;
+    
+    }
+    
     
     .about .intro {
         align-items: center;
@@ -489,6 +500,7 @@ body{
 
 @media screen and  (max-width:480px) {
 /* @media screen and  (max-width:375px) { */
+    
     .about {
         display: flex;
         flex-direction: column;
@@ -499,18 +511,18 @@ body{
     }
 
     div.aboutIntro {
-        height: 120vh;
+        /* height: 120vh; */
     }
     
     .about .frame-wrapper {
         background-color: #ffffff;
-        height: 180vh;
+        /* height: 180vh; */
         overflow: hidden;
         width: 100vw;    }
     
     .about .frame-2 {
-        width: 100vw;
-        height: 180vh;
+        /* width: 100vw;
+        height: 180vh; */
     }
     
     .about .intro {
@@ -530,11 +542,11 @@ body{
     .about .icon {
         flex-grow: 3;
         height: 300px;
-        margin-bottom: -18.98px;
+        margin-bottom: 0;
         margin-top: -30px;
         position: relative;
         width: 300px;
-        right: -7rem;
+        right: -5vw;
 
     }
     
@@ -560,12 +572,12 @@ body{
         position: relative;
         width: 288px;
         color: #474A58;
-        left: 6rem;
+        left: 6vw;
 
     }
 .aboutBtn{
     position: relative;
-    left: 6rem;
+    left: 6vw;
 }
 
 .about .icon-list {
@@ -575,7 +587,7 @@ body{
     flex-direction: column;
     gap: 12px;
     position: relative;
-    left: 5rem;
+    left: 5vw;
 
 }
 
@@ -609,12 +621,11 @@ body{
 .about .icons {
     align-items: center; 
     display: grid;
-
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
     left: 0rem;
     position: relative;
-    padding:  0 12px;
+    padding-left: 12px;
 }
 
 .about .logo-en {

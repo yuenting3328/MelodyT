@@ -25,7 +25,7 @@
     background-color: #ffffff;
     height: 1070px;
     overflow: hidden;
-    width: 1440px;
+    width: 100vw;
 }
 
 .endorsements .group {
@@ -33,7 +33,7 @@
     left: 72px;
     position: relative;
     top: 144px;
-    width: 1368px;
+    width: 80vw;
 }
 
 .endorsements .frame-2 {
@@ -49,7 +49,7 @@
     overflow-x: scroll;
     position: absolute;
     top: 130px;
-    width: 1368px;
+    width: 80vw;
 }
 
 .endorsements .frame-3 {
@@ -187,12 +187,19 @@
     top: 52px;
     white-space: nowrap;
 }
+@media screen and (min-width:1980px){
+    .endorsements .frame-2{
+        width: 95vw;
+        gap: 6.5vw
+    }
+}
 
 @media screen and  (max-width:1366px) {
     .endorsements {
         /* width: 100vw; */
         width: 95vw;
     }
+    .endorsements .frame-2
     
     .endorsements .group-wrapper {
         background-color: #ffffff;
@@ -573,25 +580,24 @@
 @media screen and  (max-width:480px) {
     .endorsements {
         width: 100vw;
-        height: 0vh;
         margin-bottom:0;
         }
     
     .endorsements .group-wrapper {
         background-color: #ffffff;
         /* height: 600px; */
-        height: 270vh ;
+        height: 100vh ;
         overflow: hidden;
         width: 100vw;
         display: contents;   }
     
     .endorsements .group {
         /* height: 800px; */
-        height: 225vh ;
+        height: 100vh ;
         width: 90vw;
         left: 0px;
         position: relative;
-        top: -124rem;
+        top: -100vh;
         /* width: 100vw; */
     }
     
@@ -605,7 +611,7 @@
         display: flex;
         gap: 40px;
         /* height: 466px ; */
-        height: 250vh ;
+        height: 200vh ;
         left: 0.8rem;
         right:1;
         overflow-x: hidden;

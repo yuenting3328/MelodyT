@@ -13,6 +13,10 @@ const Endorsements = () => {
     <div className="endorsements">
     <div className="group-wrapper">
     <div className="group">
+    <div className="group-2">
+    <div className="text-wrapper-5">Endorsements</div>
+    <p className="text-wrapper-6">What people say about working with me.</p>
+    </div>
     <div className="frame-2">
     <div className="frame-3">
     <div className="frame-4">
@@ -87,10 +91,6 @@ const Endorsements = () => {
     </p>
     <a href="https://www.linkedin.com/in/melody-t-7b1b02135/"><LearnBtn /></a>
     </div>
-    </div>
-    <div className="group-2">
-    <div className="text-wrapper-5">Endorsements</div>
-    <p className="text-wrapper-6">What people say about working with me.</p>
     </div>
     </div>
     </div>

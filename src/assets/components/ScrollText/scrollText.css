@@ -2,7 +2,7 @@ html, body { margin: 0; }
 
 #intro2 {
   height:(100vh - 4rem);
-  width: 90vw;
+  width: 100vw;
   margin: 0;
   padding-bottom: 4rem;
   overflow: hidden;
@@ -15,14 +15,14 @@ html, body { margin: 0; }
   position: absolute;
   z-index: -10;
   top: 15vh;
-  right: 5vw;
+  right: 10vw;
   object-fit: cover;
   height: 65vh;
   animation-delay: 4s; 
-  -webkit-animation: fadeInFromNone 9s ease-out;
-    -moz-animation: fadeInFromNone 9s ease-out;
-    -o-animation: fadeInFromNone 9s ease-out;
-    animation: fadeInFromNone 9s ease-out;
+  -webkit-animation: fadeInFromNone 5s ease-out;
+    -moz-animation: fadeInFromNone 5s ease-out;
+    -o-animation: fadeInFromNone 5s ease-out;
+    animation: fadeInFromNone 5s ease-out;
 }
 
 
