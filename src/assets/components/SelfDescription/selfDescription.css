@@ -29,6 +29,7 @@ div.frame-2 {
     left: -5.5vw;
     position: relative;
     top: 126px;
+    width: 100vw;
 
 }
 
@@ -38,6 +39,7 @@ div.frame-2 {
     flex: 0 0 auto;
     gap: 88px;
     position: relative;
+    width: 90vw;
 }
 
 .about .icon {
@@ -513,7 +515,6 @@ div.frame-2 {
 
     /* div.aboutIntro {
         /* height: 120vh; */
-    } */
     
     .about .frame-wrapper {
         background-color: #ffffff;
@@ -663,4 +664,4 @@ div.frame-2 {
     position: relative;
     width: 67.25px;
 }
-    
+}
