@@ -39,7 +39,7 @@ div.frame-2 {
     flex: 0 0 auto;
     gap: 88px;
     position: relative;
-    width: 90vw;
+    width: 95vw;
 }
 
 .about .icon {
@@ -48,7 +48,7 @@ div.frame-2 {
     margin-top: -59.12px;
     position: relative;
     width: 43vw;
-    right: -8vw;
+    right: 0vw;
 }
 
 .about .resume {
@@ -58,6 +58,7 @@ div.frame-2 {
     flex-direction: column;
     gap: 7vh;
     position: relative;
+    right: 8vw;
 }
 
 .i-m-melody-tse-a-UX {
