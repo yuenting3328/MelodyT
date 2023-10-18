@@ -286,7 +286,7 @@ div.frame-2 {
     grid-gap: 4vw;
     gap: 4vw;
     position: relative;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .about .logo-en {
@@ -519,7 +519,8 @@ div.frame-2 {
         background-color: #ffffff;
         height: 150vh;
         overflow: hidden;
-        width: 100vw;    }
+        width: 100vw;   
+     }
     
     .about .frame-2 {
         /* width: 100vw;
@@ -527,15 +528,14 @@ div.frame-2 {
     }
     
     .about .intro {
-        align-items: center;
         display: flex;
         flex-direction: column;
         flex: 0 0 auto;
         gap: 42px;
         justify-content: center;
         align-items: center; 
-        padding-left: 16px;
-        padding-right:16px;
+        padding-left: 4vw;
+        padding-right:4vw;
         width: 342px;
 
     }
@@ -588,7 +588,7 @@ div.frame-2 {
     flex-direction: column;
     gap: 12px;
     position: relative;
-    left: 0vw;
+    left: -5vw;
 
 }
 
