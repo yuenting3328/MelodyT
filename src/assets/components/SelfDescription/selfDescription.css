@@ -14,7 +14,7 @@ div.about {
 
 .about .frame-wrapper {
     background-color: #ffffff;
-    height: 120vh;
+    height: 130vh;
     overflow: hidden;
     width: 100vw;
     
@@ -43,7 +43,8 @@ div.frame-2 {
 }
 
 .about .icon {
-    height: 83vh;
+    /* height: 83vh; */
+    height:43vw;
     margin-bottom: -18.98px;
     margin-top: -59.12px;
     position: relative;
@@ -80,7 +81,7 @@ div.frame-2 {
 }
 
 .about .icon-list {
-    align-items: center;
+    align-items: start;
     display: inline-flex;
     flex: 0 0 auto;
     flex-direction: column;
@@ -123,44 +124,45 @@ div.frame-2 {
     flex: 0 0 auto;
     gap: 4vw;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .about .logo-en {
-    height: 5vh;
+    height: 38.61px;
     object-fit: cover;
     position: relative;
-    width: 20vw;
+    width: 278.26px;
 }
 
 .about .securities-and {
-    height: 8.1vh;
+    height: 61.29px;
     object-fit: cover;
     position: relative;
-    width: 13vw;
+    width: 186.2px;
 }
 
 .about .logo-mpfa {
-    height: 8.2vh;
+    height: 61.29px;
     object-fit: cover;
     position: relative;
-    width: 12vw;
+    width: 192.53px;
 }
 
 .about .asl-logo-combo {
-    height: 4.5vh;
+    height: 34.75px;
     object-fit: cover;
     position: relative;
-    width: 17.8vw;
+    width: 257.83px;
 }
 
 .about .motic {
-    height: 5.2vh;
+    height: 40.82px;
     object-fit: cover;
     position: relative;
-    width: 9.7vw;
+    width: 139.81px;
 }
 
-@media screen and  (max-width:1366px) {
+@media screen and  (max-width:1366px) and (min-width:821px) {
     div.aboutIntro {
         height: 160vh;
     }
@@ -197,7 +199,7 @@ div.frame-2 {
         align-items: center; 
         padding-left: 60px;
         padding-right:60px;
-        width: 80vw;
+        width: 85vw;
         height: fit-content;
 
     }
@@ -216,7 +218,7 @@ div.frame-2 {
     .about .resume {
         flex-grow: 1;
         top: -38rem;
-        padding-left: 160px;
+        padding-left: 30vw;
         padding-right:0px;
         width: 488px;
         gap: 100px;
@@ -245,14 +247,14 @@ div.frame-2 {
 }
 
 .about .icon-list {
-    align-items: center;
+    align-items: start;
     display: inline-flex;
     /* flex: 0 0 auto; */
     flex-direction: column;
     gap: 22px;
     position: relative;
     top: -35rem;
-    left: 2rem;
+    left: -5vw;
     width: 80vw;
 
 }
@@ -329,7 +331,7 @@ div.frame-2 {
 
 }
 
-@media screen and  (max-width:820px) {
+@media screen and  (max-width:820px) and (min-width:481px) {
     .about {
         display: flex;
         flex-direction: column;
@@ -388,7 +390,7 @@ div.frame-2 {
     
     .about .resume {
         flex-grow: 1;
-        padding-top: 36rem;
+        /* padding-top: 36rem; */
         padding-left: 4px;
         padding-right:60px;
         width: 588px;
@@ -418,20 +420,20 @@ div.frame-2 {
 }
 
 .about .icon-list {
-    align-items: center;
+    align-items: start;
     display: inline-flex;
     /* flex: 0 0 auto; */
     flex-direction: column;
     gap: 22px;
     position: relative;
-    left:0;
-    padding: 2vw;
-
+    top: 5vh;
+    padding-right: 15px;
 }
 
 .about .experience {
     align-items: flex-start;
     display: inline-flex;
+    padding-left: 18px;
 }
 
 .about .vector {
@@ -560,7 +562,7 @@ div.frame-2 {
         width: 342px;
         gap: 27px;
         position: relative;
-
+        right:-8vw;
     }
     
     .i-m-melody-tse-a-UX {
@@ -575,7 +577,7 @@ div.frame-2 {
         position: relative;
         width: 288px;
         color: #474A58;
-        left: 6vw;
+        left: 3vw;
 
     }
 .aboutBtn{
@@ -584,13 +586,14 @@ div.frame-2 {
 }
 
 .about .icon-list {
-    align-items: center;
+    align-items: start;
     display: inline-flex;
     /* flex: 0 0 auto; */
     flex-direction: column;
     gap: 12px;
     position: relative;
-    left: -5vw;
+    /* left: -5vw; */
+    width: 95vw;
 
 }
 
@@ -599,6 +602,7 @@ div.frame-2 {
 .about .experience {
     align-items: flex-start;
     display: inline-flex;
+    padding: 15px;
 }
 
 .about .vector {
@@ -606,7 +610,7 @@ div.frame-2 {
     margin-top: -0.5px;
     object-fit: cover;
     position: relative;
-    width: 343px;
+    width: 80vw;
 }
 
 .about .text-wrapper {

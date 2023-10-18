@@ -194,7 +194,7 @@ html {
     /* text-align: center; */
   }
 
-  @media screen and  (max-width:1366px) {
+  @media screen and  (max-width:1366px) and (min-width:821px) {
 
     #intro2 {
       height:100vh;
@@ -229,7 +229,7 @@ html {
 
   }
 
-  @media screen and  (max-width:820px) {
+  @media screen and  (max-width:820px) and (min-width:481px) {
     #intro2 {
       height:85vh;
       width: 100vw;

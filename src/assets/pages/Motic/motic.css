@@ -416,7 +416,7 @@ img.moticWireframeImg1{
     justify-content: space-between;
 }
 
-@media screen and (max-width:1366px) {
+@media screen and (max-width:1366px) and (min-width:821px) {
   #motic {
     width: 100vw;
 
@@ -681,7 +681,7 @@ img.moticWireframeImg1{
 }
 }
 
-@media screen and (max-width:820px) {
+@media screen and (max-width:820px) and (min-width:481px) {
   #motic {
     width: 100vw;
 

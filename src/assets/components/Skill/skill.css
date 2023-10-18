@@ -181,7 +181,7 @@
     }
 
 }
-@media screen and  (max-width:1366px) {
+@media screen and  (max-width:1366px) and (min-width:821px) {
     .skill {
         width: 100vw;
     }
@@ -318,7 +318,7 @@
     }
 }
 
-@media screen and  (max-width:820px) {
+@media screen and  (max-width:820px) and (min-width:481px) {
     .skill {
         width: 100vw;
     }

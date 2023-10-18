@@ -445,7 +445,7 @@ iframe.mujiVideo {
     justify-content: space-between;
 }
 
-@media screen and (max-width:1366px) {
+@media screen and (max-width:1366px) and (min-width:821px) {
   #muji {
     width: 100vw;
 
@@ -748,7 +748,7 @@ iframe.mujiVideo {
 }
 }
 
-@media screen and (max-width:820px) {
+@media screen and (max-width:820px) and (min-width:481px) {
   #muji {
     width: 100vw;
 

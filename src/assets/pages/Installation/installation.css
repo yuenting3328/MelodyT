@@ -272,7 +272,7 @@ img.installationWorkItem{
     justify-content: space-between;
 }
 
-@media screen and (max-width:1366px) {
+@media screen and (max-width:1366px) and (min-width:821px) {
     html,body {
         margin: 0;
         padding: 0;
@@ -454,7 +454,7 @@ img.installationWorkItem{
     }
 }
 
-@media screen and (max-width:820px) {
+@media screen and (max-width:820px) and (min-width:481px) {
     html,body {
         margin: 0;
         padding: 0;

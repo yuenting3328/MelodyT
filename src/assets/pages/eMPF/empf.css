@@ -431,7 +431,7 @@ img.empfDesignSystemImg{
     justify-content: space-between;
 }
 
-@media screen and  (max-width:1366px) {
+@media screen and  (max-width:1366px) and (min-width:821px) {
   #empf {
     width: 100vw;
 
@@ -725,7 +725,7 @@ img.empfDesignSystemImg{
 
 }
 
-@media screen and  (max-width:820px) {
+@media screen and  (max-width:820px) and (min-width:481px) {
   #empf {
     width: 100vw;
 

@@ -108,7 +108,7 @@ html, body { margin: 0; padding: 0;}
     display: none;
   }
   
-  @media screen and  (max-width:1366px) {
+  @media screen and  (max-width:1366px) and (min-width:821px) {
     header {
       height: 140px;
       justify-content: space-between;
@@ -170,7 +170,7 @@ html, body { margin: 0; padding: 0;}
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 300px 0;
+      padding: 100px 0;
       cursor: pointer;
     }
 
@@ -248,7 +248,7 @@ html, body { margin: 0; padding: 0;}
       justify-content: center;
       align-items: flex-start;
       color: #fff;
-      width: 108vw;
+      width: 100vw;
       height: 100vh;
       padding: 24px 0;
       z-index: 10000000;
@@ -265,7 +265,9 @@ html, body { margin: 0; padding: 0;}
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap:20px;
+      gap:5vh;
+      margin-top: 15vh;
+
     }
 
     a.nav-link{
