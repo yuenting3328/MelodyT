@@ -113,7 +113,7 @@ body {
           }
     
 .installationIntro {
-  padding: 3.25rem 8.75rem 3.25rem 8.75rem;
+  padding: 6vh 12vw;
   display: flex;
   flex-direction: column;
   background-color: #F4FBFF;
@@ -133,7 +133,7 @@ body {
     font-family: "PlusJakartaSans-Regular";
     color:#061736;
     line-height: 36px;
-    width: 1100px;
+    width: 76vw;
 }
 
 .installationResearch{
@@ -141,7 +141,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 110px 105px 220px 105px;
+    padding: 110px 12vw 220px 12vw;
     justify-content: center;
     align-items: center;
     gap:60px
@@ -149,7 +149,7 @@ body {
 }
 
 img.researchPhotos{
- width:1075px;
+ width:76vw;
  margin: 0;
  padding:0;
 }
@@ -176,7 +176,7 @@ div.installationResearchContainer{
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 28px;
-    width:1075px;
+    width:76vw;
 }
 
 .installationConcept{
@@ -186,7 +186,7 @@ div.installationResearchContainer{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    padding: 110px 140px 220px 140px ;
+    padding: 110px 12vw 220px 12vw ;
     gap: 100px;
     align-items: center;
     justify-content: center;
@@ -197,13 +197,13 @@ div.installationResearchContainer{
 .conceptImg {
     padding: 0;
     margin: 0;
-    height: 870px;
+    height: 115vh;
     display: flex;
     
 }
 
 img .installationConceptImg{
- height: 870px;
+ height: 115vh;
  padding: 0;
  margin: 0;
 }
@@ -211,7 +211,7 @@ img .installationConceptImg{
 .installationConceptContainer{
  padding: 0;
  margin: 0;
- width: 414px;
+ width: 40vw;
  display: flex;
  flex-direction: column;
  gap: 14px;
@@ -230,13 +230,13 @@ img .installationConceptImg{
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 28px;
-    width: 414px;
+    width: 35vw;
 }
 
 .installationImgContainer{
     display: flex;
     flex-direction: column;
-    padding: 0 72px;
+    padding: 0 12vw;
     row-gap: 70px;
     padding-bottom: 220px;
 }
@@ -251,17 +251,16 @@ img .installationConceptImg{
 .installationImgRow{
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    gap: 4vw;
 
 }
 
 img.installationWork{
-    width: 1296px;
+    width: 76vw;
 }
 
 img.installationWorkItem{
- width: 614px;
- gap:70px;
+ width: 36vw;
 }
 
 .actionProject{

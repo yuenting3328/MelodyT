@@ -113,7 +113,7 @@ body {
       }
 
 .sealIntro {
-  padding: 3.25rem 8.75rem 3.25rem 8.75rem;
+  padding: 6vh 12vw;
   display: flex;
   flex-direction: column;
   background-color: #F4FBFF;
@@ -133,31 +133,30 @@ body {
     font-family: "PlusJakartaSans-Regular";
     color:#061736;
     line-height: 150%;
-    width: 1100px;
+    width: 76vw;
 }
 
-.sealConcept{
+div.sealConcept{
     margin: 0;
     padding: 0;
     /* width: 1440px; */
     height: 100vh;
     display: flex;
     flex-direction: row;
-    padding: 110px 140px 220px 140px ;
+    padding: 110px 12vw 220px 12vw ;
     gap: 81px;
     
 }
 
-img .sealConceptImg{
- width: 36.25rem;
- height: 41.25rem;
+img.sealConceptImg{
+ width: 43vw;
  padding: 0;
  margin: 0;
 }
 
-.conceptContainer{
+div.conceptContainer{
  padding: 0;
- width: 414px;
+ width: 43vw;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -176,6 +175,7 @@ img .sealConceptImg{
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 150%;
+    width: 30vw;
 }
 
 .sealWork{
@@ -191,7 +191,7 @@ img .sealConceptImg{
 .sealWorkContainer{
   display: flex;
   flex-direction: column;
-  padding: 0 182px 60px;
+  padding: 0 12vw 60px;
   gap: 14px;
 }
 
@@ -207,13 +207,13 @@ img .sealConceptImg{
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 150%;
-    width:1075px;
+    width:76vw;
 }
 
 .sealImgContainer{
     display: flex;
     flex-direction: column;
-    padding: 0 72px;
+    padding: 0 12vw;
     row-gap: 70px;
 }
 
@@ -227,17 +227,16 @@ img .sealConceptImg{
 .sealImgRow{
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    gap: 3vw;
 
 }
 
 img.sealWork{
-    width: 1296px;
+    width: 76vw;
 }
 
 img.sealWorkItem{
- width: 614px;
- gap:70px;
+ width: 36.5vw;
 }
 
 .actionProject{

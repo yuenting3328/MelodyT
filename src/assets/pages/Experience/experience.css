@@ -114,7 +114,7 @@ body {
       }
     
 .experienceIntro {
-  padding: 3.25rem 8.75rem 3.25rem 8.75rem;
+  padding: 6vh 12vw;
   display: flex;
   flex-direction: column;
   background-color: #F4FBFF;
@@ -128,12 +128,12 @@ body {
     line-height: 36px;
 }
 
-.introDescription{
+p.introDescription{
     font-size: 1.25rem;
     font-family: "PlusJakartaSans-Regular";
     color:#061736;
     line-height: 36px;
-    width: 1100px;
+    width: 76vw;
 }
 
 
@@ -144,13 +144,13 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: row;
-    padding: 110px 140px 220px 140px ;
+    padding: 110px 12vw 220px 12vw ;
     gap: 81px;
     
 }
 
-img .experienceConceptImg{
- width: 570px;
+img.experienceConceptImg{
+ width: 40vw;
  padding: 0;
  margin: 0;
  background-color: #F4FBFF;
@@ -160,7 +160,7 @@ img .experienceConceptImg{
 .conceptContainer{
  padding: 0;
  margin: 0;
- width: 414px;
+ width: 40vw;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -174,22 +174,23 @@ img .experienceConceptImg{
     line-height: 36px;
 }
 
-.conceptDescription{
+p.conceptDescription{
     font-size: 1.25rem;
     font-family: "PlusJakartaSans-Regular";
     color:#474A58;
     line-height: 28px;
+    width: 30vw;
 }
 
 .experienceDesign{
-    width: 100vw;
+    width: 76vw;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
     justify-content: center;
     gap:60px;
-    padding: 0 182px 60px;
+    padding: 0 12vw 60px;
   }
 
   .experienceDesignContainer{
@@ -210,11 +211,11 @@ img .experienceConceptImg{
       font-family: "PlusJakartaSans-Regular";
       color:#474A58;
       line-height: 28px;
-      width:1075px;
+      width:76vw;
   }
 
   img.experienceDesignImg{
-    width: 1076px;
+    width: 76vw;
   }
 
   
@@ -225,7 +226,7 @@ img .experienceConceptImg{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    padding: 110px 182px 220px 182px ;
+    padding: 110px 12vw 220px 12vw ;
     gap: 81px;
     
 }
@@ -239,8 +240,8 @@ img .experienceConceptImg{
 }
 
 iframe{
- width: 360px;
- height: 634px;
+ width: 30vw;
+ height: 90vh;
  padding: 0;
  margin: 0;
  
@@ -249,7 +250,7 @@ iframe{
 .outcomeContainer{
  padding: 0;
  margin: 0;
- width: 414px;
+ width: 40vw;
  display: flex;
  flex-direction: column;
  justify-content: center;
