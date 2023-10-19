@@ -17,8 +17,11 @@ const NextGen = () => {
             Project Goal
             </span>
             <p className="description" id="nextGenGoalDescription">
-            The SFC is seeking to implement a portal solution on both its website and mobile platform to accomplish four key goals: enhanced user-friendliness, more efficient and transparent licensing processes, better paperless functionality and digitalisation, and the eventual transition to fully electronic submission of all licensing documents.
-            </p>
+            The SFC aims to provide a fully digitalized platform for users to prepare, sign, and submit licensing forms, track application progress, pay fees, and communicate with the SFC. Our companion mobile app, WINGS, offers key website features in a convenient format.
+            <br/>
+            <br/>
+            As the SFC Chief Executive Officer, Mr Ashley Alder, has said, 
+            “The next generation digital licensing platform integrates our front-loaded, risk-based approach, aligning our gatekeeping function with our other regulatory priorities." "It will help the industry manage licensing matters in a more flexible, secure manner, and communicate more efficiently with the SFC.”</p>
             </div>
             <div className="imgContainer" id="nextGenGoalImgContainer">
             <img src={nextGenGoal} alt="nextGenGoalImg" className="nextGenGoalImg" />

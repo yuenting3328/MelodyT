@@ -24,7 +24,7 @@ const Timeline = () => {
                             </span>
                         </div>
                         <p className="sfcProjectDescription">
-                        I have in charge of the UX/UI design aspect of the SFC project. In order to ensure a smooth process, I have created a design library and UI guidelines for SFC, translated user needs into user flows and wireframes, and created high quality prototypes for design solutions which were validated during soft consolidation workshops with users. Through constant incorporation of feedback and consistent platform design improvements.
+                        I have in charge of the UX/UI design aspect of the project. In order to ensure a smooth process, I have created a design library and UI guidelines for SFC, translated user needs into user flows and wireframes, and created high quality prototypes for design solutions which were validated during soft consolidation workshops with users. Through constant incorporation of feedback and consistent platform design improvements.
                             </p>
                     </div>
                     <div className="btnContainer">

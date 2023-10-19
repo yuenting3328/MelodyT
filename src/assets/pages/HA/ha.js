@@ -20,7 +20,10 @@ const HA = () => {
             HA Go
             </span>
             <p className="haIntroDescription">
-            HA Go is the all-in-one app developed by the Hospital Authority (HA) to bring you a range of comprehensive healthcare management solutions in one convenient location. With a variety of new features and functions, HA Go streamlines patient care with easy-to-use tools that keep you in control of your healthcare journey. Over a million people have chosen HA Go to manage their health with ease, and the app boasts a 3.6-star rating out of 5. Experience the convenience of HA Go today and take charge of your health.
+            HA Go is the all-in-one app developed by the Hospital Authority (HA) to bring you a range of comprehensive healthcare management solutions in one convenient location. With a variety of new features and functions, HA Go streamlines patient care with easy-to-use tools that keep you in control of your healthcare journey. 
+            <br/>
+            <br/>
+            Over a million people have chosen HA Go to manage their health with ease, and the app boasts a 3.6-star rating out of 5. Experience the convenience of HA Go today and take charge of your health.
             </p>
             </div>  <div className="projectInfo">
             <div className="infoRow">
