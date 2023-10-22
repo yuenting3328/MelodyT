@@ -192,6 +192,23 @@ const EMPF = () => {
             </div>
             </div>
 
+            <div className="empfDevelopmentContainer">
+            <div className="empfTextContainer" id="empfDevelopmentTextContaier">
+            <span className="empfTitle" id="empfDevelopmentTitle">
+            Takeaways
+            </span>
+            <p className="empfDescription" id="empfDevelopmentDescription">
+            The project provided me with valuable experience in managing a large-scale project involving a team of over 300 people. Through this process, I not only honed my craft skills, but also gained insights into collaborating with the frontend development team. I was inspired by the team lead to recognize the importance of having front-end knowledge as a designer, particularly when the project with tight schedules. 
+            <br/>
+            <br/>
+            During the project, the development team faced a challenge in develop a date range picker, which required complex front-end development logic. Despite the design team's efforts to customize the design, we realized that we would not meet the project's tight deadline. Therefore, we made the decision to use the MUI library designed date range picker as a solution.
+            <br/>
+            <br/>
+            This experience taught me that being a good UX/UI designer requires not only a high level of design skills, but also a fundamental understanding of UI development. By having this knowledge, we can avoid potential setbacks and ensure timely delivery of quality work.
+            </p>
+            </div>
+            </div>
+
             <div className="actionProject">
             <Link to="/muji" className="nav-link" >
             <LastBtn />

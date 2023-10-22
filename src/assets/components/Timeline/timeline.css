@@ -510,7 +510,7 @@ body {
         flex-direction: column;
         gap:55px;
         justify-content: flex-start;
-        height:100vh;
+        height:110vh;
     }
     
     .timelineTitleContainer{

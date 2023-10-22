@@ -4,6 +4,7 @@ import haGoal from "../../images/HA goal.png";
 import haProblem from "../../images/HA problem.png";
 import haResearch from "../../images/HA research.png";
 import haSolution from "../../images/HA outcome.png";
+import haGraphic from "../../images/hagraphic.gif";
 import LastBtn from "../../components/LastBtn/lastBtn";
 import NextBtn from "../../components/NextBtn/nextBtn.js";
 import { Link } from "react-router-dom";
@@ -132,6 +133,38 @@ const HA = () => {
         <img src={haSolution} alt="haSolutionImg" className="haSolutionImg" />
     </div>
     </div>
+
+    <div className="researchContainer">
+            <div className="haTextContainer" id="haResearchTextContaier">
+            <span className="haTitle" id="haResearchTitle">
+            Creating graphics for visual learning
+            </span>
+            <p className="haDescription" id="haResearchDescription">
+            In addition, I created detailed visual graphics for an operation guide on the invited caregiver feature. Since there were no specific requests regarding which screens to use from the HA Go app, my team and I went through numerous design files to evaluate the screens that could best showcase the information for better user understanding.
+            <br/>
+            <br/>
+            These images were designed with the aim of making them easily comprehensible by target audiences of different age groups, while simultaneously maintaining the brand's consistency. To achieve this, I ensured that progressive situations were clearly drawn, highlighting relevant vital information.
+            </p>
+            </div>
+        <div className="imgContainer" id="ResearchImgContainer">
+        <img src={haGraphic} alt="haResearchImg" className="haResearchImg" />
+    </div>
+    </div>
+
+    <div className="researchContainer">
+            <div className="haTextContainer" id="haResearchTextContaier">
+            <span className="haTitle" id="haResearchTitle">
+            Takeaways
+            </span>
+            <span className="haSubtitle" id="haSolutionSubtitle">
+            “Practice Make Better!”
+            </span>
+            <p className="haDescription" id="haResearchDescription">
+            During my tenure with HA Go project, I have honed my design skills by seeking out constructive feedback from senior designer through formal design reviews and presentations. Presenting my designs during review sessions has been an invaluable experience, allowing me to hone my communication skills and develop the ability to lead open and insightful conversations. Moreover, my design lead have taught me the importance of knowing when to stand firm on stakeholder feedback, enabling me to elevate the overall quality of my work. Maintaining open lines of communication with my team and proactively seeking clarifications has helped me balance pressing deadlines and ensure that progress is never impeded.
+            </p>
+            </div>
+    </div>
+
     <div className="actionProject">
     <Link to="/motic" className="nav-link" >
           <LastBtn />
