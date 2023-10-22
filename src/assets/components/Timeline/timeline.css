@@ -48,6 +48,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 14px;
     margin: 0;
     padding: 0;
 }
@@ -509,7 +510,7 @@ body {
         flex-direction: column;
         gap:55px;
         justify-content: flex-start;
-        height:120vh;
+        height:100vh;
     }
     
     .timelineTitleContainer{

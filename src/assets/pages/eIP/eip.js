@@ -39,9 +39,23 @@ const EIP = () => {
             </span>
             <p className="description" id="eIPGoalDescription">
             We are working on designing and implementing a new electronic submission service on the existing WINGS platform, aimed at external parties. This service will enable them to prepare and submit investment product-related authorization and post-authorization applications to the SFC. 
+            </p>
+            </div>
+            </div>
+
+            <div className="eIPGoalContainer">
+            <div className="textContainer" id="eIPGoalTextContaier">
+            <span className="subtitle" id="eIPGoalSubtitle">
+            e-IP Project
+            </span>
+            <span className="title" id="eIPGoalTitle">
+            The Problem
+            </span>
+            <p className="description" id="eIPGoalDescription">
+            "How can we help external users easily learn e-submission platform to work more efficiently?"
             <br/>
             <br/>
-            My ultimate goal is to provide users with an improved experience that is both intuitive and user-friendly. To achieve this, we conducted a preliminary consultation workshop to collect feedback from users as they interacted with a high-quality prototype. This helped us to identify areas for improvement and refine the platform before moving onto the development stage, ultimately empowering clients with greater control throughout the application process.
+            e-IP is designed to be used with accuracy and efficiency. e-IP can provide a better user experience by  help the industry manage investment product matters in a more flexible, secure manner, and communicate more efficiently with the SFC.
             </p>
             </div>
             </div>
@@ -55,7 +69,7 @@ const EIP = () => {
             Define & Research
             </span>
             <p className="description" id="eIPResearchDescription">
-            I collaborate closely with Business Analysts to understand and interpret user needs for our e-submission process. To achieve this, I engage in in-depth discussions with clients in order to create detailed user journey that outline each step in the process. With this information in hand, I work with the Business Analysts to identify client requirements for transforming various applications into e-forms. Our aim is to create a seamless user experience that is as intuitive as it is efficient.
+            I collaborate closely with Business Analysts to understand and interpret user needs for our e-submission process. To achieve this, I engage in in-depth discussions with users in order to create detailed user journey that outline each step in the process. With this information in hand, I work with the Business Analysts to identify user requirements for transforming various applications into e-forms. Our aim is to create a seamless user experience that is as intuitive as it is efficient.
             </p>
             </div>
             <div className="eIPResearchImgContainer" id="eIPResearchImgContainer">
@@ -73,7 +87,7 @@ const EIP = () => {
             Analysis & Planning
             </span>
             <p className="description" id="eIPPlanningDescription">
-            Using client feedback, I create user storyboards and personas to visualize the user journey and ensure that the Outcome meets the needs of our clients. To ensure that my team is on the same page, I discuss the project vision with them and begin drafting wireframes that align with client requirements and my storyboard. 
+            Using user feedback, I create user storyboards and personas to visualize the user journey and ensure that the Outcome meets the needs of our users. To ensure that my team is on the same page, I discuss the project vision with them and begin drafting wireframes that align with user requirements and my storyboard. 
             </p>
             </div>
             <div className="eIPPlanningImgContainer" id="eIPPlanningImgContainer">
@@ -92,8 +106,7 @@ const EIP = () => {
             Working within a design system
             </span>
             <p className="description" id="eIPDesignDescription">
-            Once the wireframes are complete, I seek client approval before proceeding to build a UI Library in Figma. The library allows for the systematic maintenance of design objects and attributes, enabling me to reuse UI components and styles at scale. After gaining client approval of the wireframe, I begin preparing the soft consultation material by converting the wireframe to a mockup using the UI Library. 
-
+            I designed my project to scale it as a reusable component for the Design Library System for teams across SFC to adopt in custom solutions. I detailed development notes and handed-off an organized final Figma file to allow the engineer to jump in and implement without needing to ask for much input from design.
             </p>
             </div>
             <div className="imgContainer" id="eIPDesignImgContainer">
@@ -127,6 +140,27 @@ const EIP = () => {
             </div>
             <div className="eIPPrototypeimgContainer" id="eIPPrototypeImgContainer">
             <img src={eIPPrototype} alt="eIPPrototypeImg" className="eIPPrototypeImg" />
+            </div>
+            </div>
+
+            <div className="eIPPrototypeContainer">
+            <div className="textContainer" id="eIPPrototypeTextContaier">
+            <span className="subtitle" id="eIPPrototypeTitle">
+            e-IP Project
+            </span>
+            <span className="title" id="eIPPrototypeTitle">
+            Takeaways
+            </span>
+            <p className="description" id="eIPPrototypeDescription">
+            <br/>
+            Undertaking a project independently provided me with a valuable opportunity to navigate the entire design thinking process. Throughout the project, I honed my critical thinking skills and prioritized attention to detail, ensuring that all business objectives and user requirements were met in the development of e-IP service.
+            <br/>
+            <br/>
+            Collaboration with business analysts allowed me to gain a clear understanding of user needs through a logical approach to balancing design goals with project objectives. Meanwhile, my collaboration with development teams helped me to better understand edge cases and backend logic. As a result, I was able to build a component for the Design Library System, which streamlined the translation of design concepts into coding, making the project run smoothly and efficiently.
+            <br/>
+            <br/>
+            My approach involved a meticulous exploration of different design approaches. I engaged with internal and external users to conduct various experiments aimed at optimizing the user experience of the service. By involving stakeholders at every step of the process and continuously iterating, I was able to develop an intuitive and robust service that effectively meets all business objectives and user needs.
+            </p>
             </div>
             </div>
         </section>

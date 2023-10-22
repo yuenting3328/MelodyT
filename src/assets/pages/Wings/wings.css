@@ -203,6 +203,41 @@ body {
     justify-content: space-between;
 }
 
+.wingsOverviewContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 110px;
+    padding-bottom: 220px;
+    justify-content: center;
+}
+
+.wingsTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 12vw 60px;
+    width:76vw;
+    justify-content: center;
+    gap:14px;
+}
+
+.wingsOverviewTitle{
+    font-family: "PlusJakartaSans-Bold";
+    font-size: 1.75rem ;
+    color: #061736;
+    line-height: 150%;
+}
+
+.wingsOverviewDescription{
+    font-size: 18px;
+    font-family: "PlusJakartaSans-Regular";
+    color:#474A58;
+    line-height: 150%;
+    width:76vw;
+    margin:0;
+}
+
 @media screen and (max-width:1366px) and (min-width:821px) {
     #wings {
         width: 100vw;
@@ -274,6 +309,40 @@ body {
         line-height: 150%;
         margin:0;
     }
+    
+    div.wingsOverviewContainer{
+        width: 100vw;
+        margin: 0;
+        padding-top: 110px;
+        padding-bottom: 220px;
+        justify-content: center;
+    }
+    
+    div.wingsTextContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px;
+        width:94vw;
+        justify-content: center;
+        gap:14px;
+    }
+    
+    span.wingsOverviewTitle{
+        font-family: "PlusJakartaSans-Bold";
+        font-size: 1.75rem ;
+        color: #061736;
+        line-height: 150%;
+    }
+    
+    p.wingsOverviewDescription{
+        font-size: 18px;
+        font-family: "PlusJakartaSans-Regular";
+        color:#474A58;
+        line-height: 150%;
+        width:94vw;
+        margin:0;
+    }
+
     
     .actionProject{
         display: flex;
@@ -357,6 +426,39 @@ body {
         margin:0;
     }
     
+    div.wingsOverviewContainer{
+        width: 100vw;
+        margin: 0;
+        padding-top: 110px;
+        padding-bottom: 220px;
+        justify-content: center;
+    }
+    
+    div.wingsTextContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px;
+        width:94vw;
+        justify-content: center;
+        gap:14px;
+    }
+    
+    span.wingsOverviewTitle{
+        font-family: "PlusJakartaSans-Bold";
+        font-size: 1.75rem ;
+        color: #061736;
+        line-height: 150%;
+    }
+    
+    p.wingsOverviewDescription{
+        font-size: 18px;
+        font-family: "PlusJakartaSans-Regular";
+        color:#474A58;
+        line-height: 150%;
+        width:94vw;
+        margin:0;
+    }
+
     .actionProject{
         display: flex;
         flex-direction: row;
@@ -442,6 +544,40 @@ body {
         padding-top: 55px;
         padding-bottom: 110px;
     }
+
+    div.wingsOverviewContainer{
+        width: 100vw;
+        margin: 0;
+        padding-top: 55px;
+        padding-bottom: 55px;
+        justify-content: center;
+    }
+    
+    div.wingsTextContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 0 16px;
+        width:358px;
+        justify-content: center;
+        gap:14px;
+    }
+    
+    span.wingsOverviewTitle{
+        font-family: "PlusJakartaSans-Bold";
+        font-size: 14px ;
+        color: #061736;
+        line-height: 150%;
+    }
+    
+    p.wingsOverviewDescription{
+        font-size: 10px;
+        font-family: "PlusJakartaSans-Regular";
+        color:#474A58;
+        line-height: 150%;
+        width:358px;
+        margin:0;
+    }
+
     .actionProject{
         display: flex;
         flex-direction: row;

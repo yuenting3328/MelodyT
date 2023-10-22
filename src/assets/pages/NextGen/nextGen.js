@@ -28,6 +28,22 @@ const NextGen = () => {
             </div>
             </div>
 
+            <div className="projectGoalContainer">
+            <div className="textContainer" id="nextGenGoalTextContainer">
+            <span className="subtitle" id="nextGenGoalTitle">
+            Next Generation Project
+            </span>
+            <span className="title" id="nextGenGoalTitle">
+            The Problem
+            </span>
+            <p className="description" id="nextGenGoalDescription">
+            I have joined the next generation licensing platform at the development stage, where most things were set such as the style guide and system. My task is to create an additional page based on user feedback, which must follow the same aesthetics and strategic direction utilizing existing components and SFC brand assets. The challenge is to provide a consistent experience across all feature pages.
+            <br/>
+            <br/>
+            The next generation licensing platform is not just for external companies and lawyers for e-submission, but also integrates an SFC internal licensing approval system for SFC staff use. As the design stage focuses on the internal system user, we aim to guide the design process by providing demo videos for external users to learn how to use the platform features.</p>
+            </div>
+            </div>
+
             <div className="nextGenDesignContainer">
             <div className="nextGenDesignTextContainer" id="nextGenDesignTextContaier">
             <span className="subtitle" id="nextGenDesignTitle">
@@ -37,7 +53,7 @@ const NextGen = () => {
             Design Process & Deliverables
             </span>
             <p className="description" id="nextGenDesignDescription">
-            I joined the project towards the end of the System Implementation and Integration stage. My responsibilities include designing user request pages and collaborating with business analysts to understand user requirements. I am also leading the video design team in creating tutorial videos for the system based on our plan.
+            My responsibilities include designing user request pages and collaborating with business analysts to understand user requirements. I am also leading the video design team in creating tutorial videos for the system based on our plan.
             </p>
             </div>
             <div className="imgContainer" id="nextGenDesignImgContainer">
@@ -86,6 +102,24 @@ const NextGen = () => {
             <div className="imgContainer" id="nextGenVideoImgContainer">
             <img src={nextGenVideo} alt="nextGenVideoImg" className="nextGenVideoImg" />
             </div>
+            </div>
+
+            <div className="nextGenWireframeContainer">
+            <div className="textContainer" id="nextGenWireframeTextContaier">
+            <span className="subtitle" id="nextGenWireframeTitle">
+            Next Generation Project
+            </span>
+            <span className="title" id="nextGenWireframeTitle">
+            Takeaways
+            </span>
+            <p className="description" id="nextGenWireframeDescription">
+            Throughout this project, I had the pleasure of meeting incredible individuals who encouraged me to develop my skills. I had the opportunity to enhance my soft skills, including confidence, communication, and leadership. I took an active role in leading conversations, updating stakeholders, and presenting my point of view. Through asking insightful questions, I was able to overcome potential obstacles and improve user comprehension in the tutorial space, despite not having prior experience in this industry. 
+            <br/>
+            <br/>
+            Notably, I also had the chance to lead two talented video designers, ensuring that we met our tight deadlines. I owe a great deal of thanks to my exceptional project manager, who supported my growth and provided invaluable lessons that will continue to benefit me in future endeavours.
+            </p>
+            </div>
+        
             </div>
 
         </section>

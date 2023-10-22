@@ -70,6 +70,19 @@ const WINGS = () => {
         </div>    
         </div>
             </div>
+            <div className="wingsOverviewContainer">
+                <div className="wingsTextContainer">
+                <span className="wingsOverviewTitle">
+                    Overview
+                </span>
+            <p className="wingsOverviewDescription">
+                I am excited to have joined two SFC projects aimed at achieving success in turning traditional submission processes to e-submission. Though both projects differ in their application types, they share the same objective. To maximize our efforts, I learned from the next generation licensing project and used the previous user feedback to initiate the e-investment products project. 
+                <br/>
+                <br/>
+                While the next generation licensing project primarily focuses on internal SFC staff and external companies and lawyers, I realized the importance of catering to external users' needs. Thus, I suggested conducting a soft consultation workshop before the system analyst and design stage to receive valuable feedback from external users. This would ensure that the design aligns with both internal and external users' needs. I am glad that a SFC manager has supported this idea, and I am excited to see the workshop's positive impact on the project's success.
+                </p>
+            </div>
+            </div>
             <div className="timelineContainer">
                 <Timeline />
             </div>
