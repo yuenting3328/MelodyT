@@ -341,7 +341,7 @@ html, body {
     }
 
     .selfIntroContent {
-    padding: 180px 10vw 0 10vw;
+    padding: 180px 0vw 0 0vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
