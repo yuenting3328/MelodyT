@@ -259,9 +259,28 @@ html, body {
     .workIntro1{
         margin-top: 50vh;
         margin-left: 10vw;
+        height: 100vh;
+        width: 80vw;
+        padding: 12rem 8vw 12rem 8vw;
+        font-size: 3rem;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #061736;
+        opacity: 0;
+        animation: slideRight 2s ease forwards;
+        animation-delay: 2s; 
     }
     .SFC{
         margin-left: 6rem;
+        max-width:80vw;
+        max-height:80vw;
+        width: auto;
+        height: auto;
+    }
+    .detail{
+        padding-top: 5vh;
     }
 
     .workDescrption {
