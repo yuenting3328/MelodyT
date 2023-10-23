@@ -249,7 +249,7 @@ html, body {
 @media screen and  (max-width:820px) and (min-width:481px) {
     #frame {
         width: 95vw;
-        height: 140vh;
+        height: 145vh;
         display: flex;
         margin:0;
         margin-top: 60px;
@@ -278,6 +278,7 @@ html, body {
         width: auto;
         height: auto;
         right: 8vw;
+        top: 20vh;
     }
     .detail{
         padding-top: 5vh;
