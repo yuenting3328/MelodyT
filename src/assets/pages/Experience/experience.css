@@ -716,10 +716,10 @@ iframe{
         
     }
     
-    img .experienceConceptImg{
+    img.experienceConceptImg{
      width: 280px;
      height:319.2px;
-     padding: 0;
+     padding: 0 10vw 0 10vw;
      margin: 0;
      background-color: #F4FBFF;
      color: #F4FBFF;

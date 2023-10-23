@@ -256,14 +256,6 @@ html, body {
  fill:#0066cc;
 }
 
-/* @media screen and (max-width:840px) {
-    .bg{
-        right: -2vw
-    }
-    .selfIntroContent{
-        font-size:10vw;
-    }
-} */
 
 @media screen and  (max-width:1366px) and (min-width:821px) {
     
@@ -349,9 +341,7 @@ html, body {
     }
 
     .selfIntroContent {
-    padding-top: 180px;
-    padding-right: 44px;
-    padding-left: 0px;
+    padding: 180px 10vw 0 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;

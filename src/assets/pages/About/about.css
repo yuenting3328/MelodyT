@@ -149,10 +149,10 @@ margin: 0;
 
     } */
     #aboutReco{
-        margin: 0;
-        /* height: 80vh; */
-        height:675px;
+        padding-top: 50px;
         padding-bottom: 0;
+        margin: 0;
+        height:675px;
     }
     /* div.about{
         margin: 0;

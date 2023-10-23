@@ -197,8 +197,8 @@ div.frame-2 {
         gap: 88px;
         justify-content: center;
         align-items: center; 
-        padding-left: 60px;
-        padding-right:60px;
+        padding-left: 80px;
+        /* padding-right:80px; */
         width: 85vw;
         height: fit-content;
 
