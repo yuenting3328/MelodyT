@@ -146,6 +146,15 @@
     padding:0 12vw;
   }
 
+  .nextGenSubtitle{
+    font-size: 12px;
+    font-family: "PlusJakartaSans-SemiBold";
+    color:#061736;
+    line-height: 150%;
+    width:358px;
+    margin:0;
+}
+
   @media screen and (max-width:1366px) and (min-width:821px) {
     #nextGen{
       width: 100vw;

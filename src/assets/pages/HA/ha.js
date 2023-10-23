@@ -157,7 +157,7 @@ const HA = () => {
             Takeaways
             </span>
             <span className="haSubtitle" id="haSolutionSubtitle">
-            “Practice Make Better!”
+            “Practice Makes Better!”
             </span>
             <p className="haDescription" id="haResearchDescription">
             During my tenure with HA Go project, I have honed my design skills by seeking out constructive feedback from senior designer through formal design reviews and presentations. Presenting my designs during review sessions has been an invaluable experience, allowing me to hone my communication skills and develop the ability to lead open and insightful conversations. Moreover, my design lead have taught me the importance of knowing when to stand firm on stakeholder feedback, enabling me to elevate the overall quality of my work. Maintaining open lines of communication with my team and proactively seeking clarifications has helped me balance pressing deadlines and ensure that progress is never impeded.
