@@ -23,7 +23,7 @@ const Footer = () => {
 <span className="footerSpan">Get in </span>
 <span className="footer-text-wrapper-2">Touch</span>
 </p>
-<p className="footerParagraph">Feel free reach me out. I’m looking forward to hearing from you.</p>
+<p className="footerParagraph">Feel free to reach me out. I’m looking forward to hearing from you.</p>
 </div>
 <div className="footer-frame-3">
 <a href="https://www.linkedin.com/in/melody-t-7b1b02135/" class="icon-nav-link" >   

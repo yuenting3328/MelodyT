@@ -3,7 +3,7 @@ import './experience.css';
 import LastBtn from "../../components/LastBtn/lastBtn";
 import NextBtn from "../../components/NextBtn/nextBtn.js";
 import experienceConceptImg from "../../images/experience concept.png";
-import experienceDesignImg from "../../images/experience design.png";
+// import experienceDesignImg from "../../images/experience design.png";
 // import experienceVideo from "../../video/Music Bracelets.mp4";
 import { Link } from "react-router-dom";
 const Experience = () => {
@@ -38,7 +38,7 @@ const Experience = () => {
     Incorporating multiple metals into these designs not only captures the attention of onlookers, but also enables the integration of various electronic components, resulting in a visually stunning piece of wearable art. By incorporating sensors, these bracelets can now offer a heightened level of functionality. For example, in certain instances, users can attach an Arduino device to their clothing which is programmed using Max7, allowing the bracelets to emit a unique range of sounds.
     </p>
     </div>
-    <img src={experienceDesignImg} alt="experienceDesignImg" className="experienceDesignImg" />
+    {/* <img src={experienceDesignImg} alt="experienceDesignImg" className="experienceDesignImg" /> */}
     </div>
     <div className="experienceOutcome">
     <div className="videoContainer">
