@@ -14,7 +14,7 @@ import email from '../../images/Email.png';
 const Footer = () => {
     return (
 <div className="footer">
-<p className="text-wrapper">2023 - Melody Tse’s UX/UI Portfolio | Canada © All rights reserved.</p>
+<p className="text-wrapper">2023 - Melody Tse’s Portfolio | Hong Kong © All rights reserved.</p>
 <div className="footerFrame">
 <img className="footerLogo" alt="Logo" src={logo} />
 <div className="footerDiv">

@@ -17,8 +17,8 @@ const Work = () => {
                 <span className="selfIntroName">Melody Tse
                 </span>
                 <span className="selfIntroTitle"> a UX/UI Designer</span>
-                <span className="selfIntroLocation">based in Toronto, Canada
-                </span>
+                {/* <span className="selfIntroLocation">based in Toronto, Canada
+                </span> */}
                 <p className="selfIntroPara">I strive to create digital products and websites that meet both business objectives and human needs. I stay curious to uncover valuable insights to enhance the design.</p>
             </div>
             <img src={bg} alt="profile" className="selfBg" />
