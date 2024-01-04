@@ -141,6 +141,7 @@ hr {
     .cardImg{
         width:78vw;
         padding: 4vh 0;
+        display: none;
       }
     .cacheTagContainer{
         flex-wrap: wrap;
