@@ -141,6 +141,32 @@
     animation: slideRight 2s ease forwards;
     animation-delay: 1s; 
 }
+.cacheContentGreeting {
+  /* height: 100vh; */
+  width: 82vw;
+  padding-left: 8.8vw;
+  padding-top:33vh;
+  font-size: 1rem;
+  font-weight: 700;
+  margin:0;
+  color: #061736;
+  opacity: 0;
+  animation: slideRight 2s ease forwards;
+  animation-delay: 1s; 
+}
+.cacheContentGreeting2 {
+  width: 82vw;
+  padding-left: 8.8vw;
+  font-size: 3rem;
+  font-weight: 700;
+  margin:0;
+  color: #061736;
+  opacity: 0;
+  animation: slideRight 2s ease forwards;
+  animation-delay: 1s; 
+}
+
+
 
 @keyframes slideRight {
     0%{
@@ -186,6 +212,16 @@
     font-family: "PlusJakartaSans-Bold";
     color:#061736;
     padding-right: 1rem;
+}
+
+.tagBtnList{
+ position: relative;
+ margin-top: 2%;
+ margin-left: 9%;
+ display: inline;
+ align-items: flex-start;
+ display: inline-flex;
+ gap: 20px;
 }
 
 @media screen and  (max-width:1366px) and (min-width:821px) {

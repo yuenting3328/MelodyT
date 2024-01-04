@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "PlusJakartaSans-Bold" ;
+    src: url(../../fonts/PlusJakartaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-SemiBold" ;
+    src: url(../../fonts/PlusJakartaSans-SemiBold.ttf);
+}
+
+
+@font-face {
+    font-family: "PlusJakartaSans-Regular" ;
+    src: url(../../fonts/PlusJakartaSans-Regular.ttf);
+}
+.cardContainer{
+    border: 1px solid #d9d9d9;
+    margin: 24vh 8vw;
+    padding: 6vh 2vw;
+    width: 80vw;
+    box-shadow: 0px 4px 20px #00000040;
+    border-radius: 20px;
+}
+
+/* .cardList{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 9%;
+    display: inline;
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 20px;
+   } */
+
+/* .cardBtn {
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #163279;
+    border: 1px solid;
+    border-color: #163279;
+    padding: 10px 40px;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "PlusJakartaSans-Bold";
+  }
+
+.cardBtn:hover {
+    border:1px solid;
+    border: color #06c;;
+    background-color: #ffffff;
+    color: #0066CC;
+  } */
+
+.cacheItemTitle {
+    width: 78vw;
+    padding-left: 1vw;
+    padding-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 700;
+    margin:0;
+    color: #061736;
+    opacity: 0;
+    animation: slideRight 2s ease forwards;
+    animation-delay: 1s; 
+  }
+
+  .cardIemTitle{
+    padding-left: 1%;
+    font-size: 40px;
+    font-family: "PlusJakartaSans-SemiBold";
+    color: #061736;
+  }
+.cacheTagContainer{
+    width: 78vw;
+    padding-left: 1vw;
+    padding-bottom: 8vh;
+    padding-top: 1vh;
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.cacheTag{
+    background-color: #6BA6E8;
+    border-radius: 10px;
+    color: white;
+    padding: 4px 10px;
+}
+.itemContainer{
+    width: 80vw;
+}
+
+.itemTitle{
+    padding-left: 1vw;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "PlusJakartaSans-Bold";
+    color: #061736;
+}
+.itemContent{
+    padding: 1vw;
+    font-size: 18px;
+    font-family: "PlusJakartaSans-Regular";
+    line-height: 150%;
+    color:#474A58;
+   
+}
+
+hr {
+    height:2px;
+    border-width:0;
+    background-color:lightgrey;
+    margin-bottom: 8vh;
+  }
+
+  .cardImgContainer{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 8vh 0;
+  }
+
+  .cardImg{
+    width:78vw;
+    padding: 8vh 0;
+  }
+
+  #hr{
+    padding-bottom: 12vh;
+  }
+
+  .rabbitContainer{
+    width:78vw;
+    height:600px;
+    padding: 8vh 0 8vh 1vw;
+  }
+
+.petCardImg{
+    width:78vw;
+    padding-left: 1vw;
+    padding: 8vh 0;
+}

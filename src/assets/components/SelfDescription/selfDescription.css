@@ -79,9 +79,9 @@ div.frame-2 {
 .about .secondary-btn-instance {
     flex: 0 0 auto !important;
 }
-
+    /* eslint-disable-next-line */
 .about .icon-list {
-    align-items: start;
+    align-items: flex-start;
     display: inline-flex;
     flex: 0 0 auto;
     flex-direction: column;
@@ -247,7 +247,7 @@ div.frame-2 {
 }
 
 .about .icon-list {
-    align-items: start;
+    align-items: flex-start;
     display: inline-flex;
     /* flex: 0 0 auto; */
     flex-direction: column;
@@ -421,7 +421,7 @@ div.frame-2 {
 }
 
 .about .icon-list {
-    align-items: start;
+    align-items: flex-start;
     display: inline-flex;
     /* flex: 0 0 auto; */
     flex-direction: column;
@@ -587,7 +587,7 @@ div.frame-2 {
 }
 
 .about .icon-list {
-    align-items: start;
+    align-items: flex-start;
     display: inline-flex;
     /* flex: 0 0 auto; */
     flex-direction: column;

@@ -8,6 +8,12 @@ import eIPPlanning2 from "../../images/wings storyboard.png";
 import eIPPlanning3 from "../../images/wings eIP wireframe.png";
 import eIPDesign from "../../images/wings design system.png";
 import eIPPrototype from "../../images/sfc prototype.gif";
+import eIPAF from "../../images/Assessment Form.png";
+import eIPSB from "../../images/Submission Bundle.png";
+import eIPA from "../../images/Application.png";
+import eIPES from "../../images/eSigning.png";
+import eIPST from "../../images/Submission Tracking.png";
+
 
 const EIP = () => {
     return(
@@ -111,6 +117,27 @@ const EIP = () => {
             </div>
             <div className="imgContainer" id="eIPDesignImgContainer">
             <img src={eIPDesign} alt="eIPDesignImg" className="eIPDesignImg" />
+            </div>
+            </div>
+
+            <div className="eIPDesignContainer">
+            <div className="textContainer" id="eIPDesignTextContaier">
+            <span className="subtitle" id="eIPDesignSubtitle">
+            e-IP Project
+            </span>
+            <span className="title" id="eIPDesignTitle">
+            Feature of Design
+            </span>
+            {/* <p className="description" id="eIPDesignDescription">
+            I designed my project to scale it as a reusable component for the Design Library System for teams across SFC to adopt in custom solutions. I detailed development notes and handed-off an organized final Figma file to allow the engineer to jump in and implement without needing to ask for much input from design.
+            </p> */}
+            </div>
+            <div className="imgContainer" id="eIPDesignImgContainer">
+            <img src={eIPAF} alt="eIPDesignImg" className="eIPDesignImg" />
+            <img src={eIPSB} alt="eIPDesignImg" className="eIPDesignImg" />
+            <img src={eIPA} alt="eIPDesignImg" className="eIPDesignImg" />
+            <img src={eIPES} alt="eIPDesignImg" className="eIPDesignImg" />
+            <img src={eIPST} alt="eIPDesignImg" className="eIPDesignImg" />
             </div>
             </div>
 
