@@ -9,6 +9,7 @@ import petAdoptionIcon from "../../images/Pet Adoption App Icon.png";
 import petAdoptionUI from "../../images/Pet Apdoption App UI.png";
 const Comp2 = () => {
     return (
+        <section id="comp2">
         <div>
         <div className ="cardContainer">
             <div className ="cardIemTitle">UI Style</div>
@@ -76,7 +77,7 @@ const Comp2 = () => {
             </div>
         </div>
     </div>
-
+ </section>
     )
 }
 

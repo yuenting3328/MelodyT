@@ -19,11 +19,9 @@ const SelfDescription =() => {
                     <img className="icon" alt="Icon" src={bg2} />
                     <div className="resume">
                         <p className="i-m-melody-tse-a-UX">
-                        I&#39;m Melody Tse, a UX/UI Designer who is passionate about using technology and design to enhance the
-                        lives of others. My expertise lies in taking ideas from wireframe to prototype and conducting user
-                        research, interaction design, and practical operations for several corporates. <br />
+                        I&#39;m Melody Tse, a skilled full stack designer who excels in crafting visually captivating designs across a range of media. From graphic design to video production and motion graphics, I possess expertise in creating stunning visuals. My abilities shine when transforming ideas from wireframe to prototype, while also conducting extensive user research, interaction design, and efficient operations for numerous corporate entities. <br />
                         <br />
-                        With over 3 years of hands-on experience in digital product design, I have devoted the past 2 years to specialize in User Experience and User Interface. I have worked for companies in over 7 industry sectors, creating digital applications and websites. 
+                        With over 5 years of hands-on experience in digital product design, I have devoted the past 2 years to specialize in User Experience and User Interface. I have worked for companies in over 7 industry sectors, creating digital applications and websites. 
                         <br/>
                         <br/>
                         Recently, I am focused on designing system design and implementation services for investment product

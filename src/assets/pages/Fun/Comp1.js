@@ -3,13 +3,14 @@ import './Card.css';
 import canadaChar from '../../images/canada character.gif';
 const Comp1 = () => {
     return (
+        <section id="comp1">
         <div>
             <div className ="cardContainer">
                 <div className ="cardIemTitle">Motion Graphics</div>
                 <div className ="cacheTagContainer">
                     <div className ="cacheTag">Canada Character</div>
                     <div className ="cacheTag">Rabbit</div>
-                    <div className ="cacheTag">Microscope Illustration</div>
+                    <div className ="cacheTag">Assemble Microscope</div>
                     <div className ="cacheTag">BA210RED Promotional Video</div>
                     <div className ="cacheTag">Sustainable Art Exhibition</div>
                 </div>
@@ -30,7 +31,7 @@ const Comp1 = () => {
                     <iframe title="rabbit" className="rabbitContainer" src='https://my.spline.design/rabbit-beb5fb39fccf5acb5144f590b71ef5f2/' frameborder='0'/>
                     </div>
                     <hr></hr>
-                    <div className="itemTitle">Microscope Illustration</div>
+                    <div className="itemTitle">Assemble Microscope</div>
                     <div className="itemContent">
                     During my time at Motic Hong Kong Limited, I came up with the idea of utilizing a set of microscope illustrations to develop a motion graphic for showcasing professional branding and promoting our brand effectively.
                     </div>
@@ -56,6 +57,7 @@ const Comp1 = () => {
                 </div>
             </div>
         </div>
+        </section>
 
     )
 }

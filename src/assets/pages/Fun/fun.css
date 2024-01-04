@@ -216,12 +216,23 @@
 
 .tagBtnList{
  position: relative;
- margin-top: 2%;
- margin-left: 9%;
+ margin-top: 1%;
+ margin-left: 8.7%;
  display: inline;
  align-items: flex-start;
  display: inline-flex;
  gap: 20px;
+ opacity: 0;
+  animation: slideRight 2s ease forwards;
+  animation-delay: 1s; 
+}
+
+.gradientText{
+    font-size: 4rem;
+    font-family:"PlusJakartaSans-Bold";
+    background: -webkit-linear-gradient(#087BC6, #142551);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media screen and  (max-width:1366px) and (min-width:821px) {

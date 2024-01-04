@@ -12,14 +12,19 @@ const Fun = () =>{
         <section id="cache">
             <img src={cacheBg} alt="cacheBg" className="cacheBg" />
             <div className="cacheContentGreeting">Hi there!</div>
-            <div className="cacheContentGreeting2">Let's have some Fun!</div>
+            <div className="cacheContentGreeting2">Let's have some <span className="gradientText">Fun!</span></div>
             <nav className="tagBtnList">
+            <a href="#comp1">
                 <button className="resumeBtn" onClick = {() =>setActive("Motion Graphis")}>Motion Graphis</button>
+                </a>
+                <a href="#comp2">
                 <button className="resumeBtn" onClick = {() =>setActive("UI Styles")}>UI Styles</button>
+                </a>
+                <a href="#comp3">
                 <button className="resumeBtn" onClick = {() =>setActive("Revamp Case")}>Revamp Case</button>
-
+                </a>
             </nav>
-         <div>
+         <div>            
                 {active === "Motion Graphis" && <Comp1/>}
                 {active === "UI Styles" && <Comp2/>}
                 {active === "Revamp Case" && <Comp3/>}

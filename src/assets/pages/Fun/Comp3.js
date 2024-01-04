@@ -11,6 +11,7 @@ import bupaUI from "../../images/Bupa Web UI.png";
 
 const Comp3 = () => {
     return (
+        <section id="comp3">
         <div>
         <div className ="cardContainer">
             <div className ="cardIemTitle">Revamp Case</div>
@@ -82,6 +83,7 @@ const Comp3 = () => {
             </div>
         </div>
     </div>
+    </section>
     )
 }
 
