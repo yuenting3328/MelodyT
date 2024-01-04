@@ -1,7 +1,7 @@
 import React, { useState} from "react";
 import './fun.css';
 import cacheBg from '../../images/Bg.png'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Comp1 from "./Comp1";
 import Comp2 from "./Comp2";
 import Comp3 from "./Comp3";

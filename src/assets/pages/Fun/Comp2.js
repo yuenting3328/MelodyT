@@ -48,7 +48,7 @@ const Comp2 = () => {
 
                 <div className="itemTitle">Pet Adoption App</div>
                 <div className="itemContent">
-                Hey there! 🐶🐱🐾 Looking for a furry or scaly friend to adopt? Look no further than my awesome UI practice case app! It's designed specifically to make pet adoption a breeze and give you a fantastic user experience. Whether you're interested in dogs, cats, or any other adorable creatures, we've got you covered. So come on in and let's find you the perfect companion!
+                Hey there! Looking for a furry or scaly friend to adopt? Look no further than my awesome UI practice case app! It's designed specifically to make pet adoption a breeze and give you a fantastic user experience. Whether you're interested in dogs, cats, or any other adorable creatures, we've got you covered. So come on in and let's find you the perfect companion!
                 </div>
                 <div className="cardImgContainer">
                 <img className="cardImg" alt="Mask group" src={petAdoption} />

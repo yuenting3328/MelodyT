@@ -27,7 +27,7 @@ const Comp1 = () => {
                     I came up with this idea because I am a rabbit owner and I love blending my life with design.
                     </div>
                     <div className="cardImageContainer">
-                    <iframe className="rabbitContainer" src='https://my.spline.design/rabbit-beb5fb39fccf5acb5144f590b71ef5f2/' frameborder='0'/>
+                    <iframe title="rabbit" className="rabbitContainer" src='https://my.spline.design/rabbit-beb5fb39fccf5acb5144f590b71ef5f2/' frameborder='0'/>
                     </div>
                     <hr></hr>
                     <div className="itemTitle">Microscope Illustration</div>
