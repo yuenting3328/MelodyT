@@ -15,7 +15,7 @@
 }
 .cardContainer{
     border: 1px solid #d9d9d9;
-    margin: 24vh 8vw;
+    margin: 20vh 8vw;
     padding: 6vh 2vw;
     width: 80vw;
     box-shadow: 0px 4px 20px #00000040;
@@ -137,7 +137,7 @@ hr {
 }
 
 
-/* @media screen and  (max-width:480px) {
+@media screen and  (max-width:480px) {
     .cardImg{
         width:78vw;
         padding: 4vh 0;
@@ -146,6 +146,7 @@ hr {
         flex-wrap: wrap;
     }
     .rabbitContainer{
+        display:none;
         width:78vw;
         height:48vh;
         padding: 8vh 0 8vh 1vw;
@@ -188,4 +189,4 @@ hr {
     .itemContent{
         text-align:justify;
     }
-} */
+}
