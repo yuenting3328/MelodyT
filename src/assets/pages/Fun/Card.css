@@ -136,6 +136,12 @@ hr {
     padding: 8vh 0;
 }
 
+.cardImgContainer{
+  display: relative;
+  padding-left: 1%;
+
+}
+
 
 @media screen and  (max-width:480px) {
     .cardImg{
