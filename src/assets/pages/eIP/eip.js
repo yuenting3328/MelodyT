@@ -6,7 +6,11 @@ import eIPResearch2 from "../../images/wings research2.png";
 import eIPPlanning1 from "../../images/wings persona.png";
 import eIPPlanning2 from "../../images/wings storyboard.png";
 import eIPPlanning3 from "../../images/wings eIP wireframe.png";
-import eIPDesign from "../../images/wings design system.png";
+import eIPColor from "../../images/SFC Color.png";
+import eIPType from "../../images/SFC Type.png";
+import eIPBtn from "../../images/SFC Btn.png";
+import eIPApplicationBtn from "../../images/SFC Application Btn.png";
+import eIPInput from "../../images/SFC Input.png";
 import eIPPrototype from "../../images/sfc prototype.gif";
 import eIPAF from "../../images/Assessment Form.png";
 import eIPSB from "../../images/Submission Bundle.png";
@@ -116,7 +120,11 @@ const EIP = () => {
             </p>
             </div>
             <div className="imgContainer" id="eIPDesignImgContainer">
-            <img src={eIPDesign} alt="eIPDesignImg" className="eIPDesignImg" />
+            <img src={eIPColor} alt="eIPDesignImg" className="eIPDesignImg" />
+            <img src={eIPType} alt="eIPDesignImg" className="eIPDesignImg" />
+            <img src={eIPBtn} alt="eIPDesignImg" className="eIPDesignImg" />
+            <img src={eIPApplicationBtn} alt="eIPDesignImg" className="eIPDesignImg" />
+            <img src={eIPInput} alt="eIPDesignImg" className="eIPDesignImg" />
             </div>
             </div>
 
