@@ -255,7 +255,11 @@ html, body {
 .img:hover svg{
  fill:#0066cc;
 }
-
+@media screen and  (max-width:1700px) and (min-width:1367px) {
+    .selfIntroPara{
+        width: 535px;
+    }
+}
 
 @media screen and  (max-width:1366px) and (min-width:821px) {
     
