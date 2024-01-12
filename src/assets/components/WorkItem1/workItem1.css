@@ -121,7 +121,7 @@ html, body {
     font-size: 1.125rem;
     line-height: 1.75rem;
     padding-top: 1.5rem;
-    width: 400px;
+    width: 500px;
     margin:0;
 }
 
@@ -170,6 +170,12 @@ html, body {
     
 }
 
+@media screen and  (max-width:1700px) and (min-width:1347px) {
+    .workDescrption{
+        width: 400px;
+    }
+
+}
 
 @media screen and  (max-width:1366px) and (min-width:821px) {
  
