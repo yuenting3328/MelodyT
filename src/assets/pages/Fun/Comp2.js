@@ -29,20 +29,23 @@ const Comp2 = () => {
                 <div className="itemContent">
                 Color plays a crucial role in our visual communication with users. In this case, we use green as the primary color along with complementary tones to create a refreshing and soothing atmosphere. This color scheme helps users readily identify and connect with plant colors on our platform, resulting in a visually pleasing and comfortable experience for them.
                 </div>
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="cardImg" alt="Mask group" src={plantShopColor} />
                 </div>
                 <div className="itemTitle">Icon Style</div>
                 {/* <div className="itemContent">
                 During my time at Motic Hong Kong Limited, I came up with the idea of utilizing a set of microscope illustrations to develop a motion graphic for showcasing professional branding and promoting our brand effectively.
                 </div> */}
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="cardImg" alt="Mask group" src={plantShopIcon} />
                 </div>
                 <div className="itemTitle">Final Design</div>
                 <div className="itemContent">
                 </div>
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="cardImg" alt="Mask group" src={plantShopUI} />
                 </div>
                 <hr></hr>
@@ -58,20 +61,23 @@ const Comp2 = () => {
                 <div className="itemContent">
                 Color is key in how we communicate visually with users. In this case, we've used pink as the main color and combined it with similar colors. Pink is often associated with happiness and a fun atmosphere. It adds a delightful visual touch and brings joy to our users.
                 </div>
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="cardImg" alt="Mask group" src={petAdoptionColor} />
                 </div>
                 <div className="itemTitle">Icon Style</div>
                 {/* <div className="itemContent">
                 During my time at Motic Hong Kong Limited, I came up with the idea of utilizing a set of microscope illustrations to develop a motion graphic for showcasing professional branding and promoting our brand effectively.
                 </div> */}
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="cardImg" alt="Mask group" src={petAdoptionIcon} />
                 </div>
                 <div className="itemTitle">Final Design</div>
                 <div className="itemContent">
                 </div>
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="petCardImg" alt="Mask group" src={petAdoptionUI} />
                 </div>
             </div>

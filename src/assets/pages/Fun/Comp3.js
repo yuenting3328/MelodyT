@@ -30,25 +30,29 @@ const Comp3 = () => {
                 <div className="itemTitle">Original Design</div>
                 <div className="itemContent">
                 </div>
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="cardImg" alt="Mask group" src={puffyOriginal} />
                 </div>
                 <div className="itemTitle">Style Guide</div>
                 <div className="itemContent">
                 </div>
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="cardImg" alt="Mask group" src={puffyStyle} />
                 </div>
                 <div className="itemTitle">Wireframe</div>
                 <div className="itemContent">
                 </div>
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="cardImg" alt="Mask group" src={puffyWireframe} />
                 </div>
                 <div className="itemTitle">Final Design</div>
                 <div className="itemContent">
                 </div>
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="cardImg" alt="Mask group" src={puffyUI} />
                 </div>
                 <hr></hr>
@@ -64,20 +68,23 @@ const Comp3 = () => {
                 <div className="itemContent">
                 Bupa's pre-established color scheme was diligently adhered to in order to maintain the integrity and identity of the organization. To effectively handle the intricacy of the case, the inclusion of minimalistic icons was seamlessly integrated. By doing so, the overwhelming visual complexity of the elements on smaller screens was significantly diminished.
                 </div>
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="cardImg" alt="Mask group" src={bupaColor} />
                 </div>
                 <div className="itemTitle">Icon Style</div>
                 {/* <div className="itemContent">
                 During my time at Motic Hong Kong Limited, I came up with the idea of utilizing a set of microscope illustrations to develop a motion graphic for showcasing professional branding and promoting our brand effectively.
                 </div> */}
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="cardImg" alt="Mask group" src={bupaIcon} />
                 </div>
                 <div className="itemTitle">Final Design</div>
                 <div className="itemContent">
                 </div>
-                <div className="cardImageContainer">
+                <div className="cardImgContainer
+cardImgContainer">
                 <img className="petCardImg" alt="Mask group" src={bupaUI} />
                 </div>
             </div>
