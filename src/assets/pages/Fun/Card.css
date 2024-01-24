@@ -68,11 +68,14 @@
 
   .cardIemTitle{
     padding-left: 1%;
-    font-size: 40px;
+    padding-bottom: 1%;
+    font-size: 20px;
     font-family: "PlusJakartaSans-SemiBold";
-    color: #061736;
+    color: #979797;
   }
-.cacheTagContainer{
+
+
+/* .cacheTagContainer{
     width: 78vw;
     padding-left: 1vw;
     padding-bottom: 8vh;
@@ -87,7 +90,7 @@
     border-radius: 10px;
     color: white;
     padding: 4px 10px;
-}
+} */
 .itemContainer{
     width: 80vw;
 }
@@ -149,6 +152,33 @@ hr {
         padding: 4vh 0;
         
       }
+
+      .cardContainer{
+        padding: 4vh 4vw;
+        border-radius: 14px;
+   
+    }
+
+      .cardIemTitle{
+        padding-left: 1%;
+        padding-bottom: 1%;
+        font-size: 10px;
+
+      }
+    
+    .itemContainer{
+        width: 80vw;
+    }
+    
+    .itemTitle{
+        padding-left: 1vw;
+        font-size: 14px;
+    }
+    .itemContent{
+        padding: 1vw;
+        font-size: 10px;
+       
+    }
     .cacheTagContainer{
         flex-wrap: wrap;
     }
@@ -167,6 +197,13 @@ hr {
         width:78vw;
         padding: 4vh 0;
       }
+
+      .cardContainer{
+        padding: 4vh 4vw;
+        border-radius: 14px;
+   
+    }
+
     .cacheTagContainer{
         flex-wrap: wrap;
     }
@@ -175,15 +212,39 @@ hr {
         height:48vh;
         padding: 8vh 0 8vh 1vw;
       }
-    .itemContent{
-        text-align:justify;
+
+    .cardIemTitle{
+      padding-left: 1%;
+      padding-bottom: 1%;
+      font-size: 20px;
+
     }
+  
+  .itemContainer{
+      width: 80vw;
+  }
+  
+  .itemTitle{
+      padding-left: 1vw;
+      font-size: 28px;
+  }
+  .itemContent{
+      padding: 1vw;
+      font-size: 18px;
+     
+  }
 }
 @media screen and  (max-width:1366px) and (min-width:821px) {
     .cardImg{
         width:78vw;
         padding: 4vh 0;
       }
+
+      .cardContainer{
+        padding: 4vh 4vw;
+        border-radius: 14px;
+    }
+
     .cacheTagContainer{
         flex-wrap: wrap;
     }

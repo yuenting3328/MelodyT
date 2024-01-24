@@ -13,10 +13,10 @@ const Comp2 = () => {
         <div>
         <div className ="cardContainer">
             <div className ="cardIemTitle">UI Style</div>
-            <div className ="cacheTagContainer">
+            {/* <div className ="cacheTagContainer">
                 <div className ="cacheTag">Plant Shop App</div>
                 <div className ="cacheTag">Pet Adoption App</div>
-            </div>
+            </div> */}
             <div className ="itemContainer">
                 <div className="itemTitle">Plant Shop App</div>
                 <div className="itemContent">

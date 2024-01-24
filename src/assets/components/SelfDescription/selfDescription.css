@@ -507,7 +507,9 @@ div.frame-2 {
 
 @media screen and  (max-width:480px) {
 /* @media screen and  (max-width:375px) { */
-    
+    div.frame-2 {
+        position:unset;
+    }
     .about {
         display: flex;
         flex-direction: column;
@@ -571,19 +573,16 @@ div.frame-2 {
         font-family: "PlusJakartaSans-Regular", Helvetica;
         font-size: 10px;
         font-weight: 400;
-        height: 250px;
+        height: 280px;
         letter-spacing: 0;
         line-height: 15.7px;
-        margin-top: 20px;
         position: relative;
         width: 288px;
         color: #474A58;
-        left: 3vw;
-
     }
 .aboutBtn{
     position: relative;
-    left: 6vw;
+
 }
 
 .about .icon-list {

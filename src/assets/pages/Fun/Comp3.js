@@ -15,10 +15,10 @@ const Comp3 = () => {
         <div>
         <div className ="cardContainer">
             <div className ="cardIemTitle">Revamp Case</div>
-            <div className ="cacheTagContainer">
+            {/* <div className ="cacheTagContainer">
                 <div className ="cacheTag">Puffy Website</div>
                 <div className ="cacheTag">Bupa Hong Kong Website</div>
-            </div>
+            </div> */}
             <div className ="itemContainer">
                 <div className="itemTitle">Puffy Website</div>
                 <div className="itemContent">

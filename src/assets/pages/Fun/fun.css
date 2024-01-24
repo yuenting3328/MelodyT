@@ -247,9 +247,10 @@
 
   .cacheBg {
       position: absolute;
-      top: -4rem;
+      top: -10rem;
       right: -2rem;
       object-fit: cover;
+      height: 60vh;
   } 
 
   .cacheContent {
@@ -260,6 +261,25 @@
     padding-bottom: 20rem;
     font-size: 3rem;
 }
+
+.cacheContentGreeting {
+  /* height: 100vh; */
+  width: 82vw;
+  padding-left: 8.8vw;
+  padding-top:15vh;
+  font-size: 20px;
+}
+.cacheContentGreeting2 {
+  width: 82vw;
+  padding-left: 8.8vw;
+  font-size: 44px;
+}
+
+.gradientText{
+  font-size: 50px;
+  font-family:"PlusJakartaSans-Bold";
+}
+
 
 }
 
@@ -297,8 +317,8 @@
     /* height: 100vh; */
     width: 82vw;
     padding-left: 8.8vw;
-    padding-top:3vh;
-    font-size: 1rem;
+    padding-top:15vh;
+    font-size: 14px;
     font-weight: 700;
     margin:0;
     color: #061736;
@@ -309,7 +329,7 @@
   .cacheContentGreeting2 {
     width: 82vw;
     padding-left: 8.8vw;
-    font-size: 3rem;
+    font-size: 26px;
     font-weight: 700;
     margin:0;
     color: #061736;
@@ -317,6 +337,11 @@
     animation: slideRight 2s ease forwards;
     animation-delay: 1s; 
   }
+
+  .gradientText{
+    font-size: 1.75rem;
+    font-family:"PlusJakartaSans-Bold";
+}
 
   #cache {
     /* height:400px; */
@@ -331,7 +356,7 @@
       position: absolute;
       width: 224px;
       height: 225px;
-      top: -1rem;
+      top: -2rem;
       right: -0.2rem;
       object-fit: cover;
   } 
@@ -365,5 +390,10 @@
 .itemTitle{
   margin-bottom: 10px;
 }
+
+.tagBtnList{
+  gap: 12px;
+  
+ }
 
 }

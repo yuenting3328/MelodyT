@@ -7,13 +7,13 @@ const Comp1 = () => {
         <div>
             <div className ="cardContainer">
                 <div className ="cardIemTitle">Motion Graphics</div>
-                <div className ="cacheTagContainer">
+                {/* <div className ="cacheTagContainer">
                     <div className ="cacheTag">Canada Character</div>
                     <div className ="cacheTag">Rabbit</div>
                     <div className ="cacheTag">Assemble Microscope</div>
                     <div className ="cacheTag">BA210RED Promotional Video</div>
                     <div className ="cacheTag">Sustainable Art Exhibition</div>
-                </div>
+                </div> */}
                 <div className ="itemContainer">
                     <div className="itemTitle">Canada Character</div>
                     <div className="itemContent">
