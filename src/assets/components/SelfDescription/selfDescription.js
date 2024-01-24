@@ -8,7 +8,7 @@ import asl from '../../images/asl logo.png';
 import mpfa from '../../images/mpfa logo.png';
 import line from '../../images/Vector 19.png';
 import ResumeBtn from "../ResumeBtn/resumeBtn.js";
-import cvPdf from "../../pdf/Melody Tse_CV_2023.pdf";
+import cvPdf from "../../pdf/Melody Tse_CV_2024.pdf";
 
 const SelfDescription =() => {
  return(
