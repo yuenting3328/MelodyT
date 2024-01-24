@@ -7,7 +7,7 @@ import './about.css';
 // import motic from '../../images/motic logo.png';
 // import asl from '../../images/asl logo.png';
 // import mpfa from '../../images/mpfa logo.png';
-import ScrollText from "../../components/ScrollText/scrollText.js";
+// import ScrollText from "../../components/ScrollText/scrollText.js";
 import SelfDescription from "../../components/SelfDescription/selfDescription.js";
 import Skill from "../../components/Skill/skill.js";
 import Endorsements from "../../components/Endorsements/endorsements.js";
