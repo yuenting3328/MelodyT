@@ -25,7 +25,7 @@ const About = () => {
             //     <span className="subtitle">creating <span className="subtitle2">meaningful </span></span>
             //     <span className="subtitle">digital <span className="subtitle2">experience </span></span>
             //    </div> */} 
-            <ScrollText />
+            {/* <ScrollText /> */}
            {/* </div>
            <img src={bg} alt="profile" className="bg" /> */}
          </section>
