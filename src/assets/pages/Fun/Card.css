@@ -153,7 +153,6 @@ hr {
         flex-wrap: wrap;
     }
     .rabbitContainer{
-        display:none;
         width:78vw;
         height:48vh;
         padding: 8vh 0 8vh 1vw;
